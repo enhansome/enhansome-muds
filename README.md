@@ -1,1 +1,701 @@
-# enhansome-muds
+# Awesome MUDs with stars
+
+<p align="center">
+    <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"/></a>
+</p>
+
+> A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
+
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 495,060 | 🐛 100 | 📅 2026-06-30 list thing.*
+
+If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
+
+## Contents
+
+* [Clients](#clients)
+* [Codebases and drivers](#codebases-and-drivers)
+* [Notable running MUDs](#notable-running-muds)
+* [Tools](#tools)
+* [Protocols](#protocols)
+* [Licenses](#licenses)
+* [People](#people)
+* [Community](#community)
+* [Papers and reading list](#papers-and-reading-list)
+
+## Clients
+
+List of clients you can use to connect to different MUDs, grouped by operating system. Includes a list of [MUD protocols](#protocols) the client is compatible with (*although it can be an incomplete list, help is welcome!*)
+
+### Multiplatform
+
+* [Blightmud](https://github.com/LiquidityC/Blightmud) ⭐ 273 | 🐛 17 | 🌐 Rust | 📅 2026-08-10 \[Linux, MacOS], \[`TLS`, `GMCP`, `MSDP`, `MCCP2`]
+* [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) ⭐ 88 | 🐛 19 | 🌐 C | 📅 2026-04-29 \[Linux, MacOS, Windows], \[`GMCP`, `ATCP`]
+* [Tortilla MUD client](https://github.com/tmud/tortilla) ⭐ 26 | 🐛 2 | 🌐 C++ | 📅 2022-04-16 (completely in russian) \[Windows XP and above, Linux and MacOS via Wine], \[`MCCP`, `MSDP`, `MTTS`]
+* [KBTin](https://github.com/kilobyte/kbtin) ⭐ 23 | 🐛 3 | 🌐 C++ | 📅 2026-08-05 (Tintin++ fork) \[Linux, MacOS, BSD], \[`MCCP`, `TLS`]
+* [Sip](https://github.com/bozimmerman/Sip) ⭐ 9 | 🐛 1 | 🌐 JavaScript | 📅 2026-02-19 \[Linux, MacOS, Windows], \[`MXP`, `GMCP`, `MNES`, `MSP`, `MSDP`]
+* [MushTato](https://github.com/N0NJY/mushtato) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-08-07 \[Linux, MacOS, Windows], \[`TLS`, `NAWS`, `TTYPE`] (also supports SSH connections to a real shell, and sandboxed Python scripting for triggers/aliases/macros)
+* [Mudlet](https://www.mudlet.org/) \[Linux, MacOS, Windows], \[`GMCP`, `MSSP`, `MCMP`, `MSP`, `ATCP`, `Aardwolf's 102`, `MSDP`, `MXP`, `MMP`, `Discord GMCP`, `GMCP Authentication`]
+* [Tintin++](https://tintin.mudhalla.net/) \[Android, iOS, Linux, MacOS, Windows] \[`GMCP`, `MCCP`, `MCCP3`, `MSDP`, `MSLP`, `MSSP`, `MTTS`, `MMCP`, `NAWS`, `MNES`]
+* [KildClient](https://www.kildclient.org) \[Linux, Windows], \[`SSL`, `MCCP`, `MCCP2`, `MMCP`, `zChat`]
+* [TinyFugue](https://tinyfugue.sourceforge.net/) \[Linux, MacOS, Windows], \[`MCCP`]
+* [AxMud](https://axmud.sourceforge.io/) \[Linux, Windows], \[`MXP`, `GMCP`, `MSDP`, `MNES`, `MTTS`]
+* [Mallard](https://mallard.vnsf.xyz/) \[Linux, MacOS, Windows], \[`TLS`, `GMCP`, `MSDP`, `MSSP`, `MCCP2`, `MXP`, `ATCP`, `MTTS`, `NAWS`]
+
+### Windows
+
+* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 256 | 🐛 7 | 🌐 C | 📅 2026-08-06 has updated windows versions)
+* [Avalon Mud Client](https://github.com/blakepell/AvalonMudClient) ⭐ 38 | 🐛 0 | 🌐 C# | 📅 2026-06-05
+* [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) \[`MXP`, `MSP`, `MCP`, `MCCP`, `ATCP`]
+* [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4\&action=file\&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) \[`MXP`, `MCP`, `MCCP`]
+* [zMUD 3.62](http://forums.zuggsoft.com/index.php?page=4\&action=file\&file_id=18) (last free version of zMUD, very old, unmaintained)
+* [Portal](http://gameaxle.com/)
+* [MUSHclient](http://www.gammon.com.au/mushclient/mushclient.htm) \[`MXP`, `MCCP`, `MMCP`, `MTTS`]
+* [BeipMU](https://beipdev.github.io/BeipMU/) \[`TLS`, `MCMP`]
+* [GMud32](https://valiant8086.com/games/muds/gmud/) (very old, unmaintained)
+* [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) (generic telnet and ssh client, without MUD features)
+
+### MacOS
+
+* [Atlantis](https://riverdark.net/atlantis/)
+* [MudClient.app](https://mudclient.app/) (free trial, paid app) \[`MCCP`]
+
+### Linux
+
+* [GnomeMUD](https://gitlab.gnome.org/GNOME/gnome-mud) \[`MSP`, `MCCP2`]
+* [KMuddy](http://www.kmuddy.com/) \[`MCCP`, `MSP`, `MXP`]
+
+### Mobile
+
+* [BlowTorch](https://bt.happygoatstudios.com/) \[Android], \[`MCCP`]
+* [MUDRammer](https://github.com/splinesoft/MUDRammer) ⭐ 86 | 🐛 361 | 🌐 Objective-C | 📅 2025-03-25 \[iOS]
+
+### Abandoned projects
+
+Links to old abandoned open source mud client projects, maybe something useful in there:
+
+* [MudWalker](http://mudwalker.cubik.org/) (unmaintained, abandoned) \[MacOS] \[`MCP`]
+* [GGMud](http://www.ggsoft.org/ggmud/) (unmaintained, abandoned) \[Linux, MacOS, Windows] \[`MCCP`]
+* [Lyntin](https://lyntin.sourceforge.net/) (unmaintained, abandoned) \[Made in Python, probably multiplatform]
+* [XpertMud](https://xpertmud.sourceforge.net/) (unmaintained, abandoned) \[Linux, Windows]
+
+### Web Clients
+
+* [Grapevine](https://github.com/oestrich/grapevine) ⭐ 164 | 🐛 17 | 🌐 Elixir | 📅 2023-09-14
+* [MudPortal](https://github.com/plamzi/MUDPortal-Web-App) ⭐ 45 | 🐛 3 | 🌐 JavaScript | 📅 2026-08-02 (web client and proxy server ws/telnet) \[`MCCP`, `MXP`, `MSDP`, `GMCP`, `ATCP`, `MTTS`]
+* [mud-web-client](https://github.com/maldorne/mud-web-client/) ⭐ 17 | 🐛 0 | 🌐 JavaScript | 📅 2026-07-29 (fork from MudPortal, just the web client, updated to allow wss)
+* [DecafMUD](https://github.com/stendec/DecafMUD/) ⭐ 15 | 🐛 1 | 🌐 ActionScript | 📅 2012-09-26 (very old, unmaintained)
+* Mudslinger ([fork](https://github.com/ryanberckmans/mudslinger) ⭐ 4 | 🐛 0 | 🌐 TypeScript | 📅 2017-10-16, [fork](https://github.com/Xiija/mudslinger) ⭐ 2 | 🐛 0 | 🌐 TypeScript | 📅 2019-08-24) (original code seems to be gone, the links are forks) (web client and proxy server) \[`MXP`]
+
+### Web Proxies
+
+Server apps that allow a web client to connect to a mud/telnet server:
+
+* [mud-web-proxy](https://github.com/maldorne/mud-web-proxy/) ⭐ 14 | 🐛 3 | 🌐 TypeScript | 📅 2026-08-10 (fork from MudPortal, just the proxy server, updated to allow wss/telnet)
+* [websocket-to-tcp-tunnel](https://github.com/ChatTheatre/websocket-to-tcp-tunnel) ⭐ 2 | 🐛 6 | 🌐 JavaScript | 📅 2023-04-19 (ChatTheatre proxy server, ws/telnet)
+
+## Codebases and drivers
+
+* [Full chronology](https://en.wikipedia.org/wiki/Chronology_of_MUDs) of the most important MUDs and codebases in the Wikipedia.
+* [Online World Timeline](https://www.raphkoster.com/gaming/mudtimeline.shtml) on Raph Koster's web page, shows a chronology of everything related to online worlds, including MUDs.
+* [MUDline](http://www.linnaean.org/~lpb/muddex/mudline.html), a detailed chronology of MUD events by Lauren Burka (1995). [Stored in this repository](./docs/mudline.md).
+
+### MUD1
+
+[MUDs](https://en.wikipedia.org/wiki/MUD) evolved from the [original game](https://en.wikipedia.org/wiki/MUD1) (created in 1978 in the University of Essex by Roy Trubshaw and Richard Bartle), in *families* of related games, mainly based in the technologies used to implement them.
+
+* Original [MUD1 source code](https://github.com/PDP-10/MUD1) ⭐ 75 | 🐛 0 | 📅 2024-10-28 for the DEC PDP-10 mainframe.
+* Chronology of the [original MUD variants](https://mud.co.uk/richard/incarns.htm), by Richard Bartle.
+* [British Legends](http://www.british-legends.com), home of the MUD1 game.
+
+### AberMUD
+
+Created in 1987 at the Aberystwyth University, was the first popular open source MUD. Ported to C in 1988 in AberMUD2, and published as GPL in AberMUD V. It inspired the next three major codebases: [TinyMUD](#TinyMUD), [LPMud](#LPMud) and [DikuMUD](#DikuMUD).
+
+* [Family tree](https://en.wikipedia.org/wiki/MUD_trees#AberMUD_family_tree).
+* [Some documentation and source code](http://ftp.linux.org.uk/pub/linux/alan/Software/Games/AberMUD5/) for AberMUD5 in <http://ftp.linux.org.uk>.
+
+### TinyMUD
+
+Released by Jim Aspnes in 1989, running on Unix and written in C.
+
+* [Family tree](https://en.wikipedia.org/wiki/MUD_trees#TinyMUD_family_tree).
+* [Source code](https://archive.org/details/tinymud-1.5.5) of v1.5.5 on the Internet Archive.
+
+*MU\**, sometimes called *Tiny family*, is an abbreviation which refers collectively to a family comprising: TinyMUD, MUSH, MOO, TinyMUCK. It has [its own wiki](https://mu.fandom.com).
+
+#### [MUSH](https://en.wikipedia.org/wiki/MUSH)
+
+Main variations: PennMUSH, TinyMUSH, [TinyMUX](http://www.tinymux.org/) and [RhostMUSH](https://code.google.com/p/rhostmush/).
+
+* Lots of code and documentation on [MUSHCode](http://www.mushcode.com/).
+
+#### [TinyMUCK](https://en.wikipedia.org/wiki/TinyMUCK)
+
+Written by Stephen White in 1990. Later that year, he released [MOO](#moo).
+
+* [MUCK Manual](http://www.rdwarf.com/users/mink/muckman/) ([alt link](https://fuzzball-muck.github.io/muckman/)).
+* [Fuzzball MUCK server](https://github.com/fuzzball-muck/fuzzball) ⭐ 56 | 🐛 67 | 🌐 C | 📅 2026-08-06 source code.
+
+#### [MOO](https://en.wikipedia.org/wiki/MOO)
+
+Written by Stephen White in 1990, derived from TinyMUCK, with object oriented design. Pavel Curtis did substantial modifications to MOO code, creating LambdaMOO, which was hosted at Xerox PARC.
+
+* [ToastStunt](https://github.com/lisdude/toaststunt) ⭐ 94 | 🐛 20 | 🌐 C++ | 📅 2026-06-05, forked from stunt and being worked on.
+* [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming) ⭐ 75 | 🐛 0 | 🌐 HTML | 📅 2025-01-06 repository, collects and updates numerous MOO guides in one place, from the original server to ToastStunt.
+* Documentation in the [moo-cows](http://www.moo-cows.com/) web.
+* List of MOO games in [moolist](http://www.moolist.com/).
+* [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) was created in 1990 by Pavel Curtis ([source code in sourceforge](https://sourceforge.net/projects/lambdamoo/)).
+* [Stunt](http://stunt.io/), a set of extensions to the LambdaMOO server.
+
+### LPMud
+
+Released by Lars Pensjö in 1989, trying to combine the extensibility of [TinyMUD](#TinyMUD) with the adventures of [AberMUD](#AberMUD). He designed the LPC language (from Lars Pensjö C) and the *driver/interpreter*, trying to make the process of extending the game easier, separating the Mud in two different parts: the **driver** which acts as a *virtual machine/interpreter/runtime* (programmed in C), and the **mudlib** which implements the game code (programmed in LPC and executed by the *driver*). Some old games still being played today started here: [Genesis](https://www.genesismud.org/), [BatMUD](https://www.bat.org/), [Discworld](http://discworld.starturtle.net), etc.
+
+* [Family tree](https://en.wikipedia.org/wiki/MUD_trees#LPMud_family_tree).
+* [LPMud Timeline 1979-1995](http://web.archive.org/web/20121230064031/http://www.rpgmud.com:80/lpmud_timeline.htm), by George Reese (Descartes of Borg), in the now defunct rpgmud.com (link to the *Internet Archive Wayback Machine*). [Stored in this repository](./docs/lpmuds/lpmud-timeline.md).
+* [LPMud FAQ (1995)](http://lpmuds.net/lpmud_faq.html), by George Reese (Descartes of Borg). Link to the [lpmuds.net](http://lpmuds.net/) web. Also [stored in this repository](./docs/lpmuds/lpmud-faq.md) converted to markdown.
+* [LPMuds.net](http://lpmuds.net/) — resource site maintained by Cratylus with an [extensive downloads section](http://lpmuds.net/downloads.html) of ready-to-install mudlibs bundled with their drivers, links, and forums.
+
+Some language documentation:
+
+* [LPC documentation](http://www.ldmud.eu/lpc-intro.html) for LDMud.
+* [LPC Basics](https://www.lysator.liu.se/nanny/wiz/lpc/basic/Contents.html) and [Intermediate LPC](https://www.lysator.liu.se/nanny/wiz/lpc/intermediate/Contents.html), written for LPMud by George Reese (Descartes of Borg).
+* [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/), book about LPC for DGD written by [Noah Gibbs](https://codefol.io/).
+
+#### Drivers
+
+##### LPMud
+
+After Lars Pensjö retired from LPMud development, Joern Rennecke (Amylaar) took over development of the LPMud driver and produced the 3.2 series of LPMud. This is sometimes known as the Amylaar driver.
+
+* Source code not found in any repository, but the [MUDBytes files archives](http://mudbytes.net/files/tags/LPMud/) seems to have some versions uploaded.
+
+##### MudOS
+
+Another group of people started working from the LPMud v3.0 in 1992, and renamed it to MudOS, which will have several versions until 2003. (its original webpage, *mudos.org*, is defunct, but you can find some of the last versions in the [maldorne repository](https://github.com/maldorne/mudos) ⭐ 2 | 🐛 0 | 📅 2026-05-05 and use them with Docker). It could use sockets at mudlib level (with LPC code), which allowed to create a TCP intermud network. This protocol evolved until [Intermud 3](#Intermud).
+
+* [Code repository](https://github.com/maldorne/mudos) ⭐ 2 | 🐛 0 | 📅 2026-05-05 (fork).
+* [History of MudOS](./docs/lpmuds/mudos-history.md) (recovered file from some driver distributions).
+
+##### FluffOS
+
+In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as [FluffOS](http://fluffos.info/). [Still maintained](https://github.com/fluffos/fluffos) ⭐ 452 | 🐛 19 | 🌐 C++ | 📅 2026-08-13. It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is [Yucong Sun](https://github.com/thefallentree), and major versions has been released with the names FluffOS 2017, 2019 and 2023.
+
+* [Official code repository](https://github.com/fluffos/fluffos) ⭐ 452 | 🐛 19 | 🌐 C++ | 📅 2026-08-13.
+
+##### LDMud
+
+Lars Düning continued the development of the LPMud driver renaming it to [LDMud](http://www.ldmud.eu) (but keeping the Amylaar version numbers, so starting with 3.2.2). LDMud is still [being maintained](https://github.com/ldmud/ldmud) ⭐ 157 | 🐛 42 | 🌐 C | 📅 2026-02-15.
+
+* [Official code repository](https://github.com/ldmud/ldmud) ⭐ 157 | 🐛 42 | 🌐 C | 📅 2026-02-15.
+
+##### CD MUD
+
+* [Code repository](https://github.com/cotillion/cd-gamedriver) ⭐ 32 | 🐛 2 | 🌐 C | 📅 2025-02-11.
+
+##### DGD
+
+Felix 'Dworkin' Croes developed in 1993 [DGD](http://www.dworkin.nl/dgd/) (Dworkin Game/Generic Driver), not derived from LPMud (so not using the same license) but compatible with LPC language. [Still maintained](https://github.com/dworkin/dgd) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2026-08-11, and open source since v1.4 (2010).
+
+* [Official code repository](https://github.com/dworkin/dgd) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2026-08-11.
+* [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/), book about LPC for DGD written by [Noah Gibbs](https://codefol.io/).
+
+#### Mudlibs
+
+An LPMud is split in two layers: the [driver](#drivers) above — an interpreter/VM written in a systems language (usually C or C++) — and the **mudlib**, the game framework written in LPC and executed by the driver. A single driver can host many different mudlibs, and historically mudlibs have been shared, forked, and cross-pollinated far more often than drivers. Understanding this split is key to reading LP-family history: when people say *"LPMud"*, they can mean the driver, a specific mudlib, or the whole ecosystem.
+
+Some of the most influential mudlibs:
+
+| Mudlib        | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Source                                                                                                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2.4.5         | The original mudlib distributed with Lars Pensjö's LPMud driver. Minimal by modern standards, but the direct ancestor of most other LP mudlibs \[1].                                                                                                                                                                                                                                                                                                                                                                                                                                                  | [lp-245 in the LDMud repo](https://github.com/ldmud/ldmud/tree/master/mud/lp-245) ⭐ 157 \| 🐛 42 \| 🌐 C \| 📅 2026-02-15 (lightly updated to run on modern LDMud)                           |
+| TMI-2         | *The Mud Institute* framework mudlib. Educational codebase from the 1990s providing skeletons and examples rather than a playable world; builders were expected to do most of the world-building themselves.                                                                                                                                                                                                                                                                                                                                                                                          | [tmi2\_fluffos\_v3.zip](http://dead-souls.net/files/tmi2_fluffos_v3.zip) (bundled with FluffOS, via [lpmuds.net](http://lpmuds.net/downloads.html))                                          |
+| Nightmare     | Descended from 2.4.5; direct ancestor of Dead Souls. Development was formally ended by Descartes of Borg (George Reese) and distribution withdrawn; surviving copies are community preservation \[2].                                                                                                                                                                                                                                                                                                                                                                                                 | Community mirrors at [lpmuds.net](http://lpmuds.net/downloads.html)                                                                                                                          |
+| Lima          | Independent ground-up design centred on a new centralized command parser and object model. The lib's own README credits John Viega, Greg Stein and Tim Hollebeek as authors (Zakk Girouard was part of the original Lima Bean team). Still maintained for [FluffOS](#fluffos) \[3].                                                                                                                                                                                                                                                                                                                   | [limalib/lima](https://github.com/limalib/lima) ⭐ 10 \| 🐛 17 \| 🌐 C \| 📅 2025-10-27 (the older `fluffos/lima` fork was archived in 2024)                                                  |
+| Dead Souls    | General-purpose mudlib originally released by Descartes of Borg (George Reese) as a development playground on top of Nightmare, later revived and maintained by Cratylus. Frequently used as a ready-to-run starting point on [FluffOS](#fluffos) \[4].                                                                                                                                                                                                                                                                                                                                               | [quixadhal/deadsouls](https://github.com/quixadhal/deadsouls) ⭐ 20 \| 🐛 2 \| 🌐 C \| 📅 2018-10-18                                                                                          |
+| CDlib         | In-house mudlib of [Genesis LPMud](https://www.genesismud.org/) — the oldest continuously-running LPMud, started by Lars Pensjö in 1989. Paired with the matching [CD gamedriver](#cd-mud); has been reused by a handful of other LP MUDs beyond Genesis itself \[5].                                                                                                                                                                                                                                                                                                                                 | [genesismud/mudlib](https://github.com/genesismud/mudlib) ⭐ 7 \| 🐛 3 \| 🌐 C \| 📅 2023-12-28                                                                                               |
+| Discworld     | Mudlib powering [Discworld MUD](http://discworld.starturtle.net), founded in 1991 by David 'Pinkfish' Bennett. One of the largest and most mature LP mudlibs in active use. [FluffOS](#fluffos) was forked from MudOS to keep this mudlib running after MudOS development stalled. The live Discworld code is not public — only a periodically-released cut-down *distribution mudlib* \[6]. See also: [project history](https://discworld.starturtle.net/lpc/about/history.html), [mudlib info](https://discworld.starturtle.net/lpc/about/mudlib.html), [community wiki](https://dwwiki.mooo.com/). | Snapshot at [Yuffster/discworld\_distribution\_mudlib](https://github.com/Yuffster/discworld_distribution_mudlib) ⭐ 6 \| 🐛 0 \| 🌐 C \| 📅 2012-05-27                                       |
+| Foundation II | Stripped-down version of Nightmare by Descartes of Borg (George Reese), released May 1995. The first MudOS mudlib designed for non-game uses, and the first that could be commercially licensed \[7]. For MudOS/FluffOS.                                                                                                                                                                                                                                                                                                                                                                              | [foundation2\_fluffos\_v1.zip](http://dead-souls.net/files/foundation/foundation2_fluffos_v1.zip) (via [lpmuds.net](http://lpmuds.net/downloads.html))                                       |
+| LPUniversity  | Educational mudlib created by Tacitus (Wayne Somerville) in 2006. Designed to let builders learn LPC by building a mudlib from near-scratch without having to deal with driver internals \[8]. For MudOS/FluffOS.                                                                                                                                                                                                                                                                                                                                                                                     | [lpuni\_fluffos\_v1.zip](http://dead-souls.net/files/lpuni_fluffos_v1.zip) (via [lpmuds.net](http://lpmuds.net/downloads.html))                                                              |
+| Final Realms  | FR-MUD (1991/1992). Opened *before* any Discworld mudlib was released publicly (March 1993), so it was not a Discworld fork at launch; the preserved late-1990s source nonetheless borrows heavily from Discworld — ports and explicit *"ripoff from DiscWorld"* attributions throughout \[9].                                                                                                                                                                                                                                                                                                        | [quixadhal/fr](https://github.com/quixadhal/fr) ⭐ 3 \| 🐛 0 \| 🌐 C \| 📅 2018-02-13, [maldorne/frmudlib v3.5](https://github.com/maldorne/frmudlib/tree/v3.5b) ⭐ 0 \| 🐛 0 \| 📅 2025-01-17 |
+| Phantasmal    | The most complete publicly available mudlib for [DGD](#dgd), created by Noah Gibbs (author of [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/)). Features full persistence, OLC, and a help system. AGPL license \[10].                                                                                                                                                                                                                                                                                                                                                          | [dworkin/phantasmal](https://github.com/dworkin/phantasmal) ⚠️ Archived                                                                                                                      |
+| Gurbalib      | Lightweight [DGD](#dgd) mudlib originally created by Fudge (Erlend Simonsen), currently maintained by Sirdude (Kent Mein). Relatively complete game feature set for a DGD lib \[11].                                                                                                                                                                                                                                                                                                                                                                                                                  | [sirdude/gurbalib](https://github.com/sirdude/gurbalib) ⭐ 27 \| 🐛 2 \| 🌐 C \| 📅 2024-06-12                                                                                                |
+
+<details>
+<summary><strong>References</strong></summary>
+
+1. LDMud's `mud/lp-245` [README](https://github.com/ldmud/ldmud/tree/master/mud/lp-245) ⭐ 157 | 🐛 42 | 🌐 C | 📅 2026-02-15 describes it as "the old LP 2.4.5 mudlib, slightly updated to run with LDMud 3.2.7 or newer".
+2. [sirdude/gurbalib](https://github.com/sirdude/gurbalib) ⭐ 27 | 🐛 2 | 🌐 C | 📅 2024-06-12 on GitHub: the repo [`README`](https://github.com/sirdude/gurbalib/blob/master/README) ⭐ 27 | 🐛 2 | 🌐 C | 📅 2024-06-12 opens "Welcome to Sirdude's (aka Kent Mein) branch of the Gurbalib mudlib". [HEADER.txt](https://wotf.org/downloads/gurba/HEADER.txt) at wotf.org records it was "originally developed for DGD 1.1 by Fudge"; Fudge's real name (Erlend Simonsen) is confirmed via his [GitHub profile](https://github.com/Fudge).
+3. [Dead Souls Mudlib](https://mud.fandom.com/wiki/Dead_Souls_Mudlib) on the MUD Wiki; the repo [`README.txt`](https://github.com/quixadhal/deadsouls/blob/master/README.txt) ⭐ 20 | 🐛 2 | 🌐 C | 📅 2018-10-18 is signed *"-Cratylus @ Dead Souls"* and states the lib "is based on that old warhorse", recalling that "Descartes @ Nightmare chose to retire his Nightmare mudlib from distribution".
+4. Lima mudlib project site at [limamudlib.dev](https://www.limamudlib.dev/); maintained repo at [limalib/lima](https://github.com/limalib/lima) ⭐ 10 | 🐛 17 | 🌐 C | 📅 2025-10-27; the earlier [fluffos/lima](https://github.com/fluffos/lima) ⚠️ Archived was archived read-only in October 2024. The lib's [`lib/README`](https://github.com/limalib/lima/blob/master/lib/README) ⭐ 10 | 🐛 17 | 🌐 C | 📅 2025-10-27 credits John Viega, Greg Stein and Tim Hollebeek as authors and lists Zakk Girouard among the Lima Bean admins.
+5. [dworkin/phantasmal](https://github.com/dworkin/phantasmal) ⚠️ Archived on GitHub; author confirmed in Noah Gibbs' [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/02_History.html). The AGPLv3 text lives in [`mudlib/COPYING`](https://github.com/dworkin/phantasmal/blob/master/mudlib/COPYING) ⚠️ Archived (added via a 2008 contributor addendum); there is no SPDX-detected top-level license file.
+6. [Genesis LPMud](https://en.wikipedia.org/wiki/Genesis_LPMud) on Wikipedia; [genesismud/mudlib](https://github.com/genesismud/mudlib) ⭐ 7 | 🐛 3 | 🌐 C | 📅 2023-12-28 repo describes itself as "the mudlib upon which Genesis and a few other muds runs".
+7. Preserved FR:Release mudlib source at [quixadhal/fr](https://github.com/quixadhal/fr) ⭐ 3 | 🐛 0 | 🌐 C | 📅 2018-02-13 and [maldorne/frmudlib](https://github.com/maldorne/frmudlib/tree/v3.5b) ⭐ 0 | 🐛 0 | 📅 2025-01-17. The source is pervaded by Discworld ports — e.g. `mudlib/room/admin/quest_room.c` is annotated *"This is a pure ripoff from DiscWorld"*. One borrowed networking package, `mudlib/net/intermud3/README` (signed *"Hamlet\@WWC, 23 Aug 1996"*, headed *"The Intermud3 package, Discworld-style variant."*), traces its own path: *"This package was born on Nightmare mud and was originally written by Descartes (as far as I know). After that, it took a trip to Discworld, where Turrican made some modifications. Thereafter, it went to Final Realms where perhaps a couple tweaks were done."* Discworld's mudlib release date is from Lauren Burka's [MUDline chronology](http://www.linnaean.org/~lpb/muddex/mudline.html) (1995): *"March 1993. The Discworld Mudlib for MudOS is released, making the second widely available mudlib for MudOS"*, and matches the [official Discworld mudlib page](https://discworld.starturtle.net/lpc/about/mudlib.html).
+8. Descartes of Borg, *End of Nightmare Mudlib Development*, [rec.games.mud.lp](https://groups.google.com/g/rec.games.mud.lp/c/WgoZfrIOhxI).
+9. [Distribution mudlib](https://dwwiki.mooo.com/wiki/Distribution_mudlib) on the Discworld MUD wiki; see also the official [Discworld mudlib page](https://discworld.starturtle.net/lpc/about/mudlib.html).
+10. Lauren Burka's [MUDline](http://www.linnaean.org/~lpb/muddex/mudline.html) (1995): *"May 15, 1995. The Foundation II LPC Library is released. Foundation II is the first LPC library for MudOS designed for non-game uses, and the first which people may license."* Also [stored in this repository](./docs/mudline.md).
+11. [LPUniversity Foundation](https://sourceforge.net/projects/lpuni/) on SourceForge; bundled FluffOS download via [lpmuds.net](http://lpmuds.net/downloads.html).
+
+</details>
+
+### DikuMUD
+
+Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.
+
+* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 226 | 🐛 38 | 🌐 C++ | 📅 2026-08-11, using HTML, websockets and Discord integration, being worked on, LGPL license.
+* [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2020-12-07 (the original release), [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) ⭐ 107 | 🐛 1 | 🌐 C | 📅 2020-12-07 (newer than gamma), and [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2) ⭐ 32 | 🐛 0 | 🌐 C | 📅 2025-07-29, all with LGPL license.
+* [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
+* [DikuMUD.com](https://dikumud.com/).
+* [DikuMUD Wiki](https://wiki.dikumud.net/).
+* The [DikuMUD Omnibus Github repository](https://github.com/DikuMUDOmnibus) stores more than a hundred Diku-related software projects.
+
+#### Derivatives
+
+DikuMUD spawned a large family of derivatives, mostly through two main branches: **CircleMUD** (clean rewrite for portability) and **Merc** (aggressive refactor that became the ancestor of ROM, SMAUG, and many others). The [DikuMUD Omnibus](https://github.com/DikuMUDOmnibus) archives hundreds of related projects.
+
+| Codebase  | Lineage                 | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                        | Source                                                                                                                                                                                           |
+| --------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| CircleMUD | DikuMUD → CircleMUD     | Created by Jeremy Elson in 1993. Clean, well-documented rewrite focused on portability; the most widely used Diku codebase for learning \[1]. Elson's last release was 3.1 (2002); later revived by The Builder Academy (3.5, 2006) and continued as tbaMUD.                                                                                                                                                                                 | [circlemud.org](https://www.circlemud.org/)                                                                                                                                                      |
+| tbaMUD    | → CircleMUD → tbaMUD    | Community continuation of CircleMUD. Modernized with OLC, ASCII maps, and ongoing development \[2]. Active.                                                                                                                                                                                                                                                                                                                                  | [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 150 \| 🐛 21 \| 🌐 C \| 📅 2026-05-13                                                                                                        |
+| AwakeMUD  | → CircleMUD → AwakeMUD  | Shadowrun 3rd Edition themed derivative \[3]. Active.                                                                                                                                                                                                                                                                                                                                                                                        | [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 77 \| 🐛 11 \| 🌐 C++ \| 📅 2026-07-26, [web](https://www.awakemud.com/)                                                         |
+| EmpireMUD | → CircleMUD → EmpireMUD | Persistent world map with territory control mechanics \[4]. Active.                                                                                                                                                                                                                                                                                                                                                                          | [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 101 \| 🐛 12 \| 🌐 C \| 📅 2026-08-12                                                                          |
+| Merc      | DikuMUD → Merc          | Created by Furey, Hatchet, and Kahn in 1992. Major rewrite that became the ancestor of most other Diku derivatives \[5]. Abandoned.                                                                                                                                                                                                                                                                                                          | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus)                                                                                                                                  |
+| Envy      | → Merc → Envy           | By much of the former Merc team plus others (1994). Bundled OLC (EnvyOLC, ported from The Isles/NiMUD) \[5]. Abandoned.                                                                                                                                                                                                                                                                                                                      | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus)                                                                                                                                  |
+| ROM       | → Merc → ROM            | *Rivers of Mud*, by Russ Taylor (1993). Added a skills/spells system and an improved world format \[6]. Hugely influential; spawned countless downstream MUDs. Abandoned (last release 2.4b6, 1998).                                                                                                                                                                                                                                         | [avinson/rom24-quickmud](https://github.com/avinson/rom24-quickmud) ⭐ 65 \| 🐛 3 \| 🌐 C \| 📅 2018-05-18 (QuickMUD, cleaned-up ROM 2.4b6)                                                       |
+| GodWars   | → Merc → GodWars        | By KaVir (Richard Woolcock, 1995). PvP-focused with supernatural races (vampires, werewolves, demons) \[7]. Abandoned.                                                                                                                                                                                                                                                                                                                       | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus)                                                                                                                                  |
+| SMAUG     | → Merc → SMAUG          | By Thoric/Derek Snider (1994-96), originally developed for [Realms of Despair](https://realmsofdespair.com/) \[8]. Feature-rich with extensive OLC, [IMC2](#imc2) intermud, clan/council systems. Original abandoned, but two active forks: [SmaugFUSS](https://github.com/Arthmoor/SmaugFUSS) ⭐ 29 \| 🐛 0 \| 🌐 C \| 📅 2026-07-17 and [AFKMud](https://github.com/Arthmoor/AFKMud) ⭐ 49 \| 🐛 5 \| 🌐 C++ \| 📅 2026-07-19 (C++ rewrite). | [Arthmoor/SmaugFUSS](https://github.com/Arthmoor/SmaugFUSS) ⭐ 29 \| 🐛 0 \| 🌐 C \| 📅 2026-07-17, [Arthmoor/AFKMud](https://github.com/Arthmoor/AFKMud) ⭐ 49 \| 🐛 5 \| 🌐 C++ \| 📅 2026-07-19 |
+| SWR       | → Merc → SMAUG → SWR    | *Star Wars Reality*. SMAUG derivative for Star Wars themed MUDs \[9]. Abandoned.                                                                                                                                                                                                                                                                                                                                                             | Archived at [Xavious/swrfuss](https://github.com/Xavious/swrfuss) ⭐ 12 \| 🐛 0 \| 🌐 C \| 📅 2018-02-25                                                                                          |
+
+<details>
+<summary><strong>References</strong></summary>
+
+1. [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 150 | 🐛 21 | 🌐 C | 📅 2026-05-13 repo README.
+2. [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 101 | 🐛 12 | 🌐 C | 📅 2026-08-12 repo README.
+3. [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 77 | 🐛 11 | 🌐 C++ | 📅 2026-07-26 repo README.
+4. Official site [circlemud.org](https://www.circlemud.org/) (confirms Jeremy Elson and the DikuMUD Gamma 0.0 derivation); version history and the tbaMUD transition on the [CircleMUD](https://muds.fandom.com/wiki/CircleMUD) page at the Muds Wiki. The Wikipedia "CircleMUD" title now redirects to the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article.
+5. Lineage from the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article on Wikipedia ("Merc led to ROM ... and Envy"); authors and dates from the [Merc](https://muds.fandom.com/wiki/Merc) and [Envy](https://muds.fandom.com/wiki/Envy) pages at the Muds Wiki.
+6. [ROM](https://muds.fandom.com/wiki/ROM) on the Muds Wiki. The Wikipedia "ROM (MUD)" title redirects to the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article.
+7. [GodWars](https://en.wikipedia.org/wiki/GodWars) on Wikipedia.
+8. [SMAUG](https://muds.fandom.com/wiki/SMAUG) on the Muds Wiki. The Wikipedia "SMAUG" title is a disambiguation page, not the MUD.
+9. [SWReality](https://muds.fandom.com/wiki/SWReality) on the Muds Wiki.
+
+</details>
+
+### Modern drivers
+
+Some information about some modern *drivers/game engines/codebases* created long time after the original *MU\** games.
+
+#### Evennia
+
+Created by [Greg Taylor](https://gc-taylor.com/) in 2006, [Samuel "Griatch" Regandell](https://github.com/Griatch) took over the project in 2011. Modern library for creating online multiplayer text games in pure Python. Coding is done using normal Python modules imported into the server at runtime. BSD license.
+
+* [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia) ⭐ 2,085 | 🐛 126 | 🌐 Python | 📅 2026-08-09, [discussion forum](https://github.com/evennia/evennia/discussions) ⭐ 2,085 | 🐛 126 | 🌐 Python | 📅 2026-08-09, [Discord server](https://discord.com/invite/AJJpcRUhtF).
+
+#### CoffeeMud
+
+Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java. Supports any JDBC/ODBC database, includes built-in web server. Apache License.
+
+* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 230 | 🐛 2 | 🌐 Java | 📅 2026-08-13.
+
+### Old games and drivers reconstructed with the help of AI
+
+#### Legends of Future Past
+
+Originally created by [Jon Radoff](https://en.wikipedia.org/wiki/Jon_Radoff) in 1992, one of the earliest commercial MUDs. Ran on CompuServe and the early internet until 1999. Won Computer Gaming World's 1993 Special Award for Artistic Excellence. The original engine source code was lost, but the game was reconstructed in 2026 from its original script files using AI (Claude Code). Go backend, React frontend, WebSocket multiplayer. MIT License.
+
+* [Web](https://lofp.metavert.io), [Github project](https://github.com/jonradoff/lofp) ⭐ 181 | 🐛 24 | 🌐 HTML | 📅 2026-05-17, [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
+
+## Notable running MUDs
+
+A selection of historically significant MUDs that are still running or were active in 2025-2026, grouped by codebase family.
+
+### LP Family
+
+* [Genesis](https://www.genesismud.org/) (1989) — `mud.genesismud.org:3011` — The original LPMud by Lars Pensjö, oldest in its family still running \[1].
+* [BatMUD](https://www.bat.org/) (1990) — `batmud.bat.org:23` — Historically one of the largest LPMuds \[2].
+* [Discworld MUD](http://discworld.starturtle.net) (1991) — `discworld.starturtle.net:4242` — Based on Terry Pratchett's works; influential [mudlib](#mudlibs) and birthplace of [FluffOS](#fluffos) \[3].
+* [Nanvaent](https://nanvaent.org/) (1992) — `nanvaent.org:23` — Long-running UK LPMud, descended from the earlier VaxMUD; runs on MudOS \[4].
+* [RetroMUD](https://retromud.org/) (1994) — `retromud.org:3000` — Massive multiclass system with 60+ races and 18 guilds \[5].
+
+### Diku Family
+
+* [MUME](https://mume.org/) (1991) — `mume.org:4242` — Fan-made (unlicensed) Middle-earth MUD, run by volunteers since 1991; tens of thousands of rooms \[7].
+* [Realms of Despair](https://realmsofdespair.com/) (1994) — `realmsofdespair.com:4000` — The original [SMAUG](#smaug) MUD \[8].
+* [Aardwolf](https://www.aardwolf.com/) (1996) — `aardmud.org:4000` — One of the largest active free MUDs. Huge PvE world \[9].
+
+### Commercial
+
+* [GemStone IV](https://www.play.net/gs4/) (1988) — Simutronics. Among the longest-running commercial MUDs (the GemStone franchise dates to 1988; the GemStone IV branding to 2003); premium subscriptions \[10].
+* [DragonRealms](https://www.play.net/dr/) (1996) — Simutronics. The company's long-running fantasy MUD \[11].
+* [Achaea](https://www.achaea.com/) (1997) — `achaea.com:23` — Iron Realms. Flagship title; one of the first MUDs with a microtransaction model \[12].
+* [Aetolia](https://www.aetolia.com/) (2001) — `aetolia.com:23` — Iron Realms. Dark vampire/werewolf-themed \[13].
+* [Imperian](https://www.imperian.com/) (2003) — `imperian.com:4000` — Iron Realms. Free-to-play, now in volunteer-maintained legacy mode \[14].
+* [Lusternia](https://www.lusternia.com/) (2004) — `lusternia.com:5000` — Iron Realms. Legacy mode, volunteer team \[15].
+* [Starmourn](https://www.starmourn.com/) (2018) — `starmourn.com:3000` — Iron Realms. Sci-fi. Maintenance mode since 2023 \[16].
+
+### RP-Focused
+
+* [Threshold RPG](https://www.thresholdrpg.com/) (1996) — `thresholdrpg.com:3333` — Long-running RP-enforced MUD by Frogdice, operating since 1996 \[17].
+* [Sindome](https://www.sindome.org/) (1997) — `moo.sindome.org:5555` — Cyberpunk RP MOO inspired by Neuromancer \[18].
+* [Harshlands](http://www.harshlands.net/) (1993) — `mud.harshlands.net:5555` — Gritty low-fantasy Harn-based RP-required MUD \[19].
+* [Legends of the Jedi](https://www.legendsofthejedi.com/) (2000) — `legendsofthejedi.com:5656` — Star Wars RP-enforced MUD (SWR/SMAUG derivative) \[20].
+
+### MOO
+
+* [LambdaMOO](https://lambda.moo.mud.org/) (1990) — `lambda.moo.mud.org:8888` — Created by Pavel Curtis at Xerox PARC; academically significant for virtual communities research. Still running on volunteers \[21].
+
+### Other
+
+* [Avalon: The Legend Lives](https://www.avalon-rpg.com/) (1989) — Claims to be the first online RPG; pioneered real-time PvP and political systems \[22].
+* [Alter Aeon](https://www.alteraeon.com/) (1995) — `alteraeon.com:3000` — Long-running fantasy MUD on a custom from-scratch codebase (DentinMud), still actively played after \~30 years. Also well known for strong accessibility support for blind and visually-impaired players \[6].
+
+<details>
+<summary><strong>References</strong></summary>
+
+1. [LPMud](https://en.wikipedia.org/wiki/LPMud) on Wikipedia (covers Genesis as the first LPMud; the "Genesis LPMud" title redirects here).
+2. [BatMUD](https://en.wikipedia.org/wiki/BatMUD) on Wikipedia.
+3. [Discworld MUD](https://en.wikipedia.org/wiki/Discworld_MUD) on Wikipedia.
+4. [Nanvaent](https://mudstats.com/World/Nanvaent) on MUDStats (lists the driver as MudOS v22.2b14); the game's founding year (1992) is from its own site's copyright notice, with VaxMUD origins noted on [nanvaent.org/history](https://nanvaent.org/history/).
+5. [RetroMUD](https://mudstats.com/World/RetroMUD) on MUDStats (the in-game banner confirms the TMI-2/LIMA base and the race/guild counts are listed on [retromud.org](https://www.retromud.org/)).
+6. [Alter Aeon](https://audiogames.net/db.php?id=Alter+Aeon) in the AudioGames.net database (the main independent community resource for blind/visually-impaired gamers); the MUD's own [blind/accessibility support page](https://www.alteraeon.com/blind_support.html) documents the screen-reader features and soundpacks.
+7. [Middle-earth in video games § Unofficial games](https://en.wikipedia.org/wiki/Middle-earth_in_video_games#Unofficial_games) on Wikipedia (lists MUME among unofficial/unlicensed games; the "MUME" title redirects here). The in-game login banner reads "Adapted from J.R.R. Tolkien's Middle-earth world".
+8. [DikuMUD § SMAUG](https://en.wikipedia.org/wiki/DikuMUD#SMAUG) on Wikipedia (the "Realms of Despair" title redirects here); the in-game banner confirms "Home of SMAUG ... Code by Thoric (Derek Snider)".
+9. [Aardwolf MUD](https://mudstats.com/World/AardwolfMUD) on MUDStats.
+10. [GemStone IV](https://en.wikipedia.org/wiki/GemStone_IV) on Wikipedia.
+11. [Simutronics](https://en.wikipedia.org/wiki/Simutronics) on Wikipedia (covers DragonRealms, 1996; the "DragonRealms" title redirects here).
+12. [Achaea, Dreams of Divine Lands](https://en.wikipedia.org/wiki/Achaea,_Dreams_of_Divine_Lands) on Wikipedia.
+13. [Aetolia](https://muds.fandom.com/wiki/Aetolia) on the Muds Wiki.
+14. [Imperian](https://www.ironrealms.com/games/imperian) on Iron Realms.
+15. [Lusternia](https://www.ironrealms.com/games/lusternia) on Iron Realms (the Wikipedia "Lusternia" title redirects to the Iron Realms Entertainment article).
+16. [Starmourn](https://www.ironrealms.com/games/starmourn) on Iron Realms.
+17. [Threshold](https://muds.fandom.com/wiki/Threshold) on the Muds Wiki.
+18. [Sindome](https://muds.fandom.com/wiki/Sindome) on MUD Wiki.
+19. [Harshlands](https://mu.fandom.com/wiki/Harshlands) on the WikiMU\* wiki.
+20. [Legend of the Jedi](https://muds.fandom.com/wiki/Legend_of_the_Jedi) on the Muds Wiki.
+21. [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) on Wikipedia.
+22. [Avalon: The Legend Lives](https://en.wikipedia.org/wiki/Avalon:_The_Legend_Lives) on Wikipedia.
+
+</details>
+
+## Protocols
+
+* [Mud Standards](https://mudstandards.org/)
+* [MudVault - MUD Protocol Reference](https://mudvault.org/protocols)
+* Some info taken from the [tintin/mudhalla protocols and standards documentation](https://tintin.mudhalla.net/protocols/).
+* The [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page) has a main page about all the [supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) that could be useful too.
+* [Last Outpost Code MUD Protocol Archive](https://www.last-outpost.com/LO/protocols/) has information about the protocols supported by The Last Outpost, Diku oriented but useful for everybody.
+* CryoSphere/MusicMUD has a [page about MUD client/server interaction](https://musicmud.org/mud-protocol.html) with some more useful information.
+
+### Generic protocols for remote connections
+
+#### TELNET
+
+Connect to \*NIX servers and BBSes using TELOPT negotiations. The base telnet protocol is defined in [RFC 854](https://www.rfc-editor.org/rfc/rfc854) and [RFC 855](https://www.rfc-editor.org/rfc/rfc855); several options commonly used in MUD connections extend it:
+
+* **Binary Transmission** ([RFC 856](https://www.rfc-editor.org/rfc/rfc856)). Enables 8-bit clean data transfer, required for UTF-8, MCCP compressed streams, and any protocol that embeds raw bytes in the telnet stream.
+* **Echo** ([RFC 857](https://www.rfc-editor.org/rfc/rfc857)). Controls whether the server or client echoes typed input. MUD servers use this to suppress client-side echo during password entry.
+* **Suppress Go Ahead / SGA** ([RFC 858](https://www.rfc-editor.org/rfc/rfc858)). Suppresses the telnet GA signal; see also [EOR / GA](#eor--ga) below. Enabling SGA together with Echo puts the connection in **character mode** (input transmitted character by character instead of line by line), which is the default operating mode for most MUDs.
+* **Q Method** ([RFC 1143](https://www.rfc-editor.org/rfc/rfc1143)). A state-machine approach to implementing telnet option negotiation that avoids infinite loops. Not a wire protocol but the recommended implementation strategy; referenced by the Tintin++ documentation.
+
+#### VT100
+
+In MUD context, "VT100" refers to the ANSI X3.64 escape sequences originally implemented by the DEC VT100 terminal (1978). Virtually every MUD server and client uses these sequences for text color (SGR), bold, underline, cursor positioning, and screen clearing. The standard was formalized as ECMA-48 / ISO 6429; modern MUD clients like Mudlet and TinTin++ extend support to xterm 256-color and 24-bit truecolor.
+
+* [ECMA-48 Standard](https://ecma-international.org/publications-and-standards/standards/ecma-48/) — the formal standard defining control functions and escape sequences.
+* [TinTin++ VT100 Reference](https://mudhalla.net/tintin/info/vt100/) — MUD-oriented reference covering control characters, escape sequences, and CSI codes.
+* [TinTin++ ANSI Color Guide](https://mudhalla.net/tintin/info/ansicolor/) — ANSI 16-color, 256-color, and truecolor syntax with MUD client support notes.
+* [TinTin++ 256 Color Reference](https://mudhalla.net/tintin/info/256color/) — xterm 256-color palette details, escape syntax, and client detection methods.
+
+#### NAWS
+
+*Negotiate About Window Size*. Sends the mud client's window size to the server. [RFC 1073](https://www.rfc-editor.org/rfc/rfc1073).
+
+#### TTYPE
+
+*Terminal Type*. Telnet option that lets clients advertise their terminal type to the server. Used by MUDs for client identification and feature negotiation; [MTTS](#mtts) extends TTYPE to carry a bitfield of MUD-specific client capabilities. [RFC 1091](https://www.rfc-editor.org/rfc/rfc1091).
+
+#### CHARSET
+
+Telnet option for negotiating the character encoding (latin1, UTF-8, etc.) used over a connection. Increasingly relevant as modern clients move from latin1 to UTF-8. [RFC 2066](https://www.rfc-editor.org/rfc/rfc2066).
+
+#### EOR / GA
+
+*End of Record* and *Go Ahead*. Telnet markers used to signal the end of a prompt line so clients can distinguish prompts from ongoing output. Historically MUDs relied on GA, but many now suppress it (SGA, [RFC 858](https://www.rfc-editor.org/rfc/rfc858)) and send EOR ([RFC 885](https://www.rfc-editor.org/rfc/rfc885)) instead. Most modern MUD clients support both.
+
+### Specific protocols for MUDs
+
+The following MUD-specific protocols are implemented as telnet options, building on the base [TELNET](#telnet) RFCs listed above.
+
+#### GMCP
+
+*Generic Mud Communication Protocol*. GMCP is implemented as a Telnet option. Uses JSON syntax to define structured and typed data.
+
+* [Tintin documentation](https://tintin.mudhalla.net/protocols/gmcp/).
+* [IronRealms documentation](https://www.ironrealms.com/gmcp-doc).
+* [IronRealms Nexus documentation](https://nexus.ironrealms.com/GMCP).
+* [GMCP Additions](https://github.com/keneanung/GMCPAdditions) ⭐ 29 | 🐛 2 | 📅 2022-12-07.
+* [Mudlet documentation for Discord](https://wiki.mudlet.org/w/Standards:Discord_GMCP).
+
+#### MCP
+
+*Mud Client Protocol*. An attempt to provide a standard message format on which to build MUD-based client-server applications, primarily used in MOO environments.
+
+* [LambdaMOO documentation](http://www.moo.mud.org/mcp/index.html).
+* [MCP 2.1 specification](https://www.moo.mud.org/mcp2/mcp2.html).
+
+#### MCCP
+
+*Mud Client Compression Protocol* version 2 and 3. MCCP2 is implemented as a Telnet option. Allows a MUD server to compress output to the receiving client using the zlib compression library. Created in 1998, MCCP version 2 was created in 2000. In 2019 MCCP version 3 was created as a separate protocol.
+
+* [Tintin documentation](https://tintin.mudhalla.net/protocols/mccp/)
+* [MUSHclient notes](http://www.gammon.com.au/mushclient/mccp.htm).
+
+#### MSDP
+
+*Mud Server Data Protocol*. MSDP is implemented as a Telnet option. Developed in 2009, provides a standardized way to define typeless variables, arrays, tables, and commands. MSDP over [GMCP](#gmcp) offers standardized generic event handling besides sending structured data.
+
+* [Tintin documentation](https://tintin.mudhalla.net/protocols/msdp/).
+* [Mudlet supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) (includes MSDP section).
+
+#### MSLP
+
+*Mud Server Link Protocol*. Allows the creation of clickable links in the client side. MSLP is negotiated by using the [MTTS](#mtts) standard.
+
+* [Tintin documentation](https://tintin.mudhalla.net/protocols/mslp/).
+
+#### MSSP
+
+*Mud Server Status Protocol*. MSSP is implemented as a Telnet option. Protocol for MUD crawlers to gather detailed information about a MUD, including dynamic information like boot time and the current amount of online players. See also [GSGP](#gsgp).
+
+* [Tintin documentation](https://tintin.mudhalla.net/protocols/mssp/)
+* [MudVerse info about the protocol](https://www.mudverse.com/mssp).
+
+#### MTTS
+
+*Mud Terminal Type Standard*. Transparant and straight forward standard for Mud Clients to communicate their terminal capabilities. See also [MNES](#mnes).
+
+* [Tintin documentation](https://tintin.mudhalla.net/protocols/mtts/).
+* [Mudlet supported protocols](https://wiki.mudlet.org/w/Manual:Supported_Protocols) (includes MTTS section).
+
+#### MMCP
+
+*Mud Master Chat Protocol* for instant messaging and file transfers over private P2P connections. Is a decentralized chat protocol which allows MUD clients to communicate with each other over a TCP/IP connection.
+
+* [MUSHclient compatible feature](http://www.gammon.com.au/mushclient/chat.htm).
+
+#### MXP
+
+*MUD eXtension Protocol*. MXP embeds HTML-like tags in MUD output, allowing servers to send clickable links, inline images, custom elements, and styled text to supporting clients. It is negotiated via Telnet subnegotiation and defines both built-in elements (like `<A>` for hyperlinks and `<SEND>` for clickable commands) and server-defined custom elements. See also [Pueblo](#pueblo) for an earlier, similar approach.
+
+* [Zuggsoft specification](http://www.zuggsoft.com/zmud/mxp.htm).
+* [MUSHclient complimentary notes](http://www.gammon.com.au/mushclient/mxp.htm).
+
+#### MSP
+
+*MUD Sound Protocol*. MSP uses special trigger sequences embedded in MUD output (`!!SOUND()` and `!!MUSIC()`) to instruct supporting clients to play sound and music files, either from a local cache or downloaded from a specified URL. Largely superseded by [MCMP](#mcmp), which provides richer media control over GMCP.
+
+* [Zuggsoft specification](http://www.zuggsoft.com/zmud/msp.htm).
+
+#### MCMP
+
+*MUD Client Media Protocol*. A standard for loading, playing and stopping media files with MUD clients over GMCP that is intended to modernise MSP.
+
+* [Mudlet documentation](https://wiki.mudlet.org/w/Standards:MUD_Client_Media_Protocol).
+
+#### zChat
+
+Chat format. Similar to [MMCP](#mmcp) but not compatible.
+
+* [Zuggsoft specification](https://www.zuggsoft.com/zchat/zchatprot.htm).
+
+#### GSGP
+
+[*Game Scry Game Protocol*](https://game-scry.online/about). GSGP is a standardized JSON structure which you can make available for GameScry or other sites to ping for real-time data about a game, its active players, leaderboards, etc. See also [MSSP](#mssp).
+
+#### ATCP
+
+*Achaea Telnet Client Protocol*. Using TELNET code 200, was implemented by cMUD in 2008. In 2010 evolved to ATCP2 using TELNET code 201. Was later renamed to [GMCP](#gmcp). Achaea, Aardwolf, MUME, Avatar, Gensis, and MUSHclient provide package definitions modeled after the ATCP2 draft.
+
+#### Aardwolf's 102
+
+Similar to ATCP, Aardwolf includes a hidden channel of information that you can access.
+
+* [Mudlet documentation](https://wiki.mudlet.org/w/Manual:Supported_Protocols#Aardwolf.E2.80.99s_102_subchannel)
+
+#### MNES
+
+*Mud New Environment Standard*. Implemented as a Telnet option. Seeks to supplement [MTTS](#mtts) by providing a straightforward way to use the NEW-ENVIRON telnet option ([RFC 1572](https://www.rfc-editor.org/rfc/rfc1572)) to exchange and update various client and server settings.
+
+* [Tintin documentation](https://tintin.mudhalla.net/protocols/mnes/).
+
+#### MMP
+
+*Mud Mapping Protocol*. IronRealms protocol as a way to export our in game map data so that clients (or players) can easily access and download this data.
+
+* [Mudlet basic documentation](https://wiki.mudlet.org/w/Standards:MMP).
+
+#### TLS
+
+*Transport Layer Security*. Some MUD servers and clients support encrypted connections via TLS (formerly SSL). Connections typically use direct TLS on a separate port rather than STARTTLS negotiation; there is no universal port convention, though individual MUDs document their TLS port. The [MTTS](#mtts) standard includes a flag (bit 2048) to let clients advertise TLS support.
+
+* [MTTS specification](https://tintin.mudhalla.net/protocols/mtts/) (documents the SSL/TLS capability flag).
+
+#### Pueblo
+
+Developed by Chaco Communications in the mid-1990s, Pueblo extended MUD output with HTML tags for styled text, inline images, and clickable links — predating [MXP](#mxp) with a similar approach. The Pueblo client is long defunct, but some MUD servers still emit Pueblo-compatible markup and a handful of modern clients retain partial support.
+
+* [Pueblo specification](https://mudstandards.org/mud/pueblo) on MUD Standards.
+
+#### ZMP
+
+*Zenith MUD Protocol*. An out-of-band communication protocol for MUDs, designed as a simpler, more extensible alternative to [MSSP](#mssp) and [MSDP](#msdp). Uses NUL-delimited strings inside a telnet subnegotiation.
+
+* [ZMP specification](https://mudstandards.org/mud/zmp) on MUD Standards.
+
+#### Pinkfish
+
+Not a protocol but a widely-used **color code standard** in LPC MUDs, named after David 'Pinkfish' Bennett (founder of [Discworld MUD](#discworld)). Pinkfish codes use `%^COLOR%^` tokens (e.g., `%^RED%^`, `%^BOLD%^`) that the driver converts to [ANSI](#vt100) escape sequences. Used by Discworld, Dead Souls, and many other LP-family mudlibs.
+
+* [Pinkfish reference](https://mudstandards.org/other/pinkfish) on MUD Standards.
+
+#### WebSocket
+
+Not a MUD-specific protocol, but increasingly used as a transport layer alternative to raw telnet for web-based MUD clients. A WebSocket proxy (ws/wss to telnet) allows browser clients to connect to traditional MUD servers; some modern servers support WebSocket natively.
+
+* [WebSocket overview](https://mudstandards.org/websocket/) on MUD Standards.
+* See also [Web Clients](#web-clients) and [Web Proxies](#web-proxies) above.
+
+#### Intermud
+
+Family of protocols for cross-MUD communication: shared chat channels, player-to-player messages, who lists, and mail between different MUDs. Several incompatible variants exist, each tied historically to a different MUD family.
+
+##### CD Intermud
+
+The earliest LP intermud protocol, developed by the [CDlib / Genesis](#cdlib) team. Used UDP and was later superseded by [Intermud 3](#intermud-3-i3).
+
+* [CD Intermud](https://mudstandards.org/intermud/cd_intermud) on MUD Standards.
+
+##### Intermud 2 (I2)
+
+Successor to CD Intermud, still UDP-based. Added support for more message types but was superseded by [Intermud 3](#intermud-3-i3) which moved to TCP and introduced router-based architecture.
+
+* [Intermud 2](https://mudstandards.org/intermud/intermud2) on MUD Standards.
+
+##### Intermud 3 (I3)
+
+Developed in the LPMud/MudOS world in the 1990s. Uses a network of **routers**: participating MUDs connect to a router rather than directly to each other, and the router forwards traffic to the rest of the network. Still in use — several routers remain active and many LP-family games are reachable over I3.
+
+* [Intermud 3 on MUD Wiki](https://mud.fandom.com/wiki/Intermud).
+* [LPC client implementation in the Dead Souls mudlib](https://github.com/wodan58/Dead-Souls) (reference implementation used by many LP muds).
+
+##### IMC2
+
+*Inter-MUD Communication 2*. Alternative intermud protocol developed primarily for DikuMUD derivatives (SMAUG and descendants). Peer-to-peer rather than router-based, and not interoperable with I3.
+
+* [IMC2 on MUD Wiki](https://muds.fandom.com/wiki/IMC2).
+
+##### Grapevine
+
+Modern web-based intermud replacement using WebSockets and JSON. Designed to be easy to implement from any codebase regardless of family, sidestepping the Diku/LP split of I3 and IMC2. See also the [Grapevine listing](https://grapevine.haus/) in the Community section.
+
+* [Source code](https://github.com/oestrich/grapevine) ⭐ 164 | 🐛 17 | 🌐 Elixir | 📅 2023-09-14.
+
+Several other intermud protocols were developed for specific MUD families but saw limited adoption outside them: [AberChat](https://mudstandards.org/intermud/aberchat) (AberMUD), [MUSHLink](https://mudstandards.org/intermud/mushlink) (MUSH), [Circle Intermud](https://mudstandards.org/intermud/circle_intermud) (CircleMUD), [ROM Intermud](https://mudstandards.org/intermud/rom_intermud) (ROM), [Merentha Intermud](https://mudstandards.org/intermud/merentha) (Merentha), [MudNet](https://mudstandards.org/intermud/mudnet), [Arachnos](https://mudstandards.org/intermud/arachnos), and [Zebedee](https://mudstandards.org/intermud/zebedee). See [MUD Standards](https://mudstandards.org/) for documentation on these.
+
+## Licenses
+
+Most classic MUD codebases were released under custom, non-commercial licenses written before standardized open source licenses existed. These bespoke licenses generally share two core requirements — mandatory attribution and a prohibition on making money — but each family added its own layer of restrictions, creating a chain of obligations that derivative codebases must honor. In recent years, some original authors have re-licensed under standard open source terms, and newer codebases tend to use recognized licenses from the start.
+
+### Classic MUD licenses
+
+* **MudOS / FluffOS Copyright** (1991) — MudOS inherited Lars Pensjö's LPMud non-commercial copyright and layered its own notices on top (1991–1992 contributors; the entire package copyright 1995 by Tim Hollebeek). [FluffOS](#fluffos), forked from MudOS, carries the same chain unchanged: its [`Copyright` file](https://github.com/fluffos/fluffos/blob/master/Copyright) ⭐ 452 | 🐛 19 | 🌐 C++ | 📅 2026-08-13 restates that the source "may not be used in any way whatsoever for monetary gain" and that the LPMud and MudOS copyright restrictions still apply. Despite FluffOS being actively maintained, this remains a custom non-commercial license, not a recognized open source one.
+* **Merc License** (1991) — Built on top of DikuMUD's license. Requires compliance with the Diku license and preservation of copyright notices. Notably relaxed: the Merc authors do *not* require their names in the login sequence. [License text](https://github.com/alexmchale/merc-mud/blob/master/doc/license.txt) ⭐ 36 | 🐛 0 | 🌐 C | 📅 2009-07-22.
+* **ROM License** (\~1993) — Adds to both Diku and Merc licenses. Requires a ROM credit in the login message, an unaltered `help rom` entry, email notification to the author (Russ Taylor) before opening a ROM-based MUD, and reserves exclusive use of the name "Rivers of Mud". [License text](https://github.com/rszrama/szramarom/blob/master/doc/rom.license) ⭐ 8 | 🐛 0 | 🌐 C | 📅 2021-11-12.
+* **DikuMUD License** (1990) — Requires creator names in the login sequence and `credits` command; prohibits any commercial use or charging for distribution; requires notifying the original authors before running a DikuMUD. As of February 2020, the original authors also made DikuMUD available under the LGPL, though derivative codebases are not automatically re-licensed. [Original license text](https://dikumud.com/dikumud-license/).
+* **CircleMUD License** (1993) — Prohibits commercial use, requires attribution, and mandates compliance with the underlying Diku license. [License text](https://www.circlemud.org/license.html).
+* **LPMud Copyright** (1990) — Lars Pensjö's original copyright states that the source code "may not be used in any way whatsoever for monetary gain". Not a formal license but a non-commercial copyright notice. The [Valhalla](https://mud.fandom.com/wiki/Valhalla) controversy (1992) involved charging players money; though Lars granted permission, the controversy arose over whether he had the right to do so given the number of authors who had contributed to LPMud (see [MUDline](./docs/mudline.md), entries for January 1992 and April 1995).
+
+### Modern codebases with standard licenses
+
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,085 | 🐛 126 | 🌐 Python | 📅 2026-08-09 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 230 | 🐛 2 | 🌐 Java | 📅 2026-08-13 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2026-08-11 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 226 | 🐛 38 | 🌐 C++ | 📅 2026-08-11 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 20 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
+
+## People
+
+This section includes some of the people already mentioned in the previous sections, but also some others that are important in the history of MUDs. It will be expanded in the future, help is welcome!
+
+* Roy Trubshaw, co-creator of [MUD1](#MUD1).
+* [Richard Bartle](https://en.wikipedia.org/wiki/Richard_Bartle), co-creator of [MUD1](#MUD1), writer of [Designing Virtual Worlds](https://mud.co.uk/dvw/). [Personal page](https://mud.co.uk/).
+* [Alan Cox](https://en.wikipedia.org/wiki/Alan_Cox_\(computer_programmer\)), co-creator of [AberMUD](#AberMUD) and Linux kernel maintainer for several years.
+* [Michael Seifert](https://en.wikipedia.org/wiki/Michael_Seifert_\(programmer\)), co-creator of [DikuMUD](#DikuMUD).
+* [Pavel Curtis](https://en.wikipedia.org/wiki/Pavel_Curtis), creator of LambdaMOO.
+* [Lars Pensjö](https://mud.fandom.com/wiki/Lars_Pensj%C3%B6), creator of [LPMud](https://en.wikipedia.org/wiki/LPMud).
+* Lars Düning, creator of [LDMud](https://en.wikipedia.org/wiki/LDMud).
+* Felix 'Dworkin' Croes, creator of [DGD](https://en.wikipedia.org/wiki/Dworkin%27s_Game_Driver).
+* David 'Pinkfish' Bennett, founder of [Discworld MUD](http://discworld.starturtle.net) (1991) and lead developer of the Discworld mudlib. [Discworld history](https://discworld.starturtle.net/lpc/about/history.html).
+* [John Radoff](https://en.wikipedia.org/wiki/Jon_Radoff), creator of [Legends of Future Past](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
+
+## Community
+
+### Discussion
+
+* [r/MUD](https://www.reddit.com/r/MUD), Reddit's MUD subreddit.
+* [The MUD Discord](https://discord.gg/zuz4D8s).
+* [The MUD Coders Guild](https://mudcoders.com), 2016-2020 blog and Slack community.
+
+### General Info
+
+* [MUDs Wiki](https://muds.fandom.com/wiki/Main_Page) in fandom.com.
+* [The MUD Coders Guild Awesome-Mud list](https://github.com/mudcoders/awesome-mud) ⭐ 141 | 🐛 0 | 📅 2026-04-07. Awesome list, in the same fashion as this one.
+* [MUD historical society](https://github.com/mudhistoricalsociety) is a github organization with a lot of repositories of old codebases.
+
+### Player competition
+
+* [Deathlogs](https://deathlogs.com/). MUD PvP logs.
+
+### MUD listings
+
+* [Grapevine](https://grapevine.haus/), MUD listing and web client.
+* [Vineyard](https://vineyard.haus/), MUD hosting service, listing their hosted MUDs.
+* [Game Scry](https://game-scry.online/browse/mud/?ord=popular), MUD listing.
+* [Mud Portal](http://www.mudportal.com/), MUD listing and forums.
+* [Mud Bytes](http://www.mudbytes.net/), MUD listing and forums.
+* [Top Mud Sites](http://www.topmudsites.com/), defunct MUD listing, now read-only.
+* [The Mud Connector](http://www.mudconnect.com/), MUD listing.
+* [MudVerse](https://www.mudverse.com), MUD listing.
+* [MUD MSSP Stats](https://iberia.jdai.pt/mudstats/mudlist), new listing using MUDs [MSSP](#mssp) protocol information.
+
+### Technical Documentation
+
+* [Mudhalla](https://mudhalla.net/), home of the Tintin client, MUD listing, protocols documentation.
+* [Mudlet wiki](https://wiki.mudlet.org/w/Main_Page). Protocols documentation.
+* [Grim Wheel](https://www.grimwheel.com/), preservation hub for MUD development resources: [Imaginary Realities](https://www.grimwheel.com/imaginary/) archives, [MUD-Dev](https://www.grimwheel.com/muddev/) mailing list archives, [Buildcraft](https://www.grimwheel.com/buildcraft/) articles, and codebase/area archives.
+
+### Others
+
+* [Titans of Text](https://www.titansoftext.com/), podcast, 33 episodes during 2019-2020.
+* [50 Years of Text Games](https://if50.substack.com/), the original content of the book about text games, first published as a newsletter in Substack, free to read.
+* [Terra Nova](https://terranova.blogs.com/terra_nova/), defunct collaborative blog for academics and professionals in game studies, focused primarily on the study of virtual worlds (2003-2014).
+
+## Papers and reading list
+
+### Papers
+
+* [Interactive Multi-User Computer Games](https://mud.co.uk/richard/imucg.htm), by Richard Bartle, 1990. Early British Telecom report on the commercial potential of multi-user online games, written by MUD's co-creator.
+* [Mudding: Social Phenomena in Text-Based Virtual Realities](https://www.hayseed.net/MOO/curtis_mudding.article.txt), by Pavel Curtis, 1992. Xerox PARC paper by the creator of LambdaMOO examining social behavior in MUDs.
+* [A Rape in Cyberspace](http://www.juliandibbell.com/articles/a-rape-in-cyberspace/), by Julian Dibbell, 1993. Landmark *Village Voice* article about a virtual assault on LambdaMOO and the social/governance questions it raised.
+* [Cultural Formations in Text-Based Virtual Realities](http://www.aluluei.com/cult-form.htm), by Elizabeth Reid, 1994. Master's thesis (University of Melbourne) studying how culture emerges in MUD communities.
+* [Players Who Suit MUDs](https://mud.co.uk/richard/hcds.htm), by Richard Bartle, 1996. Taxonomy of player types; appeared in Volume 1, Issue 1 of the *Journal of MUD Research*. Also known as *"Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs"*.
+
+### Books
+
+* [Designing Virtual Worlds](https://mud.co.uk/richard/DesigningVirtualWorlds.pdf), by Richard Bartle, 2003. Comprehensive textbook on virtual world design, from MUD history to game mechanics. Available as a free PDF (CC BY-NC-ND 4.0).
+
+### Journals and ezines
+
+* [Journal of MUD Research / Journal of Virtual Environments](https://www.hayseed.net/MOO/JOVE/pastIssues.html) — Peer-reviewed academic journal, published 1996-2002. Only a few issues were produced; the first issue is archived at Brandeis/hayseed.net.
+* [Imaginary Realities](https://www.grimwheel.com/imaginary/) — MUD development ezine (1998-2001), over 200 articles on design, coding, and administration. The original site is defunct; [Grim Wheel](https://www.grimwheel.com/) preserves the archives and links to other backups.
+* [MUD-Dev](https://www.grimwheel.com/muddev/) — Mailing list for MUD developers and administrators (1996-2006). Discussed design, implementation, and community management. Archives preserved at [Grim Wheel](https://www.grimwheel.com/muddev/) with mirrors and searchable copies.
+
+***
+
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-13._

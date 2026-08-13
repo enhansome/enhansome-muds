@@ -1,0 +1,604 @@
+{
+  "items": [
+    {
+      "description": "List of clients you can use to connect to different MUDs, grouped by operating system. Includes a list of MUD protocols the client is compatible with (although it can be an incomplete list, help is welcome!)",
+      "items": [],
+      "title": "Clients"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Blightmud",
+          "description": "[Linux, MacOS], [, , , ]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-10T07:02:55Z",
+            "owner": "Blightmud",
+            "repo": "Blightmud",
+            "stars": 273
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TinyFugue Rebirth",
+          "description": "[Linux, MacOS, Windows], [, ]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-04-29T13:11:06Z",
+            "owner": "ingwarsw",
+            "repo": "tinyfugue",
+            "stars": 88
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Tortilla MUD client",
+          "description": "(completely in russian) [Windows XP and above, Linux and MacOS via Wine], [, , ]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2022-04-16T20:14:14Z",
+            "owner": "tmud",
+            "repo": "tortilla",
+            "stars": 26
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "KBTin",
+          "description": "(Tintin++ fork) [Linux, MacOS, BSD], [, ]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-05T19:16:00Z",
+            "owner": "kilobyte",
+            "repo": "kbtin",
+            "stars": 23
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Sip",
+          "description": "[Linux, MacOS, Windows], [, , , , ]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-02-19T00:43:03Z",
+            "owner": "bozimmerman",
+            "repo": "Sip",
+            "stars": 9
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MushTato",
+          "description": "[Linux, MacOS, Windows], [, , ] (also supports SSH connections to a real shell, and sandboxed Python scripting for triggers/aliases/macros)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-07T18:44:45Z",
+            "owner": "N0NJY",
+            "repo": "mushtato",
+            "stars": 1
+          }
+        }
+      ],
+      "title": "Multiplatform"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "WinTin",
+          "description": "(supports Tintin++ scripting language, unmaintained in its webpage, but Tintin++ releases has updated windows versions)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-06T19:54:02Z",
+            "owner": "scandum",
+            "repo": "tintin",
+            "stars": 256
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Avalon Mud Client",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C#",
+            "last_commit": "2026-06-05T17:44:47Z",
+            "owner": "blakepell",
+            "repo": "AvalonMudClient",
+            "stars": 38
+          }
+        }
+      ],
+      "title": "Windows"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Grapevine",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Elixir",
+            "last_commit": "2023-09-14T21:51:29Z",
+            "owner": "oestrich",
+            "repo": "grapevine",
+            "stars": 164
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MudPortal",
+          "description": "(web client and proxy server ws/telnet) [, , , , , ]",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-02T00:27:41Z",
+            "owner": "plamzi",
+            "repo": "MUDPortal-Web-App",
+            "stars": 45
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mud-web-client",
+          "description": "(fork from MudPortal, just the web client, updated to allow wss)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-07-29T19:52:12Z",
+            "owner": "maldorne",
+            "repo": "mud-web-client",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DecafMUD",
+          "description": "(very old, unmaintained)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "ActionScript",
+            "last_commit": "2012-09-26T23:56:39Z",
+            "owner": "stendec",
+            "repo": "DecafMUD",
+            "stars": 15
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Mudslinger (fork",
+          "description": ", fork) (original code seems to be gone, the links are forks) (web client and proxy server) []",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2017-10-16T01:03:21Z",
+            "owner": "ryanberckmans",
+            "repo": "mudslinger",
+            "stars": 4
+          }
+        }
+      ],
+      "title": "Web Clients"
+    },
+    {
+      "description": "Server apps that allow a web client to connect to a mud/telnet server:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "mud-web-proxy",
+          "description": "(fork from MudPortal, just the proxy server, updated to allow wss/telnet)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-10T23:31:32Z",
+            "owner": "maldorne",
+            "repo": "mud-web-proxy",
+            "stars": 14
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "websocket-to-tcp-tunnel",
+          "description": "(ChatTheatre proxy server, ws/telnet)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2023-04-19T11:43:36Z",
+            "owner": "ChatTheatre",
+            "repo": "websocket-to-tcp-tunnel",
+            "stars": 2
+          }
+        }
+      ],
+      "title": "Web Proxies"
+    },
+    {
+      "description": "Written by Stephen White in 1990, derived from TinyMUCK, with object oriented design. Pavel Curtis did substantial modifications to MOO code, creating LambdaMOO, which was hosted at Xerox PARC.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "ToastStunt",
+          "description": ", forked from stunt and being worked on.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-06-05T21:33:05Z",
+            "owner": "lisdude",
+            "repo": "toaststunt",
+            "stars": 94
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LambdaMOO Programming",
+          "description": "repository, collects and updates numerous MOO guides in one place, from the original server to ToastStunt.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2025-01-06T14:44:42Z",
+            "owner": "sevenecks",
+            "repo": "lambda-moo-programming",
+            "stars": 75
+          }
+        }
+      ],
+      "title": "MOO"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Drivers"
+    },
+    {
+      "description": "An LPMud is split in two layers: the driver above — an interpreter/VM written in a systems language (usually C or C++) — and the mudlib, the game framework written in LPC and executed by the driver. A single driver can host many different mudlibs, and historically mudlibs have been shared, forked, and cross-pollinated far more often than drivers. Understanding this split is key to reading LP-family history: when people say \"LPMud\", they can mean the driver, a specific mudlib, or the whole ecosystem.\nSome of the most influential mudlibs:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "LDMud's README",
+          "description": "describes it as \"the old LP 2.4.5 mudlib, slightly updated to run with LDMud 3.2.7 or newer\".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-02-15T16:10:28Z",
+            "owner": "ldmud",
+            "repo": "ldmud",
+            "stars": 157
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sirdude/gurbalib",
+          "description": "on GitHub: the repo opens \"Welcome to Sirdude's (aka Kent Mein) branch of the Gurbalib mudlib\". HEADER.txt at wotf.org records it was \"originally developed for DGD 1.1 by Fudge\"; Fudge's real name (Erlend Simonsen) is confirmed via his GitHub profile.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2024-06-12T20:02:55Z",
+            "owner": "sirdude",
+            "repo": "gurbalib",
+            "stars": 27
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dead Souls Mudlib",
+          "description": "on the MUD Wiki; the repo is signed \"-Cratylus @ Dead Souls\" and states the lib \"is based on that old warhorse\", recalling that \"Descartes @ Nightmare chose to retire his Nightmare mudlib from distribution\".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2018-10-18T23:51:49Z",
+            "owner": "quixadhal",
+            "repo": "deadsouls",
+            "stars": 20
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Lima mudlib project site at limamudlib.dev",
+          "description": "; maintained repo at limalib/lima; the earlier fluffos/lima was archived read-only in October 2024. The lib's credits John Viega, Greg Stein and Tim Hollebeek as authors and lists Zakk Girouard among the Lima Bean admins.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2025-10-27T17:41:53Z",
+            "owner": "limalib",
+            "repo": "lima",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dworkin/phantasmal",
+          "description": "on GitHub; author confirmed in Noah Gibbs' Self Conscious DGD. The AGPLv3 text lives in (added via a 2008 contributor addendum); there is no SPDX-detected top-level license file.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "C",
+            "last_commit": "2020-08-23T12:30:57Z",
+            "owner": "dworkin",
+            "repo": "phantasmal",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Genesis LPMud",
+          "description": "on Wikipedia; genesismud/mudlib repo describes itself as \"the mudlib upon which Genesis and a few other muds runs\".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2023-12-28T19:48:05Z",
+            "owner": "genesismud",
+            "repo": "mudlib",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Preserved FR:Release mudlib source at quixadhal/fr",
+          "description": "and maldorne/frmudlib. The source is pervaded by Discworld ports — e.g. is annotated \"This is a pure ripoff from DiscWorld\". One borrowed networking package, (signed \"Hamlet@WWC, 23 Aug 1996\", headed \"The Intermud3 package, Discworld-style variant.\"), traces its own path: \"This package was born on Nightmare mud and was originally written by Descartes (as far as I know). After that, it took a trip to Discworld, where Turrican made some modifications. Thereafter, it went to Final Realms where perhaps a couple tweaks were done.\" Discworld's mudlib release date is from Lauren Burka's MUDline chronology (1995): \"March 1993. The Discworld Mudlib for MudOS is released, making the second widely available mudlib for MudOS\", and matches the official Discworld mudlib page.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2018-02-13T12:32:23Z",
+            "owner": "quixadhal",
+            "repo": "fr",
+            "stars": 3
+          }
+        }
+      ],
+      "title": "Mudlibs"
+    },
+    {
+      "description": "Inspired by AberMUD and LPMud, created in 1990/91 at DIKU (Datalogisk Institut Københavns Universitet —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "DikuMUD III source code",
+          "description": ", using HTML, websockets and Discord integration, being worked on, LGPL license.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-11T12:17:58Z",
+            "owner": "Seifert69",
+            "repo": "DikuMUD3",
+            "stars": 226
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DikuMUD gamma source code",
+          "description": "(the original release), DikuMUD alpha source code (newer than gamma), and DikuMUD2 source code, all with LGPL license.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2020-12-07T16:03:47Z",
+            "owner": "Seifert69",
+            "repo": "DikuMUD-Gamma",
+            "stars": 16
+          }
+        }
+      ],
+      "title": "DikuMUD"
+    },
+    {
+      "description": "DikuMUD spawned a large family of derivatives, mostly through two main branches: CircleMUD (clean rewrite for portability) and Merc (aggressive refactor that became the ancestor of ROM, SMAUG, and many others). The DikuMUD Omnibus archives hundreds of related projects.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "tbamud/tbamud",
+          "description": "repo README.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-05-13T23:50:08Z",
+            "owner": "tbamud",
+            "repo": "tbamud",
+            "stars": 150
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EmpireMUD/EmpireMUD-2.0-Beta",
+          "description": "repo README.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-12T19:53:48Z",
+            "owner": "EmpireMUD",
+            "repo": "EmpireMUD-2.0-Beta",
+            "stars": 101
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "luciensadi/AwakeMUD",
+          "description": "repo README.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-07-26T13:10:05Z",
+            "owner": "luciensadi",
+            "repo": "AwakeMUD",
+            "stars": 77
+          }
+        }
+      ],
+      "title": "Derivatives"
+    },
+    {
+      "description": "Some information about some modern drivers/game engines/codebases created long time after the original MU* games.",
+      "items": [],
+      "title": "Modern drivers"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Old games and drivers reconstructed with the help of AI"
+    },
+    {
+      "description": "A selection of historically significant MUDs that are still running or were active in 2025-2026, grouped by codebase family.",
+      "items": [],
+      "title": "Notable running MUDs"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Generic protocols for remote connections"
+    },
+    {
+      "description": "Negotiate About Window Size. Sends the mud client's window size to the server. RFC 1073.",
+      "items": [],
+      "title": "NAWS"
+    },
+    {
+      "description": "Terminal Type. Telnet option that lets clients advertise their terminal type to the server. Used by MUDs for client identification and feature negotiation; MTTS extends TTYPE to carry a bitfield of MUD-specific client capabilities. RFC 1091.",
+      "items": [],
+      "title": "TTYPE"
+    },
+    {
+      "description": "Telnet option for negotiating the character encoding (latin1, UTF-8, etc.) used over a connection. Increasingly relevant as modern clients move from latin1 to UTF-8. RFC 2066.",
+      "items": [],
+      "title": "CHARSET"
+    },
+    {
+      "description": "End of Record and Go Ahead. Telnet markers used to signal the end of a prompt line so clients can distinguish prompts from ongoing output. Historically MUDs relied on GA, but many now suppress it (SGA, RFC 858) and send EOR (RFC 885) instead. Most modern MUD clients support both.",
+      "items": [],
+      "title": "EOR / GA"
+    },
+    {
+      "description": "The following MUD-specific protocols are implemented as telnet options, building on the base TELNET RFCs listed above.",
+      "items": [],
+      "title": "Specific protocols for MUDs"
+    },
+    {
+      "description": "Game Scry Game Protocol. GSGP is a standardized JSON structure which you can make available for GameScry or other sites to ping for real-time data about a game, its active players, leaderboards, etc. See also MSSP.",
+      "items": [],
+      "title": "GSGP"
+    },
+    {
+      "description": "Achaea Telnet Client Protocol. Using TELNET code 200, was implemented by cMUD in 2008. In 2010 evolved to ATCP2 using TELNET code 201. Was later renamed to GMCP. Achaea, Aardwolf, MUME, Avatar, Gensis, and MUSHclient provide package definitions modeled after the ATCP2 draft.",
+      "items": [],
+      "title": "ATCP"
+    },
+    {
+      "description": "Family of protocols for cross-MUD communication: shared chat channels, player-to-player messages, who lists, and mail between different MUDs. Several incompatible variants exist, each tied historically to a different MUD family.",
+      "items": [],
+      "title": "Intermud"
+    },
+    {
+      "description": "Most classic MUD codebases were released under custom, non-commercial licenses written before standardized open source licenses existed. These bespoke licenses generally share two core requirements — mandatory attribution and a prohibition on making money — but each family added its own layer of restrictions, creating a chain of obligations that derivative codebases must honor. In recent years, some original authors have re-licensed under standard open source terms, and newer codebases tend to use recognized licenses from the start.",
+      "items": [],
+      "title": "Licenses"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "MudOS / FluffOS Copyright (1991) — MudOS inherited Lars Pensjö's LPMud non-commercial copyright and layered its own notices on top (1991–1992 contributors; the entire package copyright 1995 by Tim Hollebeek). FluffOS",
+          "description": ", forked from MudOS, carries the same chain unchanged: its file restates that the source \"may not be used in any way whatsoever for monetary gain\" and that the LPMud and MudOS copyright restrictions still apply. Despite FluffOS being actively maintained, this remains a custom non-commercial license, not a recognized open source one.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C++",
+            "last_commit": "2026-08-13T00:02:05Z",
+            "owner": "fluffos",
+            "repo": "fluffos",
+            "stars": 452
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Merc License (1991) — Built on top of DikuMUD's license. Requires compliance with the Diku license and preservation of copyright notices. Notably relaxed: the Merc authors do not require their names in the login sequence. License text",
+          "description": ".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2009-07-22T20:57:58Z",
+            "owner": "alexmchale",
+            "repo": "merc-mud",
+            "stars": 36
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ROM License (~1993) — Adds to both Diku and Merc licenses. Requires a ROM credit in the login message, an unaltered entry, email notification to the author (Russ Taylor) before opening a ROM-based MUD, and reserves exclusive use of the name \"Rivers of Mud\". License text",
+          "description": ".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2021-11-12T08:17:07Z",
+            "owner": "rszrama",
+            "repo": "szramarom",
+            "stars": 8
+          }
+        }
+      ],
+      "title": "Classic MUD licenses"
+    },
+    {
+      "description": "Several modern or rewritten codebases use recognized open source licenses: Evennia (BSD 3-Clause), CoffeeMUD (Apache 2.0), DGD (AGPL v3 since 2010), DikuMUD gamma/alpha/II (LGPL since 2020), and DikuMUD III (LGPL). Dead Souls has a split licensing model: the full version (DS 2.x/3.x) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate Dead Souls II release strips the documentation and places the code in the public domain for unrestricted forking — see the DS II FAQ for details.",
+      "items": [],
+      "title": "Modern codebases with standard licenses"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Community"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Papers and reading list"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T04:25:55.436Z",
+    "original_repository": "maldorne/awesome-muds",
+    "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
+    "enhanced_repository": "enhansome/enhansome-muds",
+    "enhanced_repository_description": null,
+    "title": "Awesome MUDs with stars"
+  }
+}
