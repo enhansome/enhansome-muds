@@ -441,7 +441,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-14T19:43:39Z",
+            "last_commit": "2026-08-16T14:37:17Z",
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
             "stars": 101
@@ -594,7 +594,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T14:43:08.566Z",
+    "last_updated": "2026-08-16T14:43:40.227Z",
     "original_repository": "maldorne/awesome-muds",
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
     "enhanced_repository": "enhansome/enhansome-muds",
