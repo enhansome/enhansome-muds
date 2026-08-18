@@ -106,7 +106,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-06T19:54:02Z",
+            "last_commit": "2026-08-16T18:15:43Z",
             "owner": "scandum",
             "repo": "tintin",
             "stars": 256
@@ -441,7 +441,7 @@
           "repo_info": {
             "archived": false,
             "language": "C",
-            "last_commit": "2026-08-16T14:37:17Z",
+            "last_commit": "2026-08-16T15:55:11Z",
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
             "stars": 101
@@ -540,7 +540,7 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-15T07:23:47Z",
+            "last_commit": "2026-08-18T11:12:01Z",
             "owner": "fluffos",
             "repo": "fluffos",
             "stars": 452
@@ -594,7 +594,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-16T14:43:40.227Z",
+    "last_updated": "2026-08-18T14:57:06.812Z",
     "original_repository": "maldorne/awesome-muds",
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
     "enhanced_repository": "enhansome/enhansome-muds",
