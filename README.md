@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 497,260 | 🐛 102 | 📅 2026-08-18 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 497,666 | 🐛 102 | 📅 2026-08-18 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -43,7 +43,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Windows
 
-* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 256 | 🐛 10 | 🌐 C | 📅 2026-08-16 has updated windows versions)
+* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 256 | 🐛 10 | 🌐 C | 📅 2026-08-19 has updated windows versions)
 * [Avalon Mud Client](https://github.com/blakepell/AvalonMudClient) ⭐ 38 | 🐛 0 | 🌐 C# | 📅 2026-06-05
 * [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) \[`MXP`, `MSP`, `MCP`, `MCCP`, `ATCP`]
 * [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4\&action=file\&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) \[`MXP`, `MCP`, `MCCP`]
@@ -179,9 +179,9 @@ Another group of people started working from the LPMud v3.0 in 1992, and renamed
 
 ##### FluffOS
 
-In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as [FluffOS](http://fluffos.info/). [Still maintained](https://github.com/fluffos/fluffos) ⭐ 452 | 🐛 21 | 🌐 C++ | 📅 2026-08-18. It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is [Yucong Sun](https://github.com/thefallentree), and major versions has been released with the names FluffOS 2017, 2019 and 2023.
+In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as [FluffOS](http://fluffos.info/). [Still maintained](https://github.com/fluffos/fluffos) ⭐ 452 | 🐛 22 | 🌐 C++ | 📅 2026-08-19. It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is [Yucong Sun](https://github.com/thefallentree), and major versions has been released with the names FluffOS 2017, 2019 and 2023.
 
-* [Official code repository](https://github.com/fluffos/fluffos) ⭐ 452 | 🐛 21 | 🌐 C++ | 📅 2026-08-18.
+* [Official code repository](https://github.com/fluffos/fluffos) ⭐ 452 | 🐛 22 | 🌐 C++ | 📅 2026-08-19.
 
 ##### LDMud
 
@@ -195,9 +195,9 @@ Lars Düning continued the development of the LPMud driver renaming it to [LDMud
 
 ##### DGD
 
-Felix 'Dworkin' Croes developed in 1993 [DGD](http://www.dworkin.nl/dgd/) (Dworkin Game/Generic Driver), not derived from LPMud (so not using the same license) but compatible with LPC language. [Still maintained](https://github.com/dworkin/dgd) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2026-08-11, and open source since v1.4 (2010).
+Felix 'Dworkin' Croes developed in 1993 [DGD](http://www.dworkin.nl/dgd/) (Dworkin Game/Generic Driver), not derived from LPMud (so not using the same license) but compatible with LPC language. [Still maintained](https://github.com/dworkin/dgd) ⭐ 110 | 🐛 4 | 🌐 C++ | 📅 2026-08-11, and open source since v1.4 (2010).
 
-* [Official code repository](https://github.com/dworkin/dgd) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2026-08-11.
+* [Official code repository](https://github.com/dworkin/dgd) ⭐ 110 | 🐛 4 | 🌐 C++ | 📅 2026-08-11.
 * [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/), book about LPC for DGD written by [Noah Gibbs](https://codefol.io/).
 
 #### Mudlibs
@@ -295,7 +295,7 @@ Created by [Greg Taylor](https://gc-taylor.com/) in 2006, [Samuel "Griatch" Rega
 
 Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java. Supports any JDBC/ODBC database, includes built-in web server. Apache License.
 
-* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 232 | 🐛 2 | 🌐 Java | 📅 2026-08-18.
+* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 232 | 🐛 2 | 🌐 Java | 📅 2026-08-19.
 
 ### Old games and drivers reconstructed with the help of AI
 
@@ -303,7 +303,7 @@ Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java
 
 Originally created by [Jon Radoff](https://en.wikipedia.org/wiki/Jon_Radoff) in 1992, one of the earliest commercial MUDs. Ran on CompuServe and the early internet until 1999. Won Computer Gaming World's 1993 Special Award for Artistic Excellence. The original engine source code was lost, but the game was reconstructed in 2026 from its original script files using AI (Claude Code). Go backend, React frontend, WebSocket multiplayer. MIT License.
 
-* [Web](https://lofp.metavert.io), [Github project](https://github.com/jonradoff/lofp) ⭐ 180 | 🐛 30 | 🌐 HTML | 📅 2026-05-17, [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
+* [Web](https://lofp.metavert.io), [Github project](https://github.com/jonradoff/lofp) ⭐ 180 | 🐛 32 | 🌐 HTML | 📅 2026-05-17, [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
 
 ## Notable running MUDs
 
@@ -608,7 +608,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Classic MUD licenses
 
-* **MudOS / FluffOS Copyright** (1991) — MudOS inherited Lars Pensjö's LPMud non-commercial copyright and layered its own notices on top (1991–1992 contributors; the entire package copyright 1995 by Tim Hollebeek). [FluffOS](#fluffos), forked from MudOS, carries the same chain unchanged: its [`Copyright` file](https://github.com/fluffos/fluffos/blob/master/Copyright) ⭐ 452 | 🐛 21 | 🌐 C++ | 📅 2026-08-18 restates that the source "may not be used in any way whatsoever for monetary gain" and that the LPMud and MudOS copyright restrictions still apply. Despite FluffOS being actively maintained, this remains a custom non-commercial license, not a recognized open source one.
+* **MudOS / FluffOS Copyright** (1991) — MudOS inherited Lars Pensjö's LPMud non-commercial copyright and layered its own notices on top (1991–1992 contributors; the entire package copyright 1995 by Tim Hollebeek). [FluffOS](#fluffos), forked from MudOS, carries the same chain unchanged: its [`Copyright` file](https://github.com/fluffos/fluffos/blob/master/Copyright) ⭐ 452 | 🐛 22 | 🌐 C++ | 📅 2026-08-19 restates that the source "may not be used in any way whatsoever for monetary gain" and that the LPMud and MudOS copyright restrictions still apply. Despite FluffOS being actively maintained, this remains a custom non-commercial license, not a recognized open source one.
 * **Merc License** (1991) — Built on top of DikuMUD's license. Requires compliance with the Diku license and preservation of copyright notices. Notably relaxed: the Merc authors do *not* require their names in the login sequence. [License text](https://github.com/alexmchale/merc-mud/blob/master/doc/license.txt) ⭐ 36 | 🐛 0 | 🌐 C | 📅 2009-07-22.
 * **ROM License** (\~1993) — Adds to both Diku and Merc licenses. Requires a ROM credit in the login message, an unaltered `help rom` entry, email notification to the author (Russ Taylor) before opening a ROM-based MUD, and reserves exclusive use of the name "Rivers of Mud". [License text](https://github.com/rszrama/szramarom/blob/master/doc/rom.license) ⭐ 8 | 🐛 0 | 🌐 C | 📅 2021-11-12.
 * **DikuMUD License** (1990) — Requires creator names in the login sequence and `credits` command; prohibits any commercial use or charging for distribution; requires notifying the original authors before running a DikuMUD. As of February 2020, the original authors also made DikuMUD available under the LGPL, though derivative codebases are not automatically re-licensed. [Original license text](https://dikumud.com/dikumud-license/).
@@ -617,7 +617,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Modern codebases with standard licenses
 
-Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,087 | 🐛 127 | 🌐 Python | 📅 2026-08-17 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 232 | 🐛 2 | 🌐 Java | 📅 2026-08-18 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2026-08-11 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 226 | 🐛 38 | 🌐 C++ | 📅 2026-08-11 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 20 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,087 | 🐛 127 | 🌐 Python | 📅 2026-08-17 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 232 | 🐛 2 | 🌐 Java | 📅 2026-08-19 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 110 | 🐛 4 | 🌐 C++ | 📅 2026-08-11 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 226 | 🐛 38 | 🌐 C++ | 📅 2026-08-11 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 20 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
 
 ## People
 
@@ -698,4 +698,4 @@ This section includes some of the people already mentioned in the previous secti
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-18._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-19._
