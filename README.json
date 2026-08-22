@@ -111,7 +111,7 @@
                 "archived": false,
                 "id": 208434191,
                 "language": "C",
-                "last_commit": "2026-08-20T03:56:20Z",
+                "last_commit": "2026-08-21T21:38:31Z",
                 "owner": "scandum",
                 "repo": "tintin",
                 "stars": 257
@@ -275,7 +275,7 @@
                     "archived": false,
                     "id": 164562435,
                     "language": "C++",
-                    "last_commit": "2026-08-20T22:58:28Z",
+                    "last_commit": "2026-08-21T20:14:29Z",
                     "owner": "lisdude",
                     "repo": "toaststunt",
                     "stars": 94
@@ -531,7 +531,7 @@
                 "archived": false,
                 "id": 8451252,
                 "language": "C++",
-                "last_commit": "2026-08-21T14:04:22Z",
+                "last_commit": "2026-08-22T01:11:37Z",
                 "owner": "fluffos",
                 "repo": "fluffos",
                 "stars": 452
@@ -577,7 +577,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-21T14:58:05.048Z",
+    "last_updated": "2026-08-22T14:43:18.320Z",
     "original_repository": "maldorne/awesome-muds",
     "original_repository_id": 601221313,
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
