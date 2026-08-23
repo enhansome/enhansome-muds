@@ -111,7 +111,7 @@
                 "archived": false,
                 "id": 208434191,
                 "language": "C",
-                "last_commit": "2026-08-21T21:38:31Z",
+                "last_commit": "2026-08-23T13:33:44Z",
                 "owner": "scandum",
                 "repo": "tintin",
                 "stars": 257
@@ -126,7 +126,7 @@
                 "archived": false,
                 "id": 231809334,
                 "language": "C#",
-                "last_commit": "2026-06-05T17:44:47Z",
+                "last_commit": "2026-08-22T17:02:18Z",
                 "owner": "blakepell",
                 "repo": "AvalonMudClient",
                 "stars": 38
@@ -577,7 +577,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T14:43:18.320Z",
+    "last_updated": "2026-08-23T14:44:50.218Z",
     "original_repository": "maldorne/awesome-muds",
     "original_repository_id": 601221313,
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
