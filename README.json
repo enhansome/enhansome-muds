@@ -111,7 +111,7 @@
                 "archived": false,
                 "id": 208434191,
                 "language": "C",
-                "last_commit": "2026-08-23T13:33:44Z",
+                "last_commit": "2026-08-24T07:33:04Z",
                 "owner": "scandum",
                 "repo": "tintin",
                 "stars": 257
@@ -136,6 +136,28 @@
           "description": null,
           "node_type": "group",
           "title": "Windows"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "MUDRammer",
+              "description": "[iOS]",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 24035354,
+                "language": "Objective-C",
+                "last_commit": "2025-03-25T15:05:18Z",
+                "owner": "splinesoft",
+                "repo": "MUDRammer",
+                "stars": 86
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Mobile"
         },
         {
           "children": [
@@ -265,6 +287,50 @@
         {
           "children": [
             {
+              "node_type": "item",
+              "title": "Original MUD1 source code",
+              "description": "for the DEC PDP-10 mainframe.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 78926240,
+                "language": null,
+                "last_commit": "2024-10-28T09:42:59Z",
+                "owner": "PDP-10",
+                "repo": "MUD1",
+                "stars": 75
+              }
+            }
+          ],
+          "description": "MUDs evolved from the original game (created in 1978 in the University of Essex by Roy Trubshaw and Richard Bartle), in families of related games, mainly based in the technologies used to implement them.",
+          "node_type": "group",
+          "title": "MUD1"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Fuzzball MUCK server",
+                  "description": "source code.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 36502953,
+                    "language": "C",
+                    "last_commit": "2026-08-06T04:38:12Z",
+                    "owner": "fuzzball-muck",
+                    "repo": "fuzzball",
+                    "stars": 56
+                  }
+                }
+              ],
+              "description": "Written by Stephen White in 1990. Later that year, he released MOO.",
+              "node_type": "group",
+              "title": "TinyMUCK"
+            },
+            {
               "children": [
                 {
                   "node_type": "item",
@@ -311,9 +377,126 @@
             {
               "children": [
                 {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "Code repository",
+                      "description": "(fork).",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 593315291,
+                        "language": null,
+                        "last_commit": "2026-05-05T17:15:51Z",
+                        "owner": "maldorne",
+                        "repo": "mudos",
+                        "stars": 2
+                      }
+                    }
+                  ],
+                  "description": "Another group of people started working from the LPMud v3.0 in 1992, and renamed it to MudOS, which will have several versions until 2003. (its original webpage, mudos.org, is defunct, but you can find some of the last versions in the maldorne repository and use them with Docker). It could use sockets at mudlib level (with LPC code), which allowed to create a TCP intermud network. This protocol evolved until Intermud 3.",
+                  "node_type": "group",
+                  "title": "MudOS"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "Official code repository",
+                      "description": ".",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 8451252,
+                        "language": "C++",
+                        "last_commit": "2026-08-22T01:11:37Z",
+                        "owner": "fluffos",
+                        "repo": "fluffos",
+                        "stars": 452
+                      }
+                    }
+                  ],
+                  "description": "In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as FluffOS. Still maintained. It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is Yucong Sun, and major versions has been released with the names FluffOS 2017, 2019 and 2023.",
+                  "node_type": "group",
+                  "title": "FluffOS"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "Official code repository",
+                      "description": ".",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 1085012,
+                        "language": "C",
+                        "last_commit": "2026-02-15T16:10:28Z",
+                        "owner": "ldmud",
+                        "repo": "ldmud",
+                        "stars": 157
+                      }
+                    }
+                  ],
+                  "description": "Lars Düning continued the development of the LPMud driver renaming it to LDMud (but keeping the Amylaar version numbers, so starting with 3.2.2). LDMud is still being maintained.",
+                  "node_type": "group",
+                  "title": "LDMud"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "Code repository",
+                      "description": ".",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 120736,
+                        "language": "C",
+                        "last_commit": "2025-02-11T12:13:02Z",
+                        "owner": "cotillion",
+                        "repo": "cd-gamedriver",
+                        "stars": 32
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "CD MUD"
+                },
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "Official code repository",
+                      "description": ".",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 4838449,
+                        "language": "C++",
+                        "last_commit": "2026-08-21T16:29:28Z",
+                        "owner": "dworkin",
+                        "repo": "dgd",
+                        "stars": 110
+                      }
+                    }
+                  ],
+                  "description": "Felix 'Dworkin' Croes developed in 1993 DGD (Dworkin Game/Generic Driver), not derived from LPMud (so not using the same license) but compatible with LPC language. Still maintained, and open source since v1.4 (2010).",
+                  "node_type": "group",
+                  "title": "DGD"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Drivers"
+            },
+            {
+              "children": [
+                {
                   "node_type": "item",
-                  "title": "LDMud's README",
-                  "description": "describes it as \"the old LP 2.4.5 mudlib, slightly updated to run with LDMud 3.2.7 or newer\".",
+                  "title": "2.4.5",
+                  "description": "The original mudlib distributed with Lars Pensjö's LPMud driver. Minimal by modern standards, but the direct ancestor of most other LP mudlibs [1]. lp-245 in the LDMud repo (lightly updated to run on modern LDMud)",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -327,38 +510,8 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "sirdude/gurbalib",
-                  "description": "on GitHub: the repo opens \"Welcome to Sirdude's (aka Kent Mein) branch of the Gurbalib mudlib\". HEADER.txt at wotf.org records it was \"originally developed for DGD 1.1 by Fudge\"; Fudge's real name (Erlend Simonsen) is confirmed via his GitHub profile.",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "id": 3146451,
-                    "language": "C",
-                    "last_commit": "2024-06-12T20:02:55Z",
-                    "owner": "sirdude",
-                    "repo": "gurbalib",
-                    "stars": 27
-                  }
-                },
-                {
-                  "node_type": "item",
-                  "title": "Dead Souls Mudlib",
-                  "description": "on the MUD Wiki; the repo is signed \"-Cratylus @ Dead Souls\" and states the lib \"is based on that old warhorse\", recalling that \"Descartes @ Nightmare chose to retire his Nightmare mudlib from distribution\".",
-                  "children": [],
-                  "repo_info": {
-                    "archived": false,
-                    "id": 3691623,
-                    "language": "C",
-                    "last_commit": "2018-10-18T23:51:49Z",
-                    "owner": "quixadhal",
-                    "repo": "deadsouls",
-                    "stars": 20
-                  }
-                },
-                {
-                  "node_type": "item",
-                  "title": "Lima mudlib project site at limamudlib.dev",
-                  "description": "; maintained repo at limalib/lima; the earlier fluffos/lima was archived read-only in October 2024. The lib's credits John Viega, Greg Stein and Tim Hollebeek as authors and lists Zakk Girouard among the Lima Bean admins.",
+                  "title": "Lima",
+                  "description": "Independent ground-up design centred on a new centralized command parser and object model. The lib's own README credits John Viega, Greg Stein and Tim Hollebeek as authors (Zakk Girouard was part of the original Lima Bean team). Still maintained for FluffOS [3]. limalib/lima (the older fork was archived in 2024)",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -372,23 +525,23 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "dworkin/phantasmal",
-                  "description": "on GitHub; author confirmed in Noah Gibbs' Self Conscious DGD. The AGPLv3 text lives in (added via a 2008 contributor addendum); there is no SPDX-detected top-level license file.",
+                  "title": "Dead Souls",
+                  "description": "General-purpose mudlib originally released by Descartes of Borg (George Reese) as a development playground on top of Nightmare, later revived and maintained by Cratylus. Frequently used as a ready-to-run starting point on FluffOS [4]. quixadhal/deadsouls",
                   "children": [],
                   "repo_info": {
-                    "archived": true,
-                    "id": 1443279,
+                    "archived": false,
+                    "id": 3691623,
                     "language": "C",
-                    "last_commit": "2020-08-23T12:30:57Z",
-                    "owner": "dworkin",
-                    "repo": "phantasmal",
-                    "stars": 8
+                    "last_commit": "2018-10-18T23:51:49Z",
+                    "owner": "quixadhal",
+                    "repo": "deadsouls",
+                    "stars": 20
                   }
                 },
                 {
                   "node_type": "item",
-                  "title": "Genesis LPMud",
-                  "description": "on Wikipedia; genesismud/mudlib repo describes itself as \"the mudlib upon which Genesis and a few other muds runs\".",
+                  "title": "CDlib",
+                  "description": "In-house mudlib of Genesis LPMud — the oldest continuously-running LPMud, started by Lars Pensjö in 1989. Paired with the matching CD gamedriver; has been reused by a handful of other LP MUDs beyond Genesis itself [5]. genesismud/mudlib",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -402,8 +555,23 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "Preserved FR:Release mudlib source at quixadhal/fr",
-                  "description": "and maldorne/frmudlib. The source is pervaded by Discworld ports — e.g. is annotated \"This is a pure ripoff from DiscWorld\". One borrowed networking package, (signed \"Hamlet@WWC, 23 Aug 1996\", headed \"The Intermud3 package, Discworld-style variant.\"), traces its own path: \"This package was born on Nightmare mud and was originally written by Descartes (as far as I know). After that, it took a trip to Discworld, where Turrican made some modifications. Thereafter, it went to Final Realms where perhaps a couple tweaks were done.\" Discworld's mudlib release date is from Lauren Burka's MUDline chronology (1995): \"March 1993. The Discworld Mudlib for MudOS is released, making the second widely available mudlib for MudOS\", and matches the official Discworld mudlib page.",
+                  "title": "Discworld",
+                  "description": "Mudlib powering Discworld MUD, founded in 1991 by David 'Pinkfish' Bennett. One of the largest and most mature LP mudlibs in active use. FluffOS was forked from MudOS to keep this mudlib running after MudOS development stalled. The live Discworld code is not public — only a periodically-released cut-down distribution mudlib [6]. See also: project history, mudlib info, community wiki. Snapshot at Yuffster/discworld_distribution_mudlib",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 4460396,
+                    "language": "C",
+                    "last_commit": "2012-05-27T07:02:50Z",
+                    "owner": "Yuffster",
+                    "repo": "discworld_distribution_mudlib",
+                    "stars": 6
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Final Realms",
+                  "description": "FR-MUD (1991/1992). Opened before any Discworld mudlib was released publicly (March 1993), so it was not a Discworld fork at launch; the preserved late-1990s source nonetheless borrows heavily from Discworld — ports and explicit \"ripoff from DiscWorld\" attributions throughout [9]. quixadhal/fr, maldorne/frmudlib v3.5",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -413,6 +581,36 @@
                     "owner": "quixadhal",
                     "repo": "fr",
                     "stars": 3
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Phantasmal",
+                  "description": "The most complete publicly available mudlib for DGD, created by Noah Gibbs (author of Self Conscious DGD). Features full persistence, OLC, and a help system. AGPL license [10]. dworkin/phantasmal",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 1443279,
+                    "language": "C",
+                    "last_commit": "2020-08-23T12:30:57Z",
+                    "owner": "dworkin",
+                    "repo": "phantasmal",
+                    "stars": 8
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Gurbalib",
+                  "description": "Lightweight DGD mudlib originally created by Fudge (Erlend Simonsen), currently maintained by Sirdude (Kent Mein). Relatively complete game feature set for a DGD lib [11]. sirdude/gurbalib",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 3146451,
+                    "language": "C",
+                    "last_commit": "2024-06-12T20:02:55Z",
+                    "owner": "sirdude",
+                    "repo": "gurbalib",
+                    "stars": 27
                   }
                 }
               ],
@@ -461,8 +659,8 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "tbamud/tbamud",
-                  "description": "repo README.",
+                  "title": "tbaMUD",
+                  "description": "→ CircleMUD → tbaMUD Community continuation of CircleMUD. Modernized with OLC, ASCII maps, and ongoing development [2]. Active. tbamud/tbamud",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -476,14 +674,29 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "EmpireMUD/EmpireMUD-2.0-Beta",
-                  "description": "repo README.",
+                  "title": "AwakeMUD",
+                  "description": "→ CircleMUD → AwakeMUD Shadowrun 3rd Edition themed derivative [3]. Active. luciensadi/AwakeMUD, web",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 91841886,
+                    "language": "C++",
+                    "last_commit": "2026-08-23T16:44:39Z",
+                    "owner": "luciensadi",
+                    "repo": "AwakeMUD",
+                    "stars": 77
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "EmpireMUD",
+                  "description": "→ CircleMUD → EmpireMUD Persistent world map with territory control mechanics [4]. Active. EmpireMUD/EmpireMUD-2.0-Beta",
                   "children": [],
                   "repo_info": {
                     "archived": false,
                     "id": 34863478,
                     "language": "C",
-                    "last_commit": "2026-08-19T13:30:30Z",
+                    "last_commit": "2026-08-24T13:40:29Z",
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
                     "stars": 101
@@ -491,17 +704,47 @@
                 },
                 {
                   "node_type": "item",
-                  "title": "luciensadi/AwakeMUD",
-                  "description": "repo README.",
+                  "title": "ROM",
+                  "description": "→ Merc → ROM Rivers of Mud, by Russ Taylor (1993). Added a skills/spells system and an improved world format [6]. Hugely influential; spawned countless downstream MUDs. Abandoned (last release 2.4b6, 1998). avinson/rom24-quickmud (QuickMUD, cleaned-up ROM 2.4b6)",
                   "children": [],
                   "repo_info": {
                     "archived": false,
-                    "id": 91841886,
-                    "language": "C++",
-                    "last_commit": "2026-07-26T13:10:05Z",
-                    "owner": "luciensadi",
-                    "repo": "AwakeMUD",
-                    "stars": 77
+                    "id": 22094209,
+                    "language": "C",
+                    "last_commit": "2018-05-18T20:48:04Z",
+                    "owner": "avinson",
+                    "repo": "rom24-quickmud",
+                    "stars": 65
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "SMAUG",
+                  "description": "→ Merc → SMAUG By Thoric/Derek Snider (1994-96), originally developed for Realms of Despair [8]. Feature-rich with extensive OLC, IMC2 intermud, clan/council systems. Original abandoned, but two active forks: SmaugFUSS and AFKMud (C++ rewrite). Arthmoor/SmaugFUSS, Arthmoor/AFKMud",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 25959201,
+                    "language": "C",
+                    "last_commit": "2026-07-17T23:10:22Z",
+                    "owner": "Arthmoor",
+                    "repo": "SmaugFUSS",
+                    "stars": 29
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "SWR",
+                  "description": "→ Merc → SMAUG → SWR Star Wars Reality. SMAUG derivative for Star Wars themed MUDs [9]. Abandoned. Archived at Xavious/swrfuss",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 109401811,
+                    "language": "C",
+                    "last_commit": "2018-02-25T16:57:24Z",
+                    "owner": "Xavious",
+                    "repo": "swrfuss",
+                    "stars": 12
                   }
                 }
               ],
@@ -513,9 +756,315 @@
           "description": "Inspired by AberMUD and LPMud, created in 1990/91 at DIKU (Datalogisk Institut Københavns Universitet —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.",
           "node_type": "group",
           "title": "DikuMUD"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Web",
+                  "description": ", Github project, discussion forum, Discord server.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 16120959,
+                    "language": "Python",
+                    "last_commit": "2026-08-19T21:26:14Z",
+                    "owner": "evennia",
+                    "repo": "evennia",
+                    "stars": 2090
+                  }
+                }
+              ],
+              "description": "Created by Greg Taylor in 2006, Samuel \"Griatch\" Regandell took over the project in 2011. Modern library for creating online multiplayer text games in pure Python. Coding is done using normal Python modules imported into the server at runtime. BSD license.",
+              "node_type": "group",
+              "title": "Evennia"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Web",
+                  "description": ", Github project.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 5267832,
+                    "language": "Java",
+                    "last_commit": "2026-08-24T07:03:08Z",
+                    "owner": "bozimmerman",
+                    "repo": "CoffeeMud",
+                    "stars": 233
+                  }
+                }
+              ],
+              "description": "Created by Bo Zimmerman in 2000, created 100% in Java. Supports any JDBC/ODBC database, includes built-in web server. Apache License.",
+              "node_type": "group",
+              "title": "CoffeeMud"
+            }
+          ],
+          "description": "Some information about some modern drivers/game engines/codebases created long time after the original MU* games.",
+          "node_type": "group",
+          "title": "Modern drivers"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Web",
+                  "description": ", Github project, Wikipedia.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1200366737,
+                    "language": "HTML",
+                    "last_commit": "2026-05-17T20:07:29Z",
+                    "owner": "jonradoff",
+                    "repo": "lofp",
+                    "stars": 180
+                  }
+                }
+              ],
+              "description": "Originally created by Jon Radoff in 1992, one of the earliest commercial MUDs. Ran on CompuServe and the early internet until 1999. Won Computer Gaming World's 1993 Special Award for Artistic Excellence. The original engine source code was lost, but the game was reconstructed in 2026 from its original script files using AI (Claude Code). Go backend, React frontend, WebSocket multiplayer. MIT License.",
+              "node_type": "group",
+              "title": "Legends of Future Past"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Old games and drivers reconstructed with the help of AI"
         }
       ],
       "title": "Codebases and drivers"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "LDMud's README",
+          "description": "describes it as \"the old LP 2.4.5 mudlib, slightly updated to run with LDMud 3.2.7 or newer\".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1085012,
+            "language": "C",
+            "last_commit": "2026-02-15T16:10:28Z",
+            "owner": "ldmud",
+            "repo": "ldmud",
+            "stars": 157
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sirdude/gurbalib",
+          "description": "on GitHub: the repo opens \"Welcome to Sirdude's (aka Kent Mein) branch of the Gurbalib mudlib\". HEADER.txt at wotf.org records it was \"originally developed for DGD 1.1 by Fudge\"; Fudge's real name (Erlend Simonsen) is confirmed via his GitHub profile.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 3146451,
+            "language": "C",
+            "last_commit": "2024-06-12T20:02:55Z",
+            "owner": "sirdude",
+            "repo": "gurbalib",
+            "stars": 27
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dead Souls Mudlib",
+          "description": "on the MUD Wiki; the repo is signed \"-Cratylus @ Dead Souls\" and states the lib \"is based on that old warhorse\", recalling that \"Descartes @ Nightmare chose to retire his Nightmare mudlib from distribution\".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 3691623,
+            "language": "C",
+            "last_commit": "2018-10-18T23:51:49Z",
+            "owner": "quixadhal",
+            "repo": "deadsouls",
+            "stars": 20
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Lima mudlib project site at limamudlib.dev",
+          "description": "; maintained repo at limalib/lima; the earlier fluffos/lima was archived read-only in October 2024. The lib's credits John Viega, Greg Stein and Tim Hollebeek as authors and lists Zakk Girouard among the Lima Bean admins.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 868065605,
+            "language": "C",
+            "last_commit": "2025-10-27T17:41:53Z",
+            "owner": "limalib",
+            "repo": "lima",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dworkin/phantasmal",
+          "description": "on GitHub; author confirmed in Noah Gibbs' Self Conscious DGD. The AGPLv3 text lives in (added via a 2008 contributor addendum); there is no SPDX-detected top-level license file.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 1443279,
+            "language": "C",
+            "last_commit": "2020-08-23T12:30:57Z",
+            "owner": "dworkin",
+            "repo": "phantasmal",
+            "stars": 8
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Genesis LPMud",
+          "description": "on Wikipedia; genesismud/mudlib repo describes itself as \"the mudlib upon which Genesis and a few other muds runs\".",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 265920190,
+            "language": "C",
+            "last_commit": "2023-12-28T19:48:05Z",
+            "owner": "genesismud",
+            "repo": "mudlib",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Preserved FR:Release mudlib source at quixadhal/fr",
+          "description": "and maldorne/frmudlib. The source is pervaded by Discworld ports — e.g. is annotated \"This is a pure ripoff from DiscWorld\". One borrowed networking package, (signed \"Hamlet@WWC, 23 Aug 1996\", headed \"The Intermud3 package, Discworld-style variant.\"), traces its own path: \"This package was born on Nightmare mud and was originally written by Descartes (as far as I know). After that, it took a trip to Discworld, where Turrican made some modifications. Thereafter, it went to Final Realms where perhaps a couple tweaks were done.\" Discworld's mudlib release date is from Lauren Burka's MUDline chronology (1995): \"March 1993. The Discworld Mudlib for MudOS is released, making the second widely available mudlib for MudOS\", and matches the official Discworld mudlib page.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 121379754,
+            "language": "C",
+            "last_commit": "2018-02-13T12:32:23Z",
+            "owner": "quixadhal",
+            "repo": "fr",
+            "stars": 3
+          }
+        }
+      ],
+      "title": "References"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "tbamud/tbamud",
+          "description": "repo README.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 9404856,
+            "language": "C",
+            "last_commit": "2026-05-13T23:50:08Z",
+            "owner": "tbamud",
+            "repo": "tbamud",
+            "stars": 150
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "EmpireMUD/EmpireMUD-2.0-Beta",
+          "description": "repo README.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 34863478,
+            "language": "C",
+            "last_commit": "2026-08-24T13:40:29Z",
+            "owner": "EmpireMUD",
+            "repo": "EmpireMUD-2.0-Beta",
+            "stars": 101
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "luciensadi/AwakeMUD",
+          "description": "repo README.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 91841886,
+            "language": "C++",
+            "last_commit": "2026-08-23T16:44:39Z",
+            "owner": "luciensadi",
+            "repo": "AwakeMUD",
+            "stars": 77
+          }
+        }
+      ],
+      "title": "References"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "GMCP Additions",
+                  "description": ".",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 17224425,
+                    "language": null,
+                    "last_commit": "2022-12-07T20:42:48Z",
+                    "owner": "keneanung",
+                    "repo": "GMCPAdditions",
+                    "stars": 29
+                  }
+                }
+              ],
+              "description": "Generic Mud Communication Protocol. GMCP is implemented as a Telnet option. Uses JSON syntax to define structured and typed data.",
+              "node_type": "group",
+              "title": "GMCP"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "Source code",
+                      "description": ".",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 138809123,
+                        "language": "Elixir",
+                        "last_commit": "2023-09-14T21:51:29Z",
+                        "owner": "oestrich",
+                        "repo": "grapevine",
+                        "stars": 164
+                      }
+                    }
+                  ],
+                  "description": "Modern web-based intermud replacement using WebSockets and JSON. Designed to be easy to implement from any codebase regardless of family, sidestepping the Diku/LP split of I3 and IMC2. See also the Grapevine listing in the Community section.\nSeveral other intermud protocols were developed for specific MUD families but saw limited adoption outside them: AberChat (AberMUD), MUSHLink (MUSH), Circle Intermud (CircleMUD), ROM Intermud (ROM), Merentha Intermud (Merentha), MudNet, Arachnos, and Zebedee. See MUD Standards for documentation on these.",
+                  "node_type": "group",
+                  "title": "Grapevine"
+                }
+              ],
+              "description": "Family of protocols for cross-MUD communication: shared chat channels, player-to-player messages, who lists, and mail between different MUDs. Several incompatible variants exist, each tied historically to a different MUD family.",
+              "node_type": "group",
+              "title": "Intermud"
+            }
+          ],
+          "description": "The following MUD-specific protocols are implemented as telnet options, building on the base TELNET RFCs listed above.",
+          "node_type": "group",
+          "title": "Specific protocols for MUDs"
+        }
+      ],
+      "title": "Protocols"
     },
     {
       "description": "Most classic MUD codebases were released under custom, non-commercial licenses written before standardized open source licenses existed. These bespoke licenses generally share two core requirements — mandatory attribution and a prohibition on making money — but each family added its own layer of restrictions, creating a chain of obligations that derivative codebases must honor. In recent years, some original authors have re-licensed under standard open source terms, and newer codebases tend to use recognized licenses from the start.",
@@ -577,7 +1126,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T14:44:50.218Z",
+    "last_updated": "2026-08-24T14:46:19.045Z",
     "original_repository": "maldorne/awesome-muds",
     "original_repository_id": 601221313,
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
