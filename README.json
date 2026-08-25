@@ -188,7 +188,7 @@
                 "last_commit": "2026-08-02T00:27:41Z",
                 "owner": "plamzi",
                 "repo": "MUDPortal-Web-App",
-                "stars": 45
+                "stars": 46
               }
             },
             {
@@ -255,7 +255,7 @@
                 "last_commit": "2026-08-10T23:31:32Z",
                 "owner": "maldorne",
                 "repo": "mud-web-proxy",
-                "stars": 14
+                "stars": 15
               }
             },
             {
@@ -409,7 +409,7 @@
                         "archived": false,
                         "id": 8451252,
                         "language": "C++",
-                        "last_commit": "2026-08-22T01:11:37Z",
+                        "last_commit": "2026-08-25T06:04:55Z",
                         "owner": "fluffos",
                         "repo": "fluffos",
                         "stars": 452
@@ -495,8 +495,8 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "2.4.5",
-                  "description": "The original mudlib distributed with Lars Pensjö's LPMud driver. Minimal by modern standards, but the direct ancestor of most other LP mudlibs [1]. lp-245 in the LDMud repo (lightly updated to run on modern LDMud)",
+                  "title": "lp-245 in the LDMud repo",
+                  "description": "(lightly updated to run on modern LDMud) The original mudlib distributed with Lars Pensjö's LPMud driver. Minimal by modern standards, but the direct ancestor of most other LP mudlibs [1].",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -696,7 +696,7 @@
                     "archived": false,
                     "id": 34863478,
                     "language": "C",
-                    "last_commit": "2026-08-24T13:40:29Z",
+                    "last_commit": "2026-08-25T04:12:03Z",
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
                     "stars": 101
@@ -763,7 +763,7 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "Web",
+                  "title": "Github project",
                   "description": ", Github project, discussion forum, Discord server.",
                   "children": [],
                   "repo_info": {
@@ -785,14 +785,14 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "Web",
+                  "title": "Github project",
                   "description": ", Github project.",
                   "children": [],
                   "repo_info": {
                     "archived": false,
                     "id": 5267832,
                     "language": "Java",
-                    "last_commit": "2026-08-24T07:03:08Z",
+                    "last_commit": "2026-08-25T01:45:13Z",
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
                     "stars": 233
@@ -814,7 +814,7 @@
               "children": [
                 {
                   "node_type": "item",
-                  "title": "Web",
+                  "title": "Github project",
                   "description": ", Github project, Wikipedia.",
                   "children": [],
                   "repo_info": {
@@ -978,7 +978,7 @@
             "archived": false,
             "id": 34863478,
             "language": "C",
-            "last_commit": "2026-08-24T13:40:29Z",
+            "last_commit": "2026-08-25T04:12:03Z",
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
             "stars": 101
@@ -1035,7 +1035,7 @@
                   "children": [
                     {
                       "node_type": "item",
-                      "title": "Source code",
+                      "title": "oestrich/grapevine",
                       "description": ".",
                       "children": [],
                       "repo_info": {
@@ -1080,7 +1080,7 @@
                 "archived": false,
                 "id": 8451252,
                 "language": "C++",
-                "last_commit": "2026-08-22T01:11:37Z",
+                "last_commit": "2026-08-25T06:04:55Z",
                 "owner": "fluffos",
                 "repo": "fluffos",
                 "stars": 452
@@ -1126,7 +1126,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T15:05:24.293Z",
+    "last_updated": "2026-08-25T06:35:27.221Z",
     "original_repository": "maldorne/awesome-muds",
     "original_repository_id": 601221313,
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
