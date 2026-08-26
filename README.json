@@ -14,7 +14,7 @@
                 "archived": false,
                 "id": 258866028,
                 "language": "Rust",
-                "last_commit": "2026-08-10T07:02:55Z",
+                "last_commit": "2026-08-26T08:04:27Z",
                 "owner": "Blightmud",
                 "repo": "Blightmud",
                 "stars": 274
@@ -111,7 +111,7 @@
                 "archived": false,
                 "id": 208434191,
                 "language": "C",
-                "last_commit": "2026-08-24T07:33:04Z",
+                "last_commit": "2026-08-26T10:05:21Z",
                 "owner": "scandum",
                 "repo": "tintin",
                 "stars": 257
@@ -203,7 +203,7 @@
                 "last_commit": "2026-07-29T19:52:12Z",
                 "owner": "maldorne",
                 "repo": "mud-web-client",
-                "stars": 17
+                "stars": 18
               }
             },
             {
@@ -409,7 +409,7 @@
                         "archived": false,
                         "id": 8451252,
                         "language": "C++",
-                        "last_commit": "2026-08-25T06:04:55Z",
+                        "last_commit": "2026-08-26T14:29:02Z",
                         "owner": "fluffos",
                         "repo": "fluffos",
                         "stars": 452
@@ -729,7 +729,7 @@
                     "last_commit": "2026-07-17T23:10:22Z",
                     "owner": "Arthmoor",
                     "repo": "SmaugFUSS",
-                    "stars": 29
+                    "stars": 30
                   }
                 },
                 {
@@ -792,7 +792,7 @@
                     "archived": false,
                     "id": 5267832,
                     "language": "Java",
-                    "last_commit": "2026-08-25T01:45:13Z",
+                    "last_commit": "2026-08-26T15:32:41Z",
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
                     "stars": 233
@@ -1080,7 +1080,7 @@
                 "archived": false,
                 "id": 8451252,
                 "language": "C++",
-                "last_commit": "2026-08-25T06:04:55Z",
+                "last_commit": "2026-08-26T14:29:02Z",
                 "owner": "fluffos",
                 "repo": "fluffos",
                 "stars": 452
@@ -1126,7 +1126,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T15:10:11.834Z",
+    "last_updated": "2026-08-26T15:56:02.919Z",
     "original_repository": "maldorne/awesome-muds",
     "original_repository_id": 601221313,
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
