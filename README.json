@@ -666,7 +666,7 @@
                     "archived": false,
                     "id": 9404856,
                     "language": "C",
-                    "last_commit": "2026-05-13T23:50:08Z",
+                    "last_commit": "2026-08-26T23:06:09Z",
                     "owner": "tbamud",
                     "repo": "tbamud",
                     "stars": 150
@@ -792,7 +792,7 @@
                     "archived": false,
                     "id": 5267832,
                     "language": "Java",
-                    "last_commit": "2026-08-26T15:32:41Z",
+                    "last_commit": "2026-08-27T06:00:11Z",
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
                     "stars": 233
@@ -963,7 +963,7 @@
             "archived": false,
             "id": 9404856,
             "language": "C",
-            "last_commit": "2026-05-13T23:50:08Z",
+            "last_commit": "2026-08-26T23:06:09Z",
             "owner": "tbamud",
             "repo": "tbamud",
             "stars": 150
@@ -1126,9 +1126,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-26T15:56:02.919Z",
-    "original_repository": "maldorne/awesome-muds",
-    "original_repository_id": 601221313,
+    "last_updated": "2026-08-27T11:51:37.593Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 601221313,
+      "language": null,
+      "last_commit": "2026-08-04T20:26:58Z",
+      "owner": "maldorne",
+      "repo": "awesome-muds",
+      "stars": 79
+    },
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
     "enhanced_repository": "enhansome/enhansome-muds",
     "enhanced_repository_description": null,
