@@ -12,12 +12,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A terminal mud client written in Rust",
+                "homepage": null,
                 "id": 258866028,
                 "language": "Rust",
+                "license": "GPL-3.0",
                 "last_commit": "2026-08-26T08:04:27Z",
+                "open_issues": 15,
                 "owner": "Blightmud",
                 "repo": "Blightmud",
-                "stars": 274
+                "stars": 274,
+                "topics": [
+                  "hacktoberfest",
+                  "linux",
+                  "lua",
+                  "mac",
+                  "mud",
+                  "mud-client",
+                  "rust",
+                  "rust-lang",
+                  "terminal",
+                  "terminal-based",
+                  "vt102"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -28,12 +45,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "TinyFugue - Rebirth",
+                "homepage": null,
                 "id": 21212621,
                 "language": "C",
+                "license": "NOASSERTION",
                 "last_commit": "2026-04-29T13:11:06Z",
+                "open_issues": 19,
                 "owner": "ingwarsw",
                 "repo": "tinyfugue",
-                "stars": 88
+                "stars": 88,
+                "topics": [
+                  "c",
+                  "mud",
+                  "mud-client",
+                  "tf",
+                  "tinyfugue"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -44,12 +72,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Клиент для игры в текстовые многопользовательские онлайновые игры MUD",
+                "homepage": null,
                 "id": 23519550,
                 "language": "C++",
+                "license": null,
                 "last_commit": "2022-04-16T20:14:14Z",
+                "open_issues": 2,
                 "owner": "tmud",
                 "repo": "tortilla",
-                "stars": 26
+                "stars": 26,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -60,12 +93,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "TinTin++-style MUD client",
+                "homepage": null,
                 "id": 620284,
                 "language": "C++",
+                "license": "GPL-2.0",
                 "last_commit": "2026-08-05T19:16:00Z",
+                "open_issues": 3,
                 "owner": "kilobyte",
                 "repo": "kbtin",
-                "stars": 23
+                "stars": 23,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -76,12 +114,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Sip is a desktop client for MUD (Multi-User Dungeon) gaming.",
+                "homepage": "http://coffeemud.org",
                 "id": 991111653,
                 "language": "JavaScript",
+                "license": null,
                 "last_commit": "2026-02-19T00:43:03Z",
+                "open_issues": 1,
                 "owner": "bozimmerman",
                 "repo": "Sip",
-                "stars": 9
+                "stars": 9,
+                "topics": [
+                  "mud-client",
+                  "muds",
+                  "text-games"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -92,12 +139,30 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Python based MUSH Client inspired by Potato and TinyFugue ",
+                "homepage": null,
                 "id": 1309030142,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-07T18:44:45Z",
+                "open_issues": 0,
                 "owner": "N0NJY",
                 "repo": "mushtato",
-                "stars": 1
+                "stars": 1,
+                "topics": [
+                  "cross-platform",
+                  "gui",
+                  "mud",
+                  "mud-client",
+                  "mush",
+                  "mush-client",
+                  "pyside6",
+                  "python",
+                  "qt6",
+                  "scripting",
+                  "ssh",
+                  "telnet"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             }
@@ -115,12 +180,27 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "TinTin++, aka tt++, is an extensible console MUD client.",
+                "homepage": "https://tintin.mudhalla.net",
                 "id": 208434191,
                 "language": "C",
+                "license": "LGPL-2.1",
                 "last_commit": "2026-08-27T20:28:25Z",
+                "open_issues": 11,
                 "owner": "scandum",
                 "repo": "tintin",
-                "stars": 257
+                "stars": 257,
+                "topics": [
+                  "client",
+                  "mapper",
+                  "mud",
+                  "mud-client",
+                  "scriptable",
+                  "shell-scripting",
+                  "telnet",
+                  "terminal",
+                  "vt100"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -131,12 +211,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Windows MUD client written in C#/WPF for .NET 10.",
+                "homepage": null,
                 "id": 231809334,
                 "language": "C#",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-22T17:02:18Z",
+                "open_issues": 0,
                 "owner": "blakepell",
                 "repo": "AvalonMudClient",
-                "stars": 38
+                "stars": 38,
+                "topics": [
+                  "csharp",
+                  "dotnet-core",
+                  "mud-client",
+                  "muds",
+                  "multi-user-dungeon",
+                  "rpg"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             }
@@ -154,12 +246,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A Modern MUD Client for iPhone and iPad.",
+                "homepage": "http://splinesoft.net/mudrammer/",
                 "id": 24035354,
                 "language": "Objective-C",
+                "license": "NOASSERTION",
                 "last_commit": "2025-03-25T15:05:18Z",
+                "open_issues": 361,
                 "owner": "splinesoft",
                 "repo": "MUDRammer",
-                "stars": 86
+                "stars": 86,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             }
@@ -177,12 +274,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The MUD Chat Network",
+                "homepage": "https://grapevine.haus/",
                 "id": 138809123,
                 "language": "Elixir",
+                "license": "MIT",
                 "last_commit": "2023-09-14T21:51:29Z",
+                "open_issues": 17,
                 "owner": "oestrich",
                 "repo": "grapevine",
-                "stars": 164
+                "stars": 164,
+                "topics": [
+                  "elixir",
+                  "grapevine",
+                  "mud",
+                  "phoenix"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -193,12 +300,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Web UI for playing MUD / MUSH / MOO games",
+                "homepage": "http://www.mudportal.com",
                 "id": 12711367,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2026-08-02T00:27:41Z",
+                "open_issues": 3,
                 "owner": "plamzi",
                 "repo": "MUDPortal-Web-App",
-                "stars": 45
+                "stars": 45,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -209,12 +321,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Web client for playing MUD / MUSH / MOO games.",
+                "homepage": "https://www.maldorne.org",
                 "id": 252815490,
                 "language": "JavaScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-29T19:52:12Z",
+                "open_issues": 0,
                 "owner": "maldorne",
                 "repo": "mud-web-client",
-                "stars": 18
+                "stars": 18,
+                "topics": [
+                  "client",
+                  "mud",
+                  "websockets"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -225,12 +346,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "DecafMUD is an extensible, translatable MUD client written in JavaScript.",
+                "homepage": "http://decafmud.stendec.me/",
                 "id": 1926572,
                 "language": "ActionScript",
+                "license": "MIT",
                 "last_commit": "2012-09-26T23:56:39Z",
+                "open_issues": 1,
                 "owner": "stendec",
                 "repo": "DecafMUD",
-                "stars": 15
+                "stars": 15,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -241,12 +367,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Not my work. Fork of https://bitbucket.org/Odoth/mudslinger",
+                "homepage": null,
                 "id": 107061994,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2017-10-16T01:03:21Z",
+                "open_issues": 0,
                 "owner": "ryanberckmans",
                 "repo": "mudslinger",
-                "stars": 4
+                "stars": 4,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             }
@@ -264,12 +395,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Web proxy for playing MUD / MUSH / MOO games.",
+                "homepage": "https://www.maldorne.org",
                 "id": 252981377,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-10T23:31:32Z",
+                "open_issues": 3,
                 "owner": "maldorne",
                 "repo": "mud-web-proxy",
-                "stars": 15
+                "stars": 15,
+                "topics": [
+                  "moo",
+                  "mud",
+                  "mush",
+                  "proxy",
+                  "telnet",
+                  "websockets"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -280,12 +423,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Tunnel connecting a client to a telnet backend",
+                "homepage": null,
                 "id": 110023145,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2023-04-19T11:43:36Z",
+                "open_issues": 6,
                 "owner": "ChatTheatre",
                 "repo": "websocket-to-tcp-tunnel",
-                "stars": 2
+                "stars": 2,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             }
@@ -309,12 +457,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Essex MUD1 by Trubshaw and Bartle",
+                "homepage": null,
                 "id": 78926240,
                 "language": null,
+                "license": null,
                 "last_commit": "2024-10-28T09:42:59Z",
+                "open_issues": 0,
                 "owner": "PDP-10",
                 "repo": "MUD1",
-                "stars": 76
+                "stars": 76,
+                "topics": [
+                  "computer-history",
+                  "game",
+                  "multi-user-dungeon"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             }
@@ -334,12 +491,24 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Ongoing development of the Fuzzball MUCK server software and associated functionality.",
+                    "homepage": null,
                     "id": 36502953,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-06T04:38:12Z",
+                    "open_issues": 65,
                     "owner": "fuzzball-muck",
                     "repo": "fuzzball",
-                    "stars": 56
+                    "stars": 56,
+                    "topics": [
+                      "fuzzball",
+                      "fuzzball-muck",
+                      "linux",
+                      "mpi",
+                      "muck",
+                      "muf"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 }
@@ -357,12 +526,24 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A network accessible, multi-user, programmable, interactive system for the creation of LambdaMOO style MOOs / MUDs.",
+                    "homepage": null,
                     "id": 164562435,
                     "language": "C++",
+                    "license": null,
                     "last_commit": "2026-08-21T20:14:29Z",
+                    "open_issues": 17,
                     "owner": "lisdude",
                     "repo": "toaststunt",
-                    "stars": 94
+                    "stars": 94,
+                    "topics": [
+                      "lambdamoo",
+                      "moo",
+                      "mud",
+                      "mud-server",
+                      "stunt",
+                      "toaststunt"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -373,12 +554,27 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Lambda MOO Programming collects and updates numerous MOO guides in one place and includes an updated and expanded version of the MOO Programmer's Manual in markdown and HTML5. It also includes the ToastStunt Programmers Guide and links to ToastStunt references.",
+                    "homepage": null,
                     "id": 68154600,
                     "language": "HTML",
+                    "license": "MIT",
                     "last_commit": "2025-01-06T14:44:42Z",
+                    "open_issues": 0,
                     "owner": "sevenecks",
                     "repo": "lambda-moo-programming",
-                    "stars": 75
+                    "stars": 75,
+                    "topics": [
+                      "gaming",
+                      "gammamoo",
+                      "lambda",
+                      "lambdacore",
+                      "lambdamoo",
+                      "moo",
+                      "stunt",
+                      "toastcore",
+                      "toaststunt"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 }
@@ -405,12 +601,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "MudOS LPmud driver, organized as one branch per supported version. The master branch is intentionally empty.",
+                        "homepage": null,
                         "id": 593315291,
                         "language": null,
+                        "license": null,
                         "last_commit": "2026-05-05T17:15:51Z",
+                        "open_issues": 0,
                         "owner": "maldorne",
                         "repo": "mudos",
-                        "stars": 2
+                        "stars": 2,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
                     }
@@ -428,12 +629,22 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Actively maintained LPMUD driver (LPC interpreter,  MudOS fork)",
+                        "homepage": "https://www.fluffos.info",
                         "id": 8451252,
                         "language": "C++",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-08-28T20:52:10Z",
+                        "open_issues": 22,
                         "owner": "fluffos",
                         "repo": "fluffos",
-                        "stars": 452
+                        "stars": 452,
+                        "topics": [
+                          "cpp17",
+                          "fluffos",
+                          "mud",
+                          "mudos"
+                        ]
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
                     }
@@ -451,12 +662,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Source Repository for LDMud",
+                        "homepage": "http://www.ldmud.eu/",
                         "id": 1085012,
                         "language": "C",
+                        "license": "NOASSERTION",
                         "last_commit": "2026-02-15T16:10:28Z",
+                        "open_issues": 46,
                         "owner": "ldmud",
                         "repo": "ldmud",
-                        "stars": 157
+                        "stars": 157,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
                     }
@@ -474,12 +690,22 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "CD MUD Gamedriver",
+                        "homepage": "http://www.genesismud.org/",
                         "id": 120736,
                         "language": "C",
+                        "license": "NOASSERTION",
                         "last_commit": "2025-02-11T12:13:02Z",
+                        "open_issues": 2,
                         "owner": "cotillion",
                         "repo": "cd-gamedriver",
-                        "stars": 32
+                        "stars": 32,
+                        "topics": [
+                          "c",
+                          "lpmud",
+                          "mud-engine",
+                          "mud-server"
+                        ]
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
                     }
@@ -497,12 +723,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Dworkin's Game Driver, an object-oriented database management system originally used to run MUDs.",
+                        "homepage": "https://www.dworkin.nl/dgd/",
                         "id": 4838449,
                         "language": "C++",
+                        "license": "AGPL-3.0",
                         "last_commit": "2026-08-21T16:29:28Z",
+                        "open_issues": 3,
                         "owner": "dworkin",
                         "repo": "dgd",
-                        "stars": 110
+                        "stars": 110,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
                     }
@@ -525,12 +756,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Source Repository for LDMud",
+                    "homepage": "http://www.ldmud.eu/",
                     "id": 1085012,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-02-15T16:10:28Z",
+                    "open_issues": 46,
                     "owner": "ldmud",
                     "repo": "ldmud",
-                    "stars": 157
+                    "stars": 157,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -541,12 +777,22 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Updated, maintained, modernized LIMA mudlib updated to run latest FluffOS driver. Kept in the original LIMA spirit.",
+                    "homepage": "https://www.limamudlib.dev/",
                     "id": 868065605,
                     "language": "C",
+                    "license": "GPL-3.0",
                     "last_commit": "2025-10-27T17:41:53Z",
+                    "open_issues": 17,
                     "owner": "limalib",
                     "repo": "lima",
-                    "stars": 10
+                    "stars": 10,
+                    "topics": [
+                      "game-development",
+                      "mud",
+                      "mudlib",
+                      "textbasedgame"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -557,12 +803,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "The Dead Souls mudlib and FluffOS LPMUD driver",
+                    "homepage": null,
                     "id": 3691623,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2018-10-18T23:51:49Z",
+                    "open_issues": 2,
                     "owner": "quixadhal",
                     "repo": "deadsouls",
-                    "stars": 20
+                    "stars": 20,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -573,12 +824,22 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "The CD Mudlib",
+                    "homepage": "https://www.genesismud.org/",
                     "id": 265920190,
                     "language": "C",
+                    "license": null,
                     "last_commit": "2023-12-28T19:48:05Z",
+                    "open_issues": 3,
                     "owner": "genesismud",
                     "repo": "mudlib",
-                    "stars": 7
+                    "stars": 7,
+                    "topics": [
+                      "lpc",
+                      "lpmud",
+                      "mud",
+                      "mudlib"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -589,12 +850,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Mirror of the Discworld Distribution Mudlib",
+                    "homepage": null,
                     "id": 4460396,
                     "language": "C",
+                    "license": null,
                     "last_commit": "2012-05-27T07:02:50Z",
+                    "open_issues": 0,
                     "owner": "Yuffster",
                     "repo": "discworld_distribution_mudlib",
-                    "stars": 6
+                    "stars": 6,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -605,12 +871,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Final Realms LPC mudlib",
+                    "homepage": null,
                     "id": 121379754,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2018-02-13T12:32:23Z",
+                    "open_issues": 0,
                     "owner": "quixadhal",
                     "repo": "fr",
-                    "stars": 3
+                    "stars": 3,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -621,12 +892,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": true,
+                    "description": "Consolidated history from CVS, svn and bzr repositories of Phantasmal",
+                    "homepage": "http://phantasmal.sourceforge.net/",
                     "id": 1443279,
                     "language": "C",
+                    "license": null,
                     "last_commit": "2020-08-23T12:30:57Z",
+                    "open_issues": 0,
                     "owner": "dworkin",
                     "repo": "phantasmal",
-                    "stars": 8
+                    "stars": 8,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -637,12 +913,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "an lpmud mudlib for the dgd driver",
+                    "homepage": null,
                     "id": 3146451,
                     "language": "C",
+                    "license": null,
                     "last_commit": "2024-06-12T20:02:55Z",
+                    "open_issues": 2,
                     "owner": "sirdude",
                     "repo": "gurbalib",
-                    "stars": 27
+                    "stars": 27,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 }
@@ -665,12 +946,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "DikuMUD III using HTML and websockets. ",
+                "homepage": null,
                 "id": 266027003,
                 "language": "C++",
+                "license": "LGPL-2.1",
                 "last_commit": "2026-08-19T14:39:14Z",
+                "open_issues": 38,
                 "owner": "Seifert69",
                 "repo": "DikuMUD3",
-                "stars": 226
+                "stars": 226,
+                "topics": [
+                  "mud",
+                  "mud-client",
+                  "mud-engine",
+                  "mud-game-server",
+                  "mud-server"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -681,12 +973,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The original release (the Alfa release is newer)",
+                "homepage": null,
                 "id": 238053631,
                 "language": "C",
+                "license": "LGPL-2.1",
                 "last_commit": "2020-12-07T16:03:47Z",
+                "open_issues": 0,
                 "owner": "Seifert69",
                 "repo": "DikuMUD-Gamma",
-                "stars": 16
+                "stars": 16,
+                "topics": [
+                  "mud",
+                  "mud-engine",
+                  "mud-game-server",
+                  "mud-server"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -699,12 +1001,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "tbaMUD is the continued development of  the codebase formerly known as CircleMUD.",
+                    "homepage": "http://tbamud.com/",
                     "id": 9404856,
                     "language": "C",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-27T21:50:22Z",
+                    "open_issues": 74,
                     "owner": "tbamud",
                     "repo": "tbamud",
-                    "stars": 150
+                    "stars": 150,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -715,12 +1022,29 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "The Community Edition fork of the 'Awakened Worlds' Shadowrun 3 MUD codebase.",
+                    "homepage": null,
                     "id": 91841886,
                     "language": "C++",
+                    "license": "NOASSERTION",
                     "last_commit": "2026-08-23T16:44:39Z",
+                    "open_issues": 11,
                     "owner": "luciensadi",
                     "repo": "AwakeMUD",
-                    "stars": 77
+                    "stars": 77,
+                    "topics": [
+                      "awakened-worlds",
+                      "awakened-worlds-codebase",
+                      "circle",
+                      "diku",
+                      "game",
+                      "mud",
+                      "mud-engine",
+                      "mud-server",
+                      "shadowrun",
+                      "text-game",
+                      "visually-impaired"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -731,12 +1055,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "EmpireMUD is a MUD server with a persistent world map. It is a derivative of CircleMUD and DikuMUD.",
+                    "homepage": null,
                     "id": 34863478,
                     "language": "C",
+                    "license": null,
                     "last_commit": "2026-08-25T04:12:03Z",
+                    "open_issues": 12,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
-                    "stars": 101
+                    "stars": 101,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -747,12 +1076,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "ROM 2.4b6 with a few additional features",
+                    "homepage": null,
                     "id": 22094209,
                     "language": "C",
+                    "license": null,
                     "last_commit": "2018-05-18T20:48:04Z",
+                    "open_issues": 4,
                     "owner": "avinson",
                     "repo": "rom24-quickmud",
-                    "stars": 65
+                    "stars": 65,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -763,12 +1097,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Fixed Up Smaug Source by the FUSS Project at SmaugMuds",
+                    "homepage": "https://smaugmuds.afkmods.com/",
                     "id": 25959201,
                     "language": "C",
+                    "license": null,
                     "last_commit": "2026-07-17T23:10:22Z",
+                    "open_issues": 0,
                     "owner": "Arthmoor",
                     "repo": "SmaugFUSS",
-                    "stars": 30
+                    "stars": 30,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
@@ -779,12 +1118,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Star Wars Reality Mud Codebase",
+                    "homepage": null,
                     "id": 109401811,
                     "language": "C",
+                    "license": null,
                     "last_commit": "2018-02-25T16:57:24Z",
+                    "open_issues": 0,
                     "owner": "Xavious",
                     "repo": "swrfuss",
-                    "stars": 12
+                    "stars": 12,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 }
@@ -809,12 +1153,37 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Python MUD/MUX/MUSH/MU* development system",
+                    "homepage": "http://www.evennia.com",
                     "id": 16120959,
                     "language": "Python",
+                    "license": "BSD-3-Clause",
                     "last_commit": "2026-08-19T21:26:14Z",
+                    "open_issues": 123,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2092
+                    "stars": 2092,
+                    "topics": [
+                      "based",
+                      "django",
+                      "engine",
+                      "game-development",
+                      "game-engine",
+                      "gamedev",
+                      "hacktoberfest",
+                      "moo",
+                      "mud",
+                      "multiplayer",
+                      "mush",
+                      "mux",
+                      "python",
+                      "text",
+                      "text-based",
+                      "text-based-adventure",
+                      "twisted",
+                      "webclient",
+                      "webserver"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 }
@@ -832,12 +1201,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Full featured, mature MUD supporting MSP, MXP, GMCP, OLC, a web server, mail server, and MORE!",
+                    "homepage": "http://coffeemud.org",
                     "id": 5267832,
                     "language": "Java",
-                    "last_commit": "2026-08-28T16:43:57Z",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-08-29T02:33:58Z",
+                    "open_issues": 2,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
-                    "stars": 233
+                    "stars": 233,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 }
@@ -862,12 +1236,27 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Legends of Future Past, the classic commercial MUD form the 1990's",
+                    "homepage": "https://metavert.io",
                     "id": 1200366737,
                     "language": "HTML",
+                    "license": "MIT",
                     "last_commit": "2026-05-17T20:07:29Z",
+                    "open_issues": 37,
                     "owner": "jonradoff",
                     "repo": "lofp",
-                    "stars": 180
+                    "stars": 180,
+                    "topics": [
+                      "game",
+                      "game-development",
+                      "go",
+                      "golang",
+                      "interactive-fiction",
+                      "mud",
+                      "mud-server",
+                      "online-game",
+                      "typescript"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 }
@@ -894,12 +1283,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Source Repository for LDMud",
+            "homepage": "http://www.ldmud.eu/",
             "id": 1085012,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-02-15T16:10:28Z",
+            "open_issues": 46,
             "owner": "ldmud",
             "repo": "ldmud",
-            "stars": 157
+            "stars": 157,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         },
@@ -910,12 +1304,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "an lpmud mudlib for the dgd driver",
+            "homepage": null,
             "id": 3146451,
             "language": "C",
+            "license": null,
             "last_commit": "2024-06-12T20:02:55Z",
+            "open_issues": 2,
             "owner": "sirdude",
             "repo": "gurbalib",
-            "stars": 27
+            "stars": 27,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         },
@@ -926,12 +1325,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The Dead Souls mudlib and FluffOS LPMUD driver",
+            "homepage": null,
             "id": 3691623,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2018-10-18T23:51:49Z",
+            "open_issues": 2,
             "owner": "quixadhal",
             "repo": "deadsouls",
-            "stars": 20
+            "stars": 20,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         },
@@ -942,12 +1346,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Updated, maintained, modernized LIMA mudlib updated to run latest FluffOS driver. Kept in the original LIMA spirit.",
+            "homepage": "https://www.limamudlib.dev/",
             "id": 868065605,
             "language": "C",
+            "license": "GPL-3.0",
             "last_commit": "2025-10-27T17:41:53Z",
+            "open_issues": 17,
             "owner": "limalib",
             "repo": "lima",
-            "stars": 10
+            "stars": 10,
+            "topics": [
+              "game-development",
+              "mud",
+              "mudlib",
+              "textbasedgame"
+            ]
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         },
@@ -958,12 +1372,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "Consolidated history from CVS, svn and bzr repositories of Phantasmal",
+            "homepage": "http://phantasmal.sourceforge.net/",
             "id": 1443279,
             "language": "C",
+            "license": null,
             "last_commit": "2020-08-23T12:30:57Z",
+            "open_issues": 0,
             "owner": "dworkin",
             "repo": "phantasmal",
-            "stars": 8
+            "stars": 8,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         },
@@ -974,12 +1393,22 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The CD Mudlib",
+            "homepage": "https://www.genesismud.org/",
             "id": 265920190,
             "language": "C",
+            "license": null,
             "last_commit": "2023-12-28T19:48:05Z",
+            "open_issues": 3,
             "owner": "genesismud",
             "repo": "mudlib",
-            "stars": 7
+            "stars": 7,
+            "topics": [
+              "lpc",
+              "lpmud",
+              "mud",
+              "mudlib"
+            ]
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         },
@@ -990,12 +1419,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Final Realms LPC mudlib",
+            "homepage": null,
             "id": 121379754,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2018-02-13T12:32:23Z",
+            "open_issues": 0,
             "owner": "quixadhal",
             "repo": "fr",
-            "stars": 3
+            "stars": 3,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         }
@@ -1012,12 +1446,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "tbaMUD is the continued development of  the codebase formerly known as CircleMUD.",
+            "homepage": "http://tbamud.com/",
             "id": 9404856,
             "language": "C",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-27T21:50:22Z",
+            "open_issues": 74,
             "owner": "tbamud",
             "repo": "tbamud",
-            "stars": 150
+            "stars": 150,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         },
@@ -1028,12 +1467,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "EmpireMUD is a MUD server with a persistent world map. It is a derivative of CircleMUD and DikuMUD.",
+            "homepage": null,
             "id": 34863478,
             "language": "C",
+            "license": null,
             "last_commit": "2026-08-25T04:12:03Z",
+            "open_issues": 12,
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
-            "stars": 101
+            "stars": 101,
+            "topics": []
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         },
@@ -1044,12 +1488,29 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "The Community Edition fork of the 'Awakened Worlds' Shadowrun 3 MUD codebase.",
+            "homepage": null,
             "id": 91841886,
             "language": "C++",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-23T16:44:39Z",
+            "open_issues": 11,
             "owner": "luciensadi",
             "repo": "AwakeMUD",
-            "stars": 77
+            "stars": 77,
+            "topics": [
+              "awakened-worlds",
+              "awakened-worlds-codebase",
+              "circle",
+              "diku",
+              "game",
+              "mud",
+              "mud-engine",
+              "mud-server",
+              "shadowrun",
+              "text-game",
+              "visually-impaired"
+            ]
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
         }
@@ -1070,12 +1531,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "These are additions to the IRE gmcp documentation",
+                    "homepage": "http://www.ironrealms.com/gmcp-doc",
                     "id": 17224425,
                     "language": null,
+                    "license": null,
                     "last_commit": "2022-12-07T20:42:48Z",
+                    "open_issues": 2,
                     "owner": "keneanung",
                     "repo": "GMCPAdditions",
-                    "stars": 29
+                    "stars": 29,
+                    "topics": [
+                      "docs",
+                      "documentation",
+                      "gmcp",
+                      "hacktoberfest",
+                      "mud"
+                    ]
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 }
@@ -1095,12 +1567,22 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "The MUD Chat Network",
+                        "homepage": "https://grapevine.haus/",
                         "id": 138809123,
                         "language": "Elixir",
+                        "license": "MIT",
                         "last_commit": "2023-09-14T21:51:29Z",
+                        "open_issues": 17,
                         "owner": "oestrich",
                         "repo": "grapevine",
-                        "stars": 164
+                        "stars": 164,
+                        "topics": [
+                          "elixir",
+                          "grapevine",
+                          "mud",
+                          "phoenix"
+                        ]
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
                     }
@@ -1134,12 +1616,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Actively maintained LPMUD driver (LPC interpreter,  MudOS fork)",
+                "homepage": "https://www.fluffos.info",
                 "id": 8451252,
                 "language": "C++",
+                "license": "NOASSERTION",
                 "last_commit": "2026-08-28T20:52:10Z",
+                "open_issues": 22,
                 "owner": "fluffos",
                 "repo": "fluffos",
-                "stars": 452
+                "stars": 452,
+                "topics": [
+                  "cpp17",
+                  "fluffos",
+                  "mud",
+                  "mudos"
+                ]
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -1150,12 +1642,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Merc 2.1",
+                "homepage": null,
                 "id": 258118,
                 "language": "C",
+                "license": null,
                 "last_commit": "2009-07-22T20:57:58Z",
+                "open_issues": 0,
                 "owner": "alexmchale",
                 "repo": "merc-mud",
-                "stars": 36
+                "stars": 36,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             },
@@ -1166,12 +1663,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Playground for patching stock Rom based on QuickMud for some good old fashioned stock play.",
+                "homepage": null,
                 "id": 566799,
                 "language": "C",
+                "license": null,
                 "last_commit": "2021-11-12T08:17:07Z",
+                "open_issues": 0,
                 "owner": "rszrama",
                 "repo": "szramarom",
-                "stars": 8
+                "stars": 8,
+                "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
             }
@@ -1185,15 +1687,27 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T23:35:04.657Z",
+    "last_updated": "2026-08-29T05:02:39.797Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A curated list of MUD development resources, tools, and apps.",
+      "homepage": null,
       "id": 601221313,
       "language": null,
+      "license": null,
       "last_commit": "2026-08-04T20:26:58Z",
+      "open_issues": 0,
       "owner": "maldorne",
       "repo": "awesome-muds",
-      "stars": 79
+      "stars": 79,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "mud",
+        "mud-client",
+        "mud-protocols",
+        "text-based-game"
+      ]
     },
     "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
     "enhanced_repository": "enhansome/enhansome-muds",
