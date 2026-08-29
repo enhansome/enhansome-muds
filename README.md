@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 500,897 | 🐛 105 | 📅 2026-08-21 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 501,083 | 🐛 105 | 📅 2026-08-21 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -28,7 +28,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Multiplatform
 
-* [Blightmud](https://github.com/LiquidityC/Blightmud) ⭐ 274 | 🐛 15 | 🌐 Rust | 📅 2026-08-26 \[Linux, MacOS], \[`TLS`, `GMCP`, `MSDP`, `MCCP2`]
+* [Blightmud](https://github.com/LiquidityC/Blightmud) ⭐ 274 | 🐛 8 | 🌐 Rust | 📅 2026-08-29 \[Linux, MacOS], \[`TLS`, `GMCP`, `MSDP`, `MCCP2`]
 * [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) ⭐ 88 | 🐛 19 | 🌐 C | 📅 2026-04-29 \[Linux, MacOS, Windows], \[`GMCP`, `ATCP`]
 * [Tortilla MUD client](https://github.com/tmud/tortilla) ⭐ 26 | 🐛 2 | 🌐 C++ | 📅 2022-04-16 (completely in russian) \[Windows XP and above, Linux and MacOS via Wine], \[`MCCP`, `MSDP`, `MTTS`]
 * [KBTin](https://github.com/kilobyte/kbtin) ⭐ 23 | 🐛 3 | 🌐 C++ | 📅 2026-08-05 (Tintin++ fork) \[Linux, MacOS, BSD], \[`MCCP`, `TLS`]
@@ -43,7 +43,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Windows
 
-* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 257 | 🐛 11 | 🌐 C | 📅 2026-08-27 has updated windows versions)
+* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 257 | 🐛 12 | 🌐 C | 📅 2026-08-27 has updated windows versions)
 * [Avalon Mud Client](https://github.com/blakepell/AvalonMudClient) ⭐ 38 | 🐛 0 | 🌐 C# | 📅 2026-08-22
 * [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) \[`MXP`, `MSP`, `MCP`, `MCCP`, `ATCP`]
 * [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4\&action=file\&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) \[`MXP`, `MCP`, `MCCP`]
@@ -256,7 +256,7 @@ DikuMUD spawned a large family of derivatives, mostly through two main branches:
 | Codebase  | Lineage                 | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                        | Source                                                                                                                                                                                           |
 | --------- | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | CircleMUD | DikuMUD → CircleMUD     | Created by Jeremy Elson in 1993. Clean, well-documented rewrite focused on portability; the most widely used Diku codebase for learning \[1]. Elson's last release was 3.1 (2002); later revived by The Builder Academy (3.5, 2006) and continued as tbaMUD.                                                                                                                                                                                 | [circlemud.org](https://www.circlemud.org/)                                                                                                                                                      |
-| tbaMUD    | → CircleMUD → tbaMUD    | Community continuation of CircleMUD. Modernized with OLC, ASCII maps, and ongoing development \[2]. Active.                                                                                                                                                                                                                                                                                                                                  | [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 150 \| 🐛 74 \| 🌐 C \| 📅 2026-08-27                                                                                                        |
+| tbaMUD    | → CircleMUD → tbaMUD    | Community continuation of CircleMUD. Modernized with OLC, ASCII maps, and ongoing development \[2]. Active.                                                                                                                                                                                                                                                                                                                                  | [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 150 \| 🐛 77 \| 🌐 C \| 📅 2026-08-27                                                                                                        |
 | AwakeMUD  | → CircleMUD → AwakeMUD  | Shadowrun 3rd Edition themed derivative \[3]. Active.                                                                                                                                                                                                                                                                                                                                                                                        | [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 77 \| 🐛 11 \| 🌐 C++ \| 📅 2026-08-23, [web](https://www.awakemud.com/)                                                         |
 | EmpireMUD | → CircleMUD → EmpireMUD | Persistent world map with territory control mechanics \[4]. Active.                                                                                                                                                                                                                                                                                                                                                                          | [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 101 \| 🐛 12 \| 🌐 C \| 📅 2026-08-25                                                                          |
 | Merc      | DikuMUD → Merc          | Created by Furey, Hatchet, and Kahn in 1992. Major rewrite that became the ancestor of most other Diku derivatives \[5]. Abandoned.                                                                                                                                                                                                                                                                                                          | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus)                                                                                                                                  |
@@ -269,7 +269,7 @@ DikuMUD spawned a large family of derivatives, mostly through two main branches:
 <details>
 <summary><strong>References</strong></summary>
 
-1. [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 150 | 🐛 74 | 🌐 C | 📅 2026-08-27 repo README.
+1. [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 150 | 🐛 77 | 🌐 C | 📅 2026-08-27 repo README.
 2. [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 101 | 🐛 12 | 🌐 C | 📅 2026-08-25 repo README.
 3. [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 77 | 🐛 11 | 🌐 C++ | 📅 2026-08-23 repo README.
 4. Official site [circlemud.org](https://www.circlemud.org/) (confirms Jeremy Elson and the DikuMUD Gamma 0.0 derivation); version history and the tbaMUD transition on the [CircleMUD](https://muds.fandom.com/wiki/CircleMUD) page at the Muds Wiki. The Wikipedia "CircleMUD" title now redirects to the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article.
