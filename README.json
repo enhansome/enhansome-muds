@@ -186,7 +186,7 @@
                 "language": "C",
                 "license": "LGPL-2.1",
                 "last_commit": "2026-09-05T23:43:27Z",
-                "open_issues": 11,
+                "open_issues": 13,
                 "owner": "scandum",
                 "repo": "tintin",
                 "stars": 260,
@@ -1060,7 +1060,7 @@
                     "id": 34863478,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-09-09T14:54:15Z",
+                    "last_commit": "2026-09-10T13:48:05Z",
                     "open_issues": 13,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
@@ -1472,7 +1472,7 @@
             "id": 34863478,
             "language": "C",
             "license": null,
-            "last_commit": "2026-09-09T14:54:15Z",
+            "last_commit": "2026-09-10T13:48:05Z",
             "open_issues": 13,
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
@@ -1687,7 +1687,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-09T17:52:24.980Z",
+    "last_updated": "2026-09-10T17:45:12.796Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
@@ -1699,7 +1699,7 @@
       "open_issues": 0,
       "owner": "maldorne",
       "repo": "awesome-muds",
-      "stars": 80,
+      "stars": 81,
       "topics": [
         "awesome",
         "awesome-list",
