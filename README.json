@@ -21,7 +21,7 @@
                 "open_issues": 10,
                 "owner": "Blightmud",
                 "repo": "Blightmud",
-                "stars": 274,
+                "stars": 275,
                 "topics": [
                   "hacktoberfest",
                   "linux",
@@ -638,7 +638,7 @@
                         "open_issues": 22,
                         "owner": "fluffos",
                         "repo": "fluffos",
-                        "stars": 454,
+                        "stars": 455,
                         "topics": [
                           "cpp17",
                           "fluffos",
@@ -1060,7 +1060,7 @@
                     "id": 34863478,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-09-11T15:06:02Z",
+                    "last_commit": "2026-09-12T16:18:41Z",
                     "open_issues": 13,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
@@ -1242,7 +1242,7 @@
                     "language": "HTML",
                     "license": "MIT",
                     "last_commit": "2026-05-17T20:07:29Z",
-                    "open_issues": 45,
+                    "open_issues": 47,
                     "owner": "jonradoff",
                     "repo": "lofp",
                     "stars": 180,
@@ -1472,7 +1472,7 @@
             "id": 34863478,
             "language": "C",
             "license": null,
-            "last_commit": "2026-09-11T15:06:02Z",
+            "last_commit": "2026-09-12T16:18:41Z",
             "open_issues": 13,
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
@@ -1625,7 +1625,7 @@
                 "open_issues": 22,
                 "owner": "fluffos",
                 "repo": "fluffos",
-                "stars": 454,
+                "stars": 455,
                 "topics": [
                   "cpp17",
                   "fluffos",
@@ -1687,7 +1687,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-11T17:47:08.586Z",
+    "last_updated": "2026-09-12T17:16:58.028Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
