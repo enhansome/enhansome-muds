@@ -634,8 +634,8 @@
                         "id": 8451252,
                         "language": "C++",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-09-11T03:45:43Z",
-                        "open_issues": 22,
+                        "last_commit": "2026-09-13T14:36:31Z",
+                        "open_issues": 23,
                         "owner": "fluffos",
                         "repo": "fluffos",
                         "stars": 455,
@@ -1010,7 +1010,7 @@
                     "open_issues": 11,
                     "owner": "tbamud",
                     "repo": "tbamud",
-                    "stars": 150,
+                    "stars": 151,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
@@ -1060,7 +1060,7 @@
                     "id": 34863478,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-09-12T16:18:41Z",
+                    "last_commit": "2026-09-13T14:03:18Z",
                     "open_issues": 13,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
@@ -1162,7 +1162,7 @@
                     "open_issues": 129,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2098,
+                    "stars": 2100,
                     "topics": [
                       "based",
                       "django",
@@ -1455,7 +1455,7 @@
             "open_issues": 11,
             "owner": "tbamud",
             "repo": "tbamud",
-            "stars": 150,
+            "stars": 151,
             "topics": []
           },
           "first_seen": "2026-08-28T23:35:04.657Z"
@@ -1472,7 +1472,7 @@
             "id": 34863478,
             "language": "C",
             "license": null,
-            "last_commit": "2026-09-12T16:18:41Z",
+            "last_commit": "2026-09-13T14:03:18Z",
             "open_issues": 13,
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
@@ -1621,8 +1621,8 @@
                 "id": 8451252,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-11T03:45:43Z",
-                "open_issues": 22,
+                "last_commit": "2026-09-13T14:36:31Z",
+                "open_issues": 23,
                 "owner": "fluffos",
                 "repo": "fluffos",
                 "stars": 455,
@@ -1687,7 +1687,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T17:16:58.028Z",
+    "last_updated": "2026-09-13T17:27:30.540Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
