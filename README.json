@@ -1060,7 +1060,7 @@
                     "id": 34863478,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-09-16T18:10:46Z",
+                    "last_commit": "2026-09-17T17:50:10Z",
                     "open_issues": 13,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
@@ -1162,7 +1162,7 @@
                     "open_issues": 129,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2100,
+                    "stars": 2102,
                     "topics": [
                       "based",
                       "django",
@@ -1242,7 +1242,7 @@
                     "language": "HTML",
                     "license": "MIT",
                     "last_commit": "2026-05-17T20:07:29Z",
-                    "open_issues": 50,
+                    "open_issues": 52,
                     "owner": "jonradoff",
                     "repo": "lofp",
                     "stars": 180,
@@ -1472,7 +1472,7 @@
             "id": 34863478,
             "language": "C",
             "license": null,
-            "last_commit": "2026-09-16T18:10:46Z",
+            "last_commit": "2026-09-17T17:50:10Z",
             "open_issues": 13,
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
@@ -1687,7 +1687,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-16T18:14:40.807Z",
+    "last_updated": "2026-09-17T18:21:32.318Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
