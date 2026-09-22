@@ -186,7 +186,7 @@
                 "language": "C",
                 "license": "LGPL-2.1",
                 "last_commit": "2026-09-21T13:37:52Z",
-                "open_issues": 16,
+                "open_issues": 14,
                 "owner": "scandum",
                 "repo": "tintin",
                 "stars": 260,
@@ -638,7 +638,7 @@
                         "open_issues": 26,
                         "owner": "fluffos",
                         "repo": "fluffos",
-                        "stars": 459,
+                        "stars": 460,
                         "topics": [
                           "cpp17",
                           "fluffos",
@@ -1060,7 +1060,7 @@
                     "id": 34863478,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-09-20T15:46:36Z",
+                    "last_commit": "2026-09-21T20:28:09Z",
                     "open_issues": 12,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
@@ -1206,7 +1206,7 @@
                     "id": 5267832,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-09-21T17:12:30Z",
+                    "last_commit": "2026-09-22T11:18:31Z",
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
@@ -1472,7 +1472,7 @@
             "id": 34863478,
             "language": "C",
             "license": null,
-            "last_commit": "2026-09-20T15:46:36Z",
+            "last_commit": "2026-09-21T20:28:09Z",
             "open_issues": 12,
             "owner": "EmpireMUD",
             "repo": "EmpireMUD-2.0-Beta",
@@ -1625,7 +1625,7 @@
                 "open_issues": 26,
                 "owner": "fluffos",
                 "repo": "fluffos",
-                "stars": 459,
+                "stars": 460,
                 "topics": [
                   "cpp17",
                   "fluffos",
@@ -1687,7 +1687,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-21T19:35:09.351Z",
+    "last_updated": "2026-09-22T18:09:38.380Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
