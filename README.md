@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 508,944 | 🐛 106 | 📅 2026-09-02 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 509,348 | 🐛 106 | 📅 2026-09-02 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -289,7 +289,7 @@ Some information about some modern *drivers/game engines/codebases* created long
 
 Created by [Greg Taylor](https://gc-taylor.com/) in 2006, [Samuel "Griatch" Regandell](https://github.com/Griatch) took over the project in 2011. Modern library for creating online multiplayer text games in pure Python. Coding is done using normal Python modules imported into the server at runtime. BSD license.
 
-* [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia) ⭐ 2,105 | 🐛 131 | 🌐 Python | 📅 2026-09-19, [discussion forum](https://github.com/evennia/evennia/discussions) ⭐ 2,105 | 🐛 131 | 🌐 Python | 📅 2026-09-19, [Discord server](https://discord.com/invite/AJJpcRUhtF).
+* [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia) ⭐ 2,106 | 🐛 132 | 🌐 Python | 📅 2026-09-22, [discussion forum](https://github.com/evennia/evennia/discussions) ⭐ 2,106 | 🐛 132 | 🌐 Python | 📅 2026-09-22, [Discord server](https://discord.com/invite/AJJpcRUhtF).
 
 #### CoffeeMud
 
@@ -303,7 +303,7 @@ Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java
 
 Originally created by [Jon Radoff](https://en.wikipedia.org/wiki/Jon_Radoff) in 1992, one of the earliest commercial MUDs. Ran on CompuServe and the early internet until 1999. Won Computer Gaming World's 1993 Special Award for Artistic Excellence. The original engine source code was lost, but the game was reconstructed in 2026 from its original script files using AI (Claude Code). Go backend, React frontend, WebSocket multiplayer. MIT License.
 
-* [Web](https://lofp.metavert.io), [Github project](https://github.com/jonradoff/lofp) ⭐ 180 | 🐛 52 | 🌐 HTML | 📅 2026-05-17, [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
+* [Web](https://lofp.metavert.io), [Github project](https://github.com/jonradoff/lofp) ⭐ 180 | 🐛 54 | 🌐 HTML | 📅 2026-05-17, [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
 
 ## Notable running MUDs
 
@@ -617,7 +617,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Modern codebases with standard licenses
 
-Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,105 | 🐛 131 | 🌐 Python | 📅 2026-09-19 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 233 | 🐛 3 | 🌐 Java | 📅 2026-09-22 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 226 | 🐛 38 | 🌐 C++ | 📅 2026-08-19 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 20 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,106 | 🐛 132 | 🌐 Python | 📅 2026-09-22 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 233 | 🐛 3 | 🌐 Java | 📅 2026-09-22 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 110 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 16 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 226 | 🐛 38 | 🌐 C++ | 📅 2026-08-19 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 20 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
 
 ## People
 
@@ -698,4 +698,4 @@ This section includes some of the people already mentioned in the previous secti
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-22._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-23._

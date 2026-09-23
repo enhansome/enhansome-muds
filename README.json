@@ -1158,11 +1158,11 @@
                     "id": 16120959,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-09-19T01:46:46Z",
-                    "open_issues": 131,
+                    "last_commit": "2026-09-22T20:47:56Z",
+                    "open_issues": 132,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2105,
+                    "stars": 2106,
                     "topics": [
                       "based",
                       "django",
@@ -1242,7 +1242,7 @@
                     "language": "HTML",
                     "license": "MIT",
                     "last_commit": "2026-05-17T20:07:29Z",
-                    "open_issues": 52,
+                    "open_issues": 54,
                     "owner": "jonradoff",
                     "repo": "lofp",
                     "stars": 180,
@@ -1687,7 +1687,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-22T18:09:38.380Z",
+    "last_updated": "2026-09-23T18:27:06.089Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
