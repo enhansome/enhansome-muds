@@ -635,7 +635,7 @@
                         "language": "C++",
                         "license": "NOASSERTION",
                         "last_commit": "2026-09-16T10:36:49Z",
-                        "open_issues": 26,
+                        "open_issues": 27,
                         "owner": "fluffos",
                         "repo": "fluffos",
                         "stars": 460,
@@ -1242,7 +1242,7 @@
                     "language": "HTML",
                     "license": "MIT",
                     "last_commit": "2026-05-17T20:07:29Z",
-                    "open_issues": 54,
+                    "open_issues": 55,
                     "owner": "jonradoff",
                     "repo": "lofp",
                     "stars": 180,
@@ -1622,7 +1622,7 @@
                 "language": "C++",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-16T10:36:49Z",
-                "open_issues": 26,
+                "open_issues": 27,
                 "owner": "fluffos",
                 "repo": "fluffos",
                 "stars": 460,
@@ -1687,7 +1687,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-23T18:27:06.089Z",
+    "last_updated": "2026-09-24T18:27:59.380Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
@@ -1699,7 +1699,7 @@
       "open_issues": 0,
       "owner": "maldorne",
       "repo": "awesome-muds",
-      "stars": 82,
+      "stars": 83,
       "topics": [
         "awesome",
         "awesome-list",
