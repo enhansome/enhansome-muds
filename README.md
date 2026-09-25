@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 509,857 | 🐛 106 | 📅 2026-09-02 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 510,361 | 🐛 107 | 📅 2026-09-02 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -29,7 +29,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 ### Multiplatform
 
 * [Blightmud](https://github.com/LiquidityC/Blightmud) ⭐ 277 | 🐛 11 | 🌐 Rust | 📅 2026-09-21 \[Linux, MacOS], \[`TLS`, `GMCP`, `MSDP`, `MCCP2`]
-* [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) ⭐ 89 | 🐛 19 | 🌐 C | 📅 2026-04-29 \[Linux, MacOS, Windows], \[`GMCP`, `ATCP`]
+* [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) ⭐ 90 | 🐛 20 | 🌐 C | 📅 2026-04-29 \[Linux, MacOS, Windows], \[`GMCP`, `ATCP`]
 * [Tortilla MUD client](https://github.com/tmud/tortilla) ⭐ 26 | 🐛 2 | 🌐 C++ | 📅 2022-04-16 (completely in russian) \[Windows XP and above, Linux and MacOS via Wine], \[`MCCP`, `MSDP`, `MTTS`]
 * [KBTin](https://github.com/kilobyte/kbtin) ⭐ 23 | 🐛 3 | 🌐 C++ | 📅 2026-08-05 (Tintin++ fork) \[Linux, MacOS, BSD], \[`MCCP`, `TLS`]
 * [Sip](https://github.com/bozimmerman/Sip) ⭐ 10 | 🐛 1 | 🌐 JavaScript | 📅 2026-02-19 \[Linux, MacOS, Windows], \[`MXP`, `GMCP`, `MNES`, `MSP`, `MSDP`]
@@ -43,7 +43,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Windows
 
-* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 260 | 🐛 14 | 🌐 C | 📅 2026-09-21 has updated windows versions)
+* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 261 | 🐛 14 | 🌐 C | 📅 2026-09-21 has updated windows versions)
 * [Avalon Mud Client](https://github.com/blakepell/AvalonMudClient) ⭐ 38 | 🐛 0 | 🌐 C# | 📅 2026-08-22
 * [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) \[`MXP`, `MSP`, `MCP`, `MCCP`, `ATCP`]
 * [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4\&action=file\&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) \[`MXP`, `MCP`, `MCCP`]
@@ -103,7 +103,7 @@ Server apps that allow a web client to connect to a mud/telnet server:
 
 [MUDs](https://en.wikipedia.org/wiki/MUD) evolved from the [original game](https://en.wikipedia.org/wiki/MUD1) (created in 1978 in the University of Essex by Roy Trubshaw and Richard Bartle), in *families* of related games, mainly based in the technologies used to implement them.
 
-* Original [MUD1 source code](https://github.com/PDP-10/MUD1) ⭐ 76 | 🐛 0 | 📅 2024-10-28 for the DEC PDP-10 mainframe.
+* Original [MUD1 source code](https://github.com/PDP-10/MUD1) ⭐ 77 | 🐛 0 | 📅 2024-10-28 for the DEC PDP-10 mainframe.
 * Chronology of the [original MUD variants](https://mud.co.uk/richard/incarns.htm), by Richard Bartle.
 * [British Legends](http://www.british-legends.com), home of the MUD1 game.
 
@@ -140,7 +140,7 @@ Written by Stephen White in 1990. Later that year, he released [MOO](#moo).
 
 Written by Stephen White in 1990, derived from TinyMUCK, with object oriented design. Pavel Curtis did substantial modifications to MOO code, creating LambdaMOO, which was hosted at Xerox PARC.
 
-* [ToastStunt](https://github.com/lisdude/toaststunt) ⭐ 95 | 🐛 18 | 🌐 C++ | 📅 2026-09-08, forked from stunt and being worked on.
+* [ToastStunt](https://github.com/lisdude/toaststunt) ⭐ 95 | 🐛 18 | 🌐 C++ | 📅 2026-09-25, forked from stunt and being worked on.
 * [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming) ⭐ 75 | 🐛 0 | 🌐 HTML | 📅 2026-09-18 repository, collects and updates numerous MOO guides in one place, from the original server to ToastStunt.
 * Documentation in the [moo-cows](http://www.moo-cows.com/) web.
 * List of MOO games in [moolist](http://www.moolist.com/).
@@ -179,9 +179,9 @@ Another group of people started working from the LPMud v3.0 in 1992, and renamed
 
 ##### FluffOS
 
-In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as [FluffOS](http://fluffos.info/). [Still maintained](https://github.com/fluffos/fluffos) ⭐ 460 | 🐛 27 | 🌐 C++ | 📅 2026-09-16. It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is [Yucong Sun](https://github.com/thefallentree), and major versions has been released with the names FluffOS 2017, 2019 and 2023.
+In parallel to the last versions of Mudos (the last one was v22.2b14, 2003), the Discworld developers forked it and renamed it as [FluffOS](http://fluffos.info/). [Still maintained](https://github.com/fluffos/fluffos) ⭐ 461 | 🐛 27 | 🌐 C++ | 📅 2026-09-25. It had versions 1.0 to 1.36, 2.0 to 2.27, and since 3.0 the maintainer is [Yucong Sun](https://github.com/thefallentree), and major versions has been released with the names FluffOS 2017, 2019 and 2023.
 
-* [Official code repository](https://github.com/fluffos/fluffos) ⭐ 460 | 🐛 27 | 🌐 C++ | 📅 2026-09-16.
+* [Official code repository](https://github.com/fluffos/fluffos) ⭐ 461 | 🐛 27 | 🌐 C++ | 📅 2026-09-25.
 
 ##### LDMud
 
@@ -258,7 +258,7 @@ DikuMUD spawned a large family of derivatives, mostly through two main branches:
 | CircleMUD | DikuMUD → CircleMUD     | Created by Jeremy Elson in 1993. Clean, well-documented rewrite focused on portability; the most widely used Diku codebase for learning \[1]. Elson's last release was 3.1 (2002); later revived by The Builder Academy (3.5, 2006) and continued as tbaMUD.                                                                                                                                                                                 | [circlemud.org](https://www.circlemud.org/)                                                                                                                                                      |
 | tbaMUD    | → CircleMUD → tbaMUD    | Community continuation of CircleMUD. Modernized with OLC, ASCII maps, and ongoing development \[2]. Active.                                                                                                                                                                                                                                                                                                                                  | [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 151 \| 🐛 11 \| 🌐 C \| 📅 2026-09-08                                                                                                        |
 | AwakeMUD  | → CircleMUD → AwakeMUD  | Shadowrun 3rd Edition themed derivative \[3]. Active.                                                                                                                                                                                                                                                                                                                                                                                        | [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 78 \| 🐛 12 \| 🌐 C++ \| 📅 2026-09-21, [web](https://www.awakemud.com/)                                                         |
-| EmpireMUD | → CircleMUD → EmpireMUD | Persistent world map with territory control mechanics \[4]. Active.                                                                                                                                                                                                                                                                                                                                                                          | [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 101 \| 🐛 12 \| 🌐 C \| 📅 2026-09-21                                                                          |
+| EmpireMUD | → CircleMUD → EmpireMUD | Persistent world map with territory control mechanics \[4]. Active.                                                                                                                                                                                                                                                                                                                                                                          | [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 101 \| 🐛 12 \| 🌐 C \| 📅 2026-09-25                                                                          |
 | Merc      | DikuMUD → Merc          | Created by Furey, Hatchet, and Kahn in 1992. Major rewrite that became the ancestor of most other Diku derivatives \[5]. Abandoned.                                                                                                                                                                                                                                                                                                          | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus)                                                                                                                                  |
 | Envy      | → Merc → Envy           | By much of the former Merc team plus others (1994). Bundled OLC (EnvyOLC, ported from The Isles/NiMUD) \[5]. Abandoned.                                                                                                                                                                                                                                                                                                                      | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus)                                                                                                                                  |
 | ROM       | → Merc → ROM            | *Rivers of Mud*, by Russ Taylor (1993). Added a skills/spells system and an improved world format \[6]. Hugely influential; spawned countless downstream MUDs. Abandoned (last release 2.4b6, 1998).                                                                                                                                                                                                                                         | [avinson/rom24-quickmud](https://github.com/avinson/rom24-quickmud) ⭐ 65 \| 🐛 4 \| 🌐 C \| 📅 2018-05-18 (QuickMUD, cleaned-up ROM 2.4b6)                                                       |
@@ -270,7 +270,7 @@ DikuMUD spawned a large family of derivatives, mostly through two main branches:
 <summary><strong>References</strong></summary>
 
 1. [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 151 | 🐛 11 | 🌐 C | 📅 2026-09-08 repo README.
-2. [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 101 | 🐛 12 | 🌐 C | 📅 2026-09-21 repo README.
+2. [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 101 | 🐛 12 | 🌐 C | 📅 2026-09-25 repo README.
 3. [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 78 | 🐛 12 | 🌐 C++ | 📅 2026-09-21 repo README.
 4. Official site [circlemud.org](https://www.circlemud.org/) (confirms Jeremy Elson and the DikuMUD Gamma 0.0 derivation); version history and the tbaMUD transition on the [CircleMUD](https://muds.fandom.com/wiki/CircleMUD) page at the Muds Wiki. The Wikipedia "CircleMUD" title now redirects to the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article.
 5. Lineage from the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article on Wikipedia ("Merc led to ROM ... and Envy"); authors and dates from the [Merc](https://muds.fandom.com/wiki/Merc) and [Envy](https://muds.fandom.com/wiki/Envy) pages at the Muds Wiki.
@@ -608,7 +608,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Classic MUD licenses
 
-* **MudOS / FluffOS Copyright** (1991) — MudOS inherited Lars Pensjö's LPMud non-commercial copyright and layered its own notices on top (1991–1992 contributors; the entire package copyright 1995 by Tim Hollebeek). [FluffOS](#fluffos), forked from MudOS, carries the same chain unchanged: its [`Copyright` file](https://github.com/fluffos/fluffos/blob/master/Copyright) ⭐ 460 | 🐛 27 | 🌐 C++ | 📅 2026-09-16 restates that the source "may not be used in any way whatsoever for monetary gain" and that the LPMud and MudOS copyright restrictions still apply. Despite FluffOS being actively maintained, this remains a custom non-commercial license, not a recognized open source one.
+* **MudOS / FluffOS Copyright** (1991) — MudOS inherited Lars Pensjö's LPMud non-commercial copyright and layered its own notices on top (1991–1992 contributors; the entire package copyright 1995 by Tim Hollebeek). [FluffOS](#fluffos), forked from MudOS, carries the same chain unchanged: its [`Copyright` file](https://github.com/fluffos/fluffos/blob/master/Copyright) ⭐ 461 | 🐛 27 | 🌐 C++ | 📅 2026-09-25 restates that the source "may not be used in any way whatsoever for monetary gain" and that the LPMud and MudOS copyright restrictions still apply. Despite FluffOS being actively maintained, this remains a custom non-commercial license, not a recognized open source one.
 * **Merc License** (1991) — Built on top of DikuMUD's license. Requires compliance with the Diku license and preservation of copyright notices. Notably relaxed: the Merc authors do *not* require their names in the login sequence. [License text](https://github.com/alexmchale/merc-mud/blob/master/doc/license.txt) ⭐ 36 | 🐛 0 | 🌐 C | 📅 2009-07-22.
 * **ROM License** (\~1993) — Adds to both Diku and Merc licenses. Requires a ROM credit in the login message, an unaltered `help rom` entry, email notification to the author (Russ Taylor) before opening a ROM-based MUD, and reserves exclusive use of the name "Rivers of Mud". [License text](https://github.com/rszrama/szramarom/blob/master/doc/rom.license) ⭐ 8 | 🐛 0 | 🌐 C | 📅 2021-11-12.
 * **DikuMUD License** (1990) — Requires creator names in the login sequence and `credits` command; prohibits any commercial use or charging for distribution; requires notifying the original authors before running a DikuMUD. As of February 2020, the original authors also made DikuMUD available under the LGPL, though derivative codebases are not automatically re-licensed. [Original license text](https://dikumud.com/dikumud-license/).
@@ -698,4 +698,4 @@ This section includes some of the people already mentioned in the previous secti
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-24._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-25._
