@@ -955,7 +955,7 @@
                 "open_issues": 38,
                 "owner": "Seifert69",
                 "repo": "DikuMUD3",
-                "stars": 227,
+                "stars": 228,
                 "topics": [
                   "mud",
                   "mud-client",
@@ -1162,7 +1162,7 @@
                     "open_issues": 134,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2110,
+                    "stars": 2111,
                     "topics": [
                       "based",
                       "django",
@@ -1206,7 +1206,7 @@
                     "id": 5267832,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-09-27T12:20:55Z",
+                    "last_commit": "2026-09-30T19:07:53Z",
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
@@ -1242,7 +1242,7 @@
                     "language": "HTML",
                     "license": "MIT",
                     "last_commit": "2026-05-17T20:07:29Z",
-                    "open_issues": 62,
+                    "open_issues": 63,
                     "owner": "jonradoff",
                     "repo": "lofp",
                     "stars": 180,
@@ -1687,7 +1687,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-29T19:29:14.380Z",
+    "last_updated": "2026-09-30T19:29:29.144Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
