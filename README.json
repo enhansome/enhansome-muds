@@ -1224,7 +1224,7 @@
                     "id": 34863478,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-10-06T03:58:52Z",
+                    "last_commit": "2026-10-06T14:09:43Z",
                     "open_issues": 12,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
@@ -1331,7 +1331,7 @@
                         "id": 34863478,
                         "language": "C",
                         "license": null,
-                        "last_commit": "2026-10-06T03:58:52Z",
+                        "last_commit": "2026-10-06T14:09:43Z",
                         "open_issues": 12,
                         "owner": "EmpireMUD",
                         "repo": "EmpireMUD-2.0-Beta",
@@ -1689,7 +1689,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T11:03:31.849Z",
+    "last_updated": "2026-10-06T19:36:19.581Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",

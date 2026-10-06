@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 515,372 | 🐛 106 | 📅 2026-09-02 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 515,571 | 🐛 106 | 📅 2026-09-02 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
