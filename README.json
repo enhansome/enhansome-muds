@@ -634,8 +634,8 @@
                         "id": 8451252,
                         "language": "C++",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-10-17T06:07:29Z",
-                        "open_issues": 20,
+                        "last_commit": "2026-10-18T17:07:39Z",
+                        "open_issues": 21,
                         "owner": "fluffos",
                         "repo": "fluffos",
                         "stars": 463,
@@ -928,6 +928,55 @@
                   "first_seen": "2026-08-28T23:35:04.657Z"
                 },
                 {
+                  "node_type": "item",
+                  "title": "MudOS-style mudlib for DGD",
+                  "description": ", started in 2014 by Iván Alonso (neverbot) to run code from the old MudOS mudlibs (Ciudad Capital's ccmudlib, Final Realms, Discworld) on a modern driver. Still maintained; ships bilingual (English and Spanish) demo games [12].",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": null,
+                    "homepage": null,
+                    "id": 702580628,
+                    "language": null,
+                    "license": null,
+                    "last_commit": "2025-01-17T20:06:41Z",
+                    "open_issues": 0,
+                    "owner": "maldorne",
+                    "repo": "frmudlib",
+                    "stars": 0,
+                    "topics": []
+                  },
+                  "first_seen": "2026-10-18T17:26:06.314Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "maldorne/hexagon",
+                  "description": "maldorne/hexagon",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "MudOS-alike mudlib running on the DGD driver.",
+                    "homepage": "http://www.maldorne.org",
+                    "id": 23367099,
+                    "language": "C",
+                    "license": null,
+                    "last_commit": "2026-10-18T16:06:43Z",
+                    "open_issues": 6,
+                    "owner": "maldorne",
+                    "repo": "hexagon",
+                    "stars": 12,
+                    "topics": [
+                      "dgd",
+                      "hexagon",
+                      "lpc",
+                      "mud",
+                      "mudlib",
+                      "mudos"
+                    ]
+                  },
+                  "first_seen": "2026-10-18T17:26:06.314Z"
+                },
+                {
                   "children": [
                     {
                       "node_type": "item",
@@ -991,6 +1040,34 @@
                         "topics": []
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "maldorne/hexagon",
+                      "description": "on GitHub; its readme describes it as \"a project to make the original ccmudlib and other MudOS-alike mud libraries (like the ones from Final Realms or Discworld) work with a modern DGD mud driver\". First commit 26 August 2014.",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "MudOS-alike mudlib running on the DGD driver.",
+                        "homepage": "http://www.maldorne.org",
+                        "id": 23367099,
+                        "language": "C",
+                        "license": null,
+                        "last_commit": "2026-10-18T16:06:43Z",
+                        "open_issues": 6,
+                        "owner": "maldorne",
+                        "repo": "hexagon",
+                        "stars": 12,
+                        "topics": [
+                          "dgd",
+                          "hexagon",
+                          "lpc",
+                          "mud",
+                          "mudlib",
+                          "mudos"
+                        ]
+                      },
+                      "first_seen": "2026-10-18T17:26:06.314Z"
                     },
                     {
                       "node_type": "item",
@@ -1116,7 +1193,7 @@
                 "language": "C++",
                 "license": "LGPL-2.1",
                 "last_commit": "2026-10-16T05:26:00Z",
-                "open_issues": 40,
+                "open_issues": 41,
                 "owner": "Seifert69",
                 "repo": "DikuMUD3",
                 "stars": 227,
@@ -1224,7 +1301,7 @@
                     "id": 34863478,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-10-17T16:08:38Z",
+                    "last_commit": "2026-10-18T16:43:41Z",
                     "open_issues": 12,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
@@ -1331,7 +1408,7 @@
                         "id": 34863478,
                         "language": "C",
                         "license": null,
-                        "last_commit": "2026-10-17T16:08:38Z",
+                        "last_commit": "2026-10-18T16:43:41Z",
                         "open_issues": 12,
                         "owner": "EmpireMUD",
                         "repo": "EmpireMUD-2.0-Beta",
@@ -1408,7 +1485,7 @@
                     "open_issues": 137,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2111,
+                    "stars": 2112,
                     "topics": [
                       "based",
                       "django",
@@ -1452,7 +1529,7 @@
                     "id": 5267832,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-15T11:31:27Z",
+                    "last_commit": "2026-10-18T16:49:34Z",
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
@@ -1491,7 +1568,7 @@
                     "open_issues": 69,
                     "owner": "metavert-io",
                     "repo": "lofp",
-                    "stars": 182,
+                    "stars": 183,
                     "topics": [
                       "game",
                       "game-development",
@@ -1623,8 +1700,8 @@
                 "id": 8451252,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-17T06:07:29Z",
-                "open_issues": 20,
+                "last_commit": "2026-10-18T17:07:39Z",
+                "open_issues": 21,
                 "owner": "fluffos",
                 "repo": "fluffos",
                 "stars": 463,
@@ -1689,7 +1766,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-17T17:19:57.472Z",
+    "last_updated": "2026-10-18T17:26:06.314Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
@@ -1697,7 +1774,7 @@
       "id": 601221313,
       "language": null,
       "license": null,
-      "last_commit": "2026-08-04T20:26:58Z",
+      "last_commit": "2026-10-18T15:19:47Z",
       "open_issues": 0,
       "owner": "maldorne",
       "repo": "awesome-muds",
@@ -1711,7 +1788,7 @@
         "text-based-game"
       ]
     },
-    "original_repository_sha": "52e4bfd6af8a791466f84b05d7724a16213b4273",
+    "original_repository_sha": "486fe8729034ea5bc19954f756b07b797eb12c4b",
     "enhanced_repository": "enhansome/enhansome-muds",
     "enhanced_repository_description": null,
     "title": "Awesome MUDs with stars"
