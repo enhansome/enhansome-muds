@@ -532,7 +532,7 @@
                     "language": "C++",
                     "license": null,
                     "last_commit": "2026-10-16T13:42:30Z",
-                    "open_issues": 18,
+                    "open_issues": 19,
                     "owner": "lisdude",
                     "repo": "toaststunt",
                     "stars": 94,
@@ -634,7 +634,7 @@
                         "id": 8451252,
                         "language": "C++",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-10-20T18:22:55Z",
+                        "last_commit": "2026-10-21T15:26:08Z",
                         "open_issues": 20,
                         "owner": "fluffos",
                         "repo": "fluffos",
@@ -732,7 +732,7 @@
                         "open_issues": 3,
                         "owner": "dworkin",
                         "repo": "dgd",
-                        "stars": 110,
+                        "stars": 111,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
@@ -833,7 +833,7 @@
                     "open_issues": 3,
                     "owner": "genesismud",
                     "repo": "mudlib",
-                    "stars": 7,
+                    "stars": 8,
                     "topics": [
                       "lpc",
                       "lpmud",
@@ -960,7 +960,7 @@
                     "id": 23367099,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-10-20T16:46:11Z",
+                    "last_commit": "2026-10-21T10:37:54Z",
                     "open_issues": 6,
                     "owner": "maldorne",
                     "repo": "hexagon",
@@ -1053,7 +1053,7 @@
                         "id": 23367099,
                         "language": "C",
                         "license": null,
-                        "last_commit": "2026-10-20T16:46:11Z",
+                        "last_commit": "2026-10-21T10:37:54Z",
                         "open_issues": 6,
                         "owner": "maldorne",
                         "repo": "hexagon",
@@ -1097,6 +1097,32 @@
                     },
                     {
                       "node_type": "item",
+                      "title": "Genesis LPMud",
+                      "description": "on Wikipedia; genesismud/mudlib repo describes itself as \"the mudlib upon which Genesis and a few other muds runs\".",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "description": "The CD Mudlib",
+                        "homepage": "https://www.genesismud.org/",
+                        "id": 265920190,
+                        "language": "C",
+                        "license": null,
+                        "last_commit": "2023-12-28T19:48:05Z",
+                        "open_issues": 3,
+                        "owner": "genesismud",
+                        "repo": "mudlib",
+                        "stars": 8,
+                        "topics": [
+                          "lpc",
+                          "lpmud",
+                          "mud",
+                          "mudlib"
+                        ]
+                      },
+                      "first_seen": "2026-08-28T23:35:04.657Z"
+                    },
+                    {
+                      "node_type": "item",
                       "title": "dworkin/phantasmal",
                       "description": "on GitHub; author confirmed in Noah Gibbs' Self Conscious DGD. The AGPLv3 text lives in (added via a 2008 contributor addendum); there is no SPDX-detected top-level license file.",
                       "children": [],
@@ -1113,32 +1139,6 @@
                         "repo": "phantasmal",
                         "stars": 8,
                         "topics": []
-                      },
-                      "first_seen": "2026-08-28T23:35:04.657Z"
-                    },
-                    {
-                      "node_type": "item",
-                      "title": "Genesis LPMud",
-                      "description": "on Wikipedia; genesismud/mudlib repo describes itself as \"the mudlib upon which Genesis and a few other muds runs\".",
-                      "children": [],
-                      "repo_info": {
-                        "archived": false,
-                        "description": "The CD Mudlib",
-                        "homepage": "https://www.genesismud.org/",
-                        "id": 265920190,
-                        "language": "C",
-                        "license": null,
-                        "last_commit": "2023-12-28T19:48:05Z",
-                        "open_issues": 3,
-                        "owner": "genesismud",
-                        "repo": "mudlib",
-                        "stars": 7,
-                        "topics": [
-                          "lpc",
-                          "lpmud",
-                          "mud",
-                          "mudlib"
-                        ]
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
                     },
@@ -1192,8 +1192,8 @@
                 "id": 266027003,
                 "language": "C++",
                 "license": "LGPL-2.1",
-                "last_commit": "2026-10-20T14:40:04Z",
-                "open_issues": 44,
+                "last_commit": "2026-10-21T16:30:55Z",
+                "open_issues": 43,
                 "owner": "Seifert69",
                 "repo": "DikuMUD3",
                 "stars": 227,
@@ -1268,7 +1268,7 @@
                     "id": 91841886,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-10-15T23:50:05Z",
+                    "last_commit": "2026-10-21T00:03:08Z",
                     "open_issues": 15,
                     "owner": "luciensadi",
                     "repo": "AwakeMUD",
@@ -1301,7 +1301,7 @@
                     "id": 34863478,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-10-20T13:56:51Z",
+                    "last_commit": "2026-10-20T20:24:15Z",
                     "open_issues": 12,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
@@ -1408,7 +1408,7 @@
                         "id": 34863478,
                         "language": "C",
                         "license": null,
-                        "last_commit": "2026-10-20T13:56:51Z",
+                        "last_commit": "2026-10-20T20:24:15Z",
                         "open_issues": 12,
                         "owner": "EmpireMUD",
                         "repo": "EmpireMUD-2.0-Beta",
@@ -1429,7 +1429,7 @@
                         "id": 91841886,
                         "language": "C++",
                         "license": "NOASSERTION",
-                        "last_commit": "2026-10-15T23:50:05Z",
+                        "last_commit": "2026-10-21T00:03:08Z",
                         "open_issues": 15,
                         "owner": "luciensadi",
                         "repo": "AwakeMUD",
@@ -1485,7 +1485,7 @@
                     "open_issues": 140,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2113,
+                    "stars": 2112,
                     "topics": [
                       "based",
                       "django",
@@ -1529,7 +1529,7 @@
                     "id": 5267832,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-19T16:16:38Z",
+                    "last_commit": "2026-10-21T11:27:56Z",
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
@@ -1700,7 +1700,7 @@
                 "id": 8451252,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-20T18:22:55Z",
+                "last_commit": "2026-10-21T15:26:08Z",
                 "open_issues": 20,
                 "owner": "fluffos",
                 "repo": "fluffos",
@@ -1730,7 +1730,7 @@
                 "open_issues": 0,
                 "owner": "alexmchale",
                 "repo": "merc-mud",
-                "stars": 35,
+                "stars": 36,
                 "topics": []
               },
               "first_seen": "2026-08-28T23:35:04.657Z"
@@ -1766,7 +1766,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-20T18:32:20.868Z",
+    "last_updated": "2026-10-21T18:45:35.371Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
@@ -1774,7 +1774,7 @@
       "id": 601221313,
       "language": null,
       "license": null,
-      "last_commit": "2026-10-18T15:19:47Z",
+      "last_commit": "2026-10-20T22:40:52Z",
       "open_issues": 0,
       "owner": "maldorne",
       "repo": "awesome-muds",
@@ -1788,7 +1788,7 @@
         "text-based-game"
       ]
     },
-    "original_repository_sha": "486fe8729034ea5bc19954f756b07b797eb12c4b",
+    "original_repository_sha": "0e8637d2bc1174b00df42f1ebe7be329854c6285",
     "enhanced_repository": "enhansome/enhansome-muds",
     "enhanced_repository_description": null,
     "title": "Awesome MUDs with stars"
