@@ -638,7 +638,7 @@
                         "open_issues": 22,
                         "owner": "fluffos",
                         "repo": "fluffos",
-                        "stars": 463,
+                        "stars": 464,
                         "topics": [
                           "cpp17",
                           "fluffos",
@@ -960,7 +960,7 @@
                     "id": 23367099,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-10-22T17:14:51Z",
+                    "last_commit": "2026-10-24T20:09:32Z",
                     "open_issues": 6,
                     "owner": "maldorne",
                     "repo": "hexagon",
@@ -1053,7 +1053,7 @@
                         "id": 23367099,
                         "language": "C",
                         "license": null,
-                        "last_commit": "2026-10-22T17:14:51Z",
+                        "last_commit": "2026-10-24T20:09:32Z",
                         "open_issues": 6,
                         "owner": "maldorne",
                         "repo": "hexagon",
@@ -1269,7 +1269,7 @@
                     "language": "C++",
                     "license": "NOASSERTION",
                     "last_commit": "2026-10-21T00:03:08Z",
-                    "open_issues": 19,
+                    "open_issues": 20,
                     "owner": "luciensadi",
                     "repo": "AwakeMUD",
                     "stars": 79,
@@ -1430,7 +1430,7 @@
                         "language": "C++",
                         "license": "NOASSERTION",
                         "last_commit": "2026-10-21T00:03:08Z",
-                        "open_issues": 19,
+                        "open_issues": 20,
                         "owner": "luciensadi",
                         "repo": "AwakeMUD",
                         "stars": 79,
@@ -1481,8 +1481,8 @@
                     "id": 16120959,
                     "language": "Python",
                     "license": "BSD-3-Clause",
-                    "last_commit": "2026-10-24T11:56:58Z",
-                    "open_issues": 135,
+                    "last_commit": "2026-10-24T23:11:51Z",
+                    "open_issues": 125,
                     "owner": "evennia",
                     "repo": "evennia",
                     "stars": 2114,
@@ -1533,7 +1533,7 @@
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
-                    "stars": 235,
+                    "stars": 236,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
@@ -1704,7 +1704,7 @@
                 "open_issues": 22,
                 "owner": "fluffos",
                 "repo": "fluffos",
-                "stars": 463,
+                "stars": 464,
                 "topics": [
                   "cpp17",
                   "fluffos",
@@ -1766,7 +1766,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-24T17:29:41.504Z",
+    "last_updated": "2026-10-25T17:42:12.883Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
