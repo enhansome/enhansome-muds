@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 525,641 | 🐛 105 | 📅 2026-09-02 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 526,232 | 🐛 105 | 📅 2026-09-02 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -244,7 +244,7 @@ Some of the most influential mudlibs:
 
 Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.
 
-* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 228 | 🐛 41 | 🌐 C++ | 📅 2026-10-27, using HTML, websockets and Discord integration, being worked on, LGPL license.
+* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 228 | 🐛 43 | 🌐 C++ | 📅 2026-10-28, using HTML, websockets and Discord integration, being worked on, LGPL license.
 * [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (the original release), [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) ⭐ 108 | 🐛 1 | 🌐 C | 📅 2020-12-07 (newer than gamma), and [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2025-07-29, all with LGPL license.
 * [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
 * [DikuMUD.com](https://dikumud.com/).
@@ -259,7 +259,7 @@ DikuMUD spawned a large family of derivatives, mostly through two main branches:
 | :-------- | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | CircleMUD | DikuMUD → CircleMUD     | Created by Jeremy Elson in 1993. Clean, well-documented rewrite focused on portability; the most widely used Diku codebase for learning \[1]. Elson's last release was 3.1 (2002); later revived by The Builder Academy (3.5, 2006) and continued as tbaMUD.                                                                                                                                                                                 | [circlemud.org](https://www.circlemud.org/)                                                                                                                                                      |
 | tbaMUD    | → CircleMUD → tbaMUD    | Community continuation of CircleMUD. Modernized with OLC, ASCII maps, and ongoing development \[2]. Active.                                                                                                                                                                                                                                                                                                                                  | [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 148 \| 🐛 11 \| 🌐 C \| 📅 2026-09-08                                                                                                        |
-| AwakeMUD  | → CircleMUD → AwakeMUD  | Shadowrun 3rd Edition themed derivative \[3]. Active.                                                                                                                                                                                                                                                                                                                                                                                        | [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 79 \| 🐛 20 \| 🌐 C++ \| 📅 2026-10-21, [web](https://www.awakemud.com/)                                                         |
+| AwakeMUD  | → CircleMUD → AwakeMUD  | Shadowrun 3rd Edition themed derivative \[3]. Active.                                                                                                                                                                                                                                                                                                                                                                                        | [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 80 \| 🐛 21 \| 🌐 C++ \| 📅 2026-10-21, [web](https://www.awakemud.com/)                                                         |
 | EmpireMUD | → CircleMUD → EmpireMUD | Persistent world map with territory control mechanics \[4]. Active.                                                                                                                                                                                                                                                                                                                                                                          | [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 100 \| 🐛 12 \| 🌐 C \| 📅 2026-10-22                                                                          |
 | Merc      | DikuMUD → Merc          | Created by Furey, Hatchet, and Kahn in 1992. Major rewrite that became the ancestor of most other Diku derivatives \[5]. Abandoned.                                                                                                                                                                                                                                                                                                          | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus)                                                                                                                                  |
 | Envy      | → Merc → Envy           | By much of the former Merc team plus others (1994). Bundled OLC (EnvyOLC, ported from The Isles/NiMUD) \[5]. Abandoned.                                                                                                                                                                                                                                                                                                                      | Archived at [DikuMUDOmnibus](https://github.com/DikuMUDOmnibus)                                                                                                                                  |
@@ -273,7 +273,7 @@ DikuMUD spawned a large family of derivatives, mostly through two main branches:
 
 1. [tbamud/tbamud](https://github.com/tbamud/tbamud) ⭐ 148 | 🐛 11 | 🌐 C | 📅 2026-09-08 repo README.
 2. [EmpireMUD/EmpireMUD-2.0-Beta](https://github.com/EmpireMUD/EmpireMUD-2.0-Beta) ⭐ 100 | 🐛 12 | 🌐 C | 📅 2026-10-22 repo README.
-3. [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 79 | 🐛 20 | 🌐 C++ | 📅 2026-10-21 repo README.
+3. [luciensadi/AwakeMUD](https://github.com/luciensadi/AwakeMUD) ⭐ 80 | 🐛 21 | 🌐 C++ | 📅 2026-10-21 repo README.
 4. Official site [circlemud.org](https://www.circlemud.org/) (confirms Jeremy Elson and the DikuMUD Gamma 0.0 derivation); version history and the tbaMUD transition on the [CircleMUD](https://muds.fandom.com/wiki/CircleMUD) page at the Muds Wiki. The Wikipedia "CircleMUD" title now redirects to the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article.
 5. Lineage from the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article on Wikipedia ("Merc led to ROM ... and Envy"); authors and dates from the [Merc](https://muds.fandom.com/wiki/Merc) and [Envy](https://muds.fandom.com/wiki/Envy) pages at the Muds Wiki.
 6. [ROM](https://muds.fandom.com/wiki/ROM) on the Muds Wiki. The Wikipedia "ROM (MUD)" title redirects to the [DikuMUD](https://en.wikipedia.org/wiki/DikuMUD) article.
@@ -291,13 +291,13 @@ Some information about some modern *drivers/game engines/codebases* created long
 
 Created by [Greg Taylor](https://gc-taylor.com/) in 2006, [Samuel "Griatch" Regandell](https://github.com/Griatch) took over the project in 2011. Modern library for creating online multiplayer text games in pure Python. Coding is done using normal Python modules imported into the server at runtime. BSD license.
 
-* [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia) ⭐ 2,114 | 🐛 125 | 🌐 Python | 📅 2026-10-24, [discussion forum](https://github.com/evennia/evennia/discussions) ⭐ 2,114 | 🐛 125 | 🌐 Python | 📅 2026-10-24, [Discord server](https://discord.com/invite/AJJpcRUhtF).
+* [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia) ⭐ 2,115 | 🐛 126 | 🌐 Python | 📅 2026-10-24, [discussion forum](https://github.com/evennia/evennia/discussions) ⭐ 2,115 | 🐛 126 | 🌐 Python | 📅 2026-10-24, [Discord server](https://discord.com/invite/AJJpcRUhtF).
 
 #### CoffeeMud
 
 Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java. Supports any JDBC/ODBC database, includes built-in web server. Apache License.
 
-* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-10-27.
+* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-10-28.
 
 ### Old games and drivers reconstructed with the help of AI
 
@@ -305,7 +305,7 @@ Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java
 
 Originally created by [Jon Radoff](https://en.wikipedia.org/wiki/Jon_Radoff) in 1992, one of the earliest commercial MUDs. Ran on CompuServe and the early internet until 1999. Won Computer Gaming World's 1993 Special Award for Artistic Excellence. The original engine source code was lost, but the game was reconstructed in 2026 from its original script files using AI (Claude Code). Go backend, React frontend, WebSocket multiplayer. MIT License.
 
-* [Web](https://lofp.metavert.io), [Github project](https://github.com/jonradoff/lofp) ⭐ 183 | 🐛 71 | 🌐 HTML | 📅 2026-10-17, [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
+* [Web](https://lofp.metavert.io), [Github project](https://github.com/jonradoff/lofp) ⭐ 183 | 🐛 72 | 🌐 HTML | 📅 2026-10-17, [Wikipedia](https://en.wikipedia.org/wiki/Legends_of_Future_Past).
 
 ## Notable running MUDs
 
@@ -619,7 +619,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Modern codebases with standard licenses
 
-Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,114 | 🐛 125 | 🌐 Python | 📅 2026-10-24 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-10-27 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 111 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 228 | 🐛 41 | 🌐 C++ | 📅 2026-10-27 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,115 | 🐛 126 | 🌐 Python | 📅 2026-10-24 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-10-28 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 111 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 228 | 🐛 43 | 🌐 C++ | 📅 2026-10-28 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
 
 ## People
 
@@ -701,4 +701,4 @@ This section includes some of the people already mentioned in the previous secti
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-27._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-28._
