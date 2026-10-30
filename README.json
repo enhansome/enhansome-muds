@@ -17,7 +17,7 @@
                 "id": 258866028,
                 "language": "Rust",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-27T07:12:03Z",
+                "last_commit": "2026-10-30T07:16:01Z",
                 "open_issues": 11,
                 "owner": "Blightmud",
                 "repo": "Blightmud",
@@ -54,7 +54,7 @@
                 "open_issues": 20,
                 "owner": "ingwarsw",
                 "repo": "tinyfugue",
-                "stars": 90,
+                "stars": 91,
                 "topics": [
                   "c",
                   "mud",
@@ -960,7 +960,7 @@
                     "id": 23367099,
                     "language": "C",
                     "license": null,
-                    "last_commit": "2026-10-25T19:28:06Z",
+                    "last_commit": "2026-10-30T18:47:47Z",
                     "open_issues": 6,
                     "owner": "maldorne",
                     "repo": "hexagon",
@@ -1053,7 +1053,7 @@
                         "id": 23367099,
                         "language": "C",
                         "license": null,
-                        "last_commit": "2026-10-25T19:28:06Z",
+                        "last_commit": "2026-10-30T18:47:47Z",
                         "open_issues": 6,
                         "owner": "maldorne",
                         "repo": "hexagon",
@@ -1305,7 +1305,7 @@
                     "open_issues": 12,
                     "owner": "EmpireMUD",
                     "repo": "EmpireMUD-2.0-Beta",
-                    "stars": 100,
+                    "stars": 101,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
@@ -1412,7 +1412,7 @@
                         "open_issues": 12,
                         "owner": "EmpireMUD",
                         "repo": "EmpireMUD-2.0-Beta",
-                        "stars": 100,
+                        "stars": 101,
                         "topics": []
                       },
                       "first_seen": "2026-08-28T23:35:04.657Z"
@@ -1485,7 +1485,7 @@
                     "open_issues": 126,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2115,
+                    "stars": 2116,
                     "topics": [
                       "based",
                       "django",
@@ -1529,7 +1529,7 @@
                     "id": 5267832,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-29T16:16:18Z",
+                    "last_commit": "2026-10-30T00:05:11Z",
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
@@ -1565,10 +1565,10 @@
                     "language": "HTML",
                     "license": "MIT",
                     "last_commit": "2026-10-17T00:32:51Z",
-                    "open_issues": 72,
+                    "open_issues": 73,
                     "owner": "metavert-io",
                     "repo": "lofp",
-                    "stars": 183,
+                    "stars": 184,
                     "topics": [
                       "game",
                       "game-development",
@@ -1766,7 +1766,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-29T19:42:54.516Z",
+    "last_updated": "2026-10-30T19:29:53.800Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
