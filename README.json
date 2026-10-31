@@ -1192,8 +1192,8 @@
                 "id": 266027003,
                 "language": "C++",
                 "license": "LGPL-2.1",
-                "last_commit": "2026-10-28T18:15:14Z",
-                "open_issues": 45,
+                "last_commit": "2026-10-31T08:38:19Z",
+                "open_issues": 46,
                 "owner": "Seifert69",
                 "repo": "DikuMUD3",
                 "stars": 228,
@@ -1529,11 +1529,11 @@
                     "id": 5267832,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-30T00:05:11Z",
+                    "last_commit": "2026-10-31T17:55:39Z",
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
-                    "stars": 236,
+                    "stars": 237,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T23:35:04.657Z"
@@ -1766,7 +1766,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-30T19:29:53.800Z",
+    "last_updated": "2026-10-31T18:38:34.155Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",
