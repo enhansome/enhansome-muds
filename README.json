@@ -186,7 +186,7 @@
                 "language": "C",
                 "license": "LGPL-2.1",
                 "last_commit": "2026-09-21T13:37:52Z",
-                "open_issues": 26,
+                "open_issues": 27,
                 "owner": "scandum",
                 "repo": "tintin",
                 "stars": 263,
@@ -563,7 +563,7 @@
                     "open_issues": 0,
                     "owner": "sevenecks",
                     "repo": "lambda-moo-programming",
-                    "stars": 76,
+                    "stars": 77,
                     "topics": [
                       "gaming",
                       "gammamoo",
@@ -1192,8 +1192,8 @@
                 "id": 266027003,
                 "language": "C++",
                 "license": "LGPL-2.1",
-                "last_commit": "2026-11-07T18:45:47Z",
-                "open_issues": 46,
+                "last_commit": "2026-11-08T16:55:02Z",
+                "open_issues": 41,
                 "owner": "Seifert69",
                 "repo": "DikuMUD3",
                 "stars": 228,
@@ -1529,7 +1529,7 @@
                     "id": 5267832,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-07T17:15:49Z",
+                    "last_commit": "2026-11-08T16:41:34Z",
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
@@ -1766,7 +1766,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-07T18:53:14.515Z",
+    "last_updated": "2026-11-08T18:53:26.432Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",

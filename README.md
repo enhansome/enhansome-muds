@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 533,080 | 🐛 103 | 📅 2026-09-02 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 533,740 | 🐛 103 | 📅 2026-09-02 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -43,7 +43,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Windows
 
-* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 263 | 🐛 26 | 🌐 C | 📅 2026-09-21 has updated windows versions)
+* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 263 | 🐛 27 | 🌐 C | 📅 2026-09-21 has updated windows versions)
 * [Avalon Mud Client](https://github.com/blakepell/AvalonMudClient) ⭐ 38 | 🐛 0 | 🌐 C# | 📅 2026-08-22
 * [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) \[`MXP`, `MSP`, `MCP`, `MCCP`, `ATCP`]
 * [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4\&action=file\&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) \[`MXP`, `MCP`, `MCCP`]
@@ -141,7 +141,7 @@ Written by Stephen White in 1990. Later that year, he released [MOO](#moo).
 Written by Stephen White in 1990, derived from TinyMUCK, with object oriented design. Pavel Curtis did substantial modifications to MOO code, creating LambdaMOO, which was hosted at Xerox PARC.
 
 * [ToastStunt](https://github.com/lisdude/toaststunt) ⭐ 95 | 🐛 21 | 🌐 C++ | 📅 2026-11-05, forked from stunt and being worked on.
-* [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming) ⭐ 76 | 🐛 0 | 🌐 HTML | 📅 2026-09-18 repository, collects and updates numerous MOO guides in one place, from the original server to ToastStunt.
+* [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming) ⭐ 77 | 🐛 0 | 🌐 HTML | 📅 2026-09-18 repository, collects and updates numerous MOO guides in one place, from the original server to ToastStunt.
 * Documentation in the [moo-cows](http://www.moo-cows.com/) web.
 * List of MOO games in [moolist](http://www.moolist.com/).
 * [LambdaMOO](https://en.wikipedia.org/wiki/LambdaMOO) was created in 1990 by Pavel Curtis ([source code in sourceforge](https://sourceforge.net/projects/lambdamoo/)).
@@ -244,7 +244,7 @@ Some of the most influential mudlibs:
 
 Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.
 
-* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 228 | 🐛 46 | 🌐 C++ | 📅 2026-11-07, using HTML, websockets and Discord integration, being worked on, LGPL license.
+* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 228 | 🐛 41 | 🌐 C++ | 📅 2026-11-08, using HTML, websockets and Discord integration, being worked on, LGPL license.
 * [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (the original release), [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) ⭐ 108 | 🐛 1 | 🌐 C | 📅 2020-12-07 (newer than gamma), and [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2025-07-29, all with LGPL license.
 * [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
 * [DikuMUD.com](https://dikumud.com/).
@@ -297,7 +297,7 @@ Created by [Greg Taylor](https://gc-taylor.com/) in 2006, [Samuel "Griatch" Rega
 
 Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java. Supports any JDBC/ODBC database, includes built-in web server. Apache License.
 
-* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-07.
+* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-08.
 
 ### Old games and drivers reconstructed with the help of AI
 
@@ -619,7 +619,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Modern codebases with standard licenses
 
-Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,119 | 🐛 129 | 🌐 Python | 📅 2026-11-05 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-07 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 111 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 228 | 🐛 46 | 🌐 C++ | 📅 2026-11-07 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,119 | 🐛 129 | 🌐 Python | 📅 2026-11-05 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-08 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 111 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 228 | 🐛 41 | 🌐 C++ | 📅 2026-11-08 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
 
 ## People
 
@@ -701,4 +701,4 @@ This section includes some of the people already mentioned in the previous secti
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-07._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-08._
