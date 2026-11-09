@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 533,740 | 🐛 103 | 📅 2026-09-02 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 534,249 | 🐛 103 | 📅 2026-09-02 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -28,7 +28,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Multiplatform
 
-* [Blightmud](https://github.com/LiquidityC/Blightmud) ⭐ 279 | 🐛 10 | 🌐 Rust | 📅 2026-11-04 \[Linux, MacOS], \[`TLS`, `GMCP`, `MSDP`, `MCCP2`]
+* [Blightmud](https://github.com/LiquidityC/Blightmud) ⭐ 279 | 🐛 10 | 🌐 Rust | 📅 2026-11-09 \[Linux, MacOS], \[`TLS`, `GMCP`, `MSDP`, `MCCP2`]
 * [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) ⭐ 92 | 🐛 20 | 🌐 C | 📅 2026-10-11 \[Linux, MacOS, Windows], \[`GMCP`, `ATCP`]
 * [Tortilla MUD client](https://github.com/tmud/tortilla) ⭐ 26 | 🐛 2 | 🌐 C++ | 📅 2022-04-16 (completely in russian) \[Windows XP and above, Linux and MacOS via Wine], \[`MCCP`, `MSDP`, `MTTS`]
 * [KBTin](https://github.com/kilobyte/kbtin) ⭐ 23 | 🐛 3 | 🌐 C++ | 📅 2026-08-05 (Tintin++ fork) \[Linux, MacOS, BSD], \[`MCCP`, `TLS`]
@@ -43,7 +43,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Windows
 
-* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 263 | 🐛 27 | 🌐 C | 📅 2026-09-21 has updated windows versions)
+* [WinTin](http://wintin.org/) (supports Tintin++ scripting language, unmaintained in its webpage, but [Tintin++ releases](https://github.com/scandum/tintin/releases) ⭐ 262 | 🐛 27 | 🌐 C | 📅 2026-09-21 has updated windows versions)
 * [Avalon Mud Client](https://github.com/blakepell/AvalonMudClient) ⭐ 38 | 🐛 0 | 🌐 C# | 📅 2026-08-22
 * [CMUD](http://www.zuggsoft.com/index.php?p=cmud) (free trial, paid app) \[`MXP`, `MSP`, `MCP`, `MCCP`, `ATCP`]
 * [zMUD 7.21](http://forums.zuggsoft.com/index.php?page=4\&action=file\&file_id=65) (free trial, paid app, last version of CMUD precursor, unmaintained) \[`MXP`, `MCP`, `MCCP`]
@@ -220,7 +220,7 @@ Some of the most influential mudlibs:
 | Final Realms  | FR-MUD (1991/1992). Opened *before* any Discworld mudlib was released publicly (March 1993), so it was not a Discworld fork at launch; the preserved late-1990s source nonetheless borrows heavily from Discworld — ports and explicit *"ripoff from DiscWorld"* attributions throughout \[9].                                                                                                                                                                                                                                                                                                        | [quixadhal/fr](https://github.com/quixadhal/fr) ⭐ 3 \| 🐛 0 \| 🌐 C \| 📅 2018-02-13, [maldorne/frmudlib v3.5](https://github.com/maldorne/frmudlib/tree/v3.5b) ⭐ 0 \| 🐛 0 \| 📅 2025-01-17 |
 | Phantasmal    | The most complete publicly available mudlib for [DGD](#dgd), created by Noah Gibbs (author of [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/)). Features full persistence, OLC, and a help system. AGPL license \[10].                                                                                                                                                                                                                                                                                                                                                          | [dworkin/phantasmal](https://github.com/dworkin/phantasmal) ⚠️ Archived                                                                                                                      |
 | Gurbalib      | Lightweight [DGD](#dgd) mudlib originally created by Fudge (Erlend Simonsen), currently maintained by Sirdude (Kent Mein). Relatively complete game feature set for a DGD lib \[11].                                                                                                                                                                                                                                                                                                                                                                                                                  | [sirdude/gurbalib](https://github.com/sirdude/gurbalib) ⭐ 26 \| 🐛 2 \| 🌐 C \| 📅 2024-06-12                                                                                                |
-| Hexagon       | MudOS-style mudlib for [DGD](#dgd), started in 2014 by Iván Alonso (neverbot) to run code from the old [MudOS](#mudos) mudlibs (Ciudad Capital's *ccmudlib*, [Final Realms](https://github.com/maldorne/frmudlib/tree/v3.5b) ⭐ 0 \| 🐛 0 \| 📅 2025-01-17, Discworld) on a modern driver. Still maintained; ships bilingual (English and Spanish) demo games \[12].                                                                                                                                                                                                                                   | [maldorne/hexagon](https://github.com/maldorne/hexagon) ⭐ 12 \| 🐛 6 \| 🌐 C \| 📅 2026-11-07                                                                                                |
+| Hexagon       | MudOS-style mudlib for [DGD](#dgd), started in 2014 by Iván Alonso (neverbot) to run code from the old [MudOS](#mudos) mudlibs (Ciudad Capital's *ccmudlib*, [Final Realms](https://github.com/maldorne/frmudlib/tree/v3.5b) ⭐ 0 \| 🐛 0 \| 📅 2025-01-17, Discworld) on a modern driver. Still maintained; ships bilingual (English and Spanish) demo games \[12].                                                                                                                                                                                                                                   | [maldorne/hexagon](https://github.com/maldorne/hexagon) ⭐ 12 \| 🐛 6 \| 🌐 C \| 📅 2026-11-09                                                                                                |
 
 <details>
 <summary><strong>References</strong></summary>
@@ -228,7 +228,7 @@ Some of the most influential mudlibs:
 1. LDMud's `mud/lp-245` [README](https://github.com/ldmud/ldmud/tree/master/mud/lp-245) ⭐ 157 | 🐛 41 | 🌐 C | 📅 2026-11-02 describes it as "the old LP 2.4.5 mudlib, slightly updated to run with LDMud 3.2.7 or newer".
 2. [sirdude/gurbalib](https://github.com/sirdude/gurbalib) ⭐ 26 | 🐛 2 | 🌐 C | 📅 2024-06-12 on GitHub: the repo [`README`](https://github.com/sirdude/gurbalib/blob/master/README) ⭐ 26 | 🐛 2 | 🌐 C | 📅 2024-06-12 opens "Welcome to Sirdude's (aka Kent Mein) branch of the Gurbalib mudlib". [HEADER.txt](https://wotf.org/downloads/gurba/HEADER.txt) at wotf.org records it was "originally developed for DGD 1.1 by Fudge"; Fudge's real name (Erlend Simonsen) is confirmed via his [GitHub profile](https://github.com/Fudge).
 3. [Dead Souls Mudlib](https://mud.fandom.com/wiki/Dead_Souls_Mudlib) on the MUD Wiki; the repo [`README.txt`](https://github.com/quixadhal/deadsouls/blob/master/README.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18 is signed *"-Cratylus @ Dead Souls"* and states the lib "is based on that old warhorse", recalling that "Descartes @ Nightmare chose to retire his Nightmare mudlib from distribution".
-4. [maldorne/hexagon](https://github.com/maldorne/hexagon) ⭐ 12 | 🐛 6 | 🌐 C | 📅 2026-11-07 on GitHub; its [readme](https://github.com/maldorne/hexagon/blob/master/readme.md) ⭐ 12 | 🐛 6 | 🌐 C | 📅 2026-11-07 describes it as "a project to make the original *ccmudlib* and other MudOS-alike mud libraries (like the ones from *Final Realms* or *Discworld*) work with a modern DGD mud driver". First commit 26 August 2014.
+4. [maldorne/hexagon](https://github.com/maldorne/hexagon) ⭐ 12 | 🐛 6 | 🌐 C | 📅 2026-11-09 on GitHub; its [readme](https://github.com/maldorne/hexagon/blob/master/readme.md) ⭐ 12 | 🐛 6 | 🌐 C | 📅 2026-11-09 describes it as "a project to make the original *ccmudlib* and other MudOS-alike mud libraries (like the ones from *Final Realms* or *Discworld*) work with a modern DGD mud driver". First commit 26 August 2014.
 5. Lima mudlib project site at [limamudlib.dev](https://www.limamudlib.dev/); maintained repo at [limalib/lima](https://github.com/limalib/lima) ⭐ 11 | 🐛 17 | 🌐 C | 📅 2026-10-16; the earlier [fluffos/lima](https://github.com/fluffos/lima) ⚠️ Archived was archived read-only in October 2024. The lib's [`lib/README`](https://github.com/limalib/lima/blob/master/lib/README) ⭐ 11 | 🐛 17 | 🌐 C | 📅 2026-10-16 credits John Viega, Greg Stein and Tim Hollebeek as authors and lists Zakk Girouard among the Lima Bean admins.
 6. [Genesis LPMud](https://en.wikipedia.org/wiki/Genesis_LPMud) on Wikipedia; [genesismud/mudlib](https://github.com/genesismud/mudlib) ⭐ 8 | 🐛 3 | 🌐 C | 📅 2023-12-28 repo describes itself as "the mudlib upon which Genesis and a few other muds runs".
 7. [dworkin/phantasmal](https://github.com/dworkin/phantasmal) ⚠️ Archived on GitHub; author confirmed in Noah Gibbs' [Self Conscious DGD](https://noahgibbs.github.io/self_conscious_dgd/02_History.html). The AGPLv3 text lives in [`mudlib/COPYING`](https://github.com/dworkin/phantasmal/blob/master/mudlib/COPYING) ⚠️ Archived (added via a 2008 contributor addendum); there is no SPDX-detected top-level license file.
@@ -244,7 +244,7 @@ Some of the most influential mudlibs:
 
 Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.
 
-* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 228 | 🐛 41 | 🌐 C++ | 📅 2026-11-08, using HTML, websockets and Discord integration, being worked on, LGPL license.
+* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 228 | 🐛 40 | 🌐 C++ | 📅 2026-11-09, using HTML, websockets and Discord integration, being worked on, LGPL license.
 * [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (the original release), [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) ⭐ 108 | 🐛 1 | 🌐 C | 📅 2020-12-07 (newer than gamma), and [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2025-07-29, all with LGPL license.
 * [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
 * [DikuMUD.com](https://dikumud.com/).
@@ -297,7 +297,7 @@ Created by [Greg Taylor](https://gc-taylor.com/) in 2006, [Samuel "Griatch" Rega
 
 Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java. Supports any JDBC/ODBC database, includes built-in web server. Apache License.
 
-* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-08.
+* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-09.
 
 ### Old games and drivers reconstructed with the help of AI
 
@@ -619,7 +619,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Modern codebases with standard licenses
 
-Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,119 | 🐛 129 | 🌐 Python | 📅 2026-11-05 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-08 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 111 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 228 | 🐛 41 | 🌐 C++ | 📅 2026-11-08 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,119 | 🐛 129 | 🌐 Python | 📅 2026-11-05 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-09 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 111 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 228 | 🐛 40 | 🌐 C++ | 📅 2026-11-09 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
 
 ## People
 
@@ -701,4 +701,4 @@ This section includes some of the people already mentioned in the previous secti
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-08._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-09._
