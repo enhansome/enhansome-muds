@@ -17,7 +17,7 @@
                 "id": 258866028,
                 "language": "Rust",
                 "license": "GPL-3.0",
-                "last_commit": "2026-11-09T07:15:11Z",
+                "last_commit": "2026-11-10T07:12:43Z",
                 "open_issues": 10,
                 "owner": "Blightmud",
                 "repo": "Blightmud",
@@ -535,7 +535,7 @@
                     "open_issues": 21,
                     "owner": "lisdude",
                     "repo": "toaststunt",
-                    "stars": 95,
+                    "stars": 96,
                     "topics": [
                       "lambdamoo",
                       "moo",
@@ -1192,8 +1192,8 @@
                 "id": 266027003,
                 "language": "C++",
                 "license": "LGPL-2.1",
-                "last_commit": "2026-11-09T21:18:14Z",
-                "open_issues": 40,
+                "last_commit": "2026-11-10T20:42:13Z",
+                "open_issues": 42,
                 "owner": "Seifert69",
                 "repo": "DikuMUD3",
                 "stars": 228,
@@ -1485,7 +1485,7 @@
                     "open_issues": 129,
                     "owner": "evennia",
                     "repo": "evennia",
-                    "stars": 2119,
+                    "stars": 2120,
                     "topics": [
                       "based",
                       "django",
@@ -1529,7 +1529,7 @@
                     "id": 5267832,
                     "language": "Java",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-09T23:02:48Z",
+                    "last_commit": "2026-11-10T20:10:19Z",
                     "open_issues": 3,
                     "owner": "bozimmerman",
                     "repo": "CoffeeMud",
@@ -1766,7 +1766,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-09T23:28:33.529Z",
+    "last_updated": "2026-11-10T20:54:16.016Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of MUD development resources, tools, and apps.",

@@ -6,7 +6,7 @@
 
 > A curated list of [MUD](https://en.wikipedia.org/wiki/MUD) development resources, tools, and apps.
 
-*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 534,249 | 🐛 103 | 📅 2026-09-02 list thing.*
+*Inspired by the [awesome](https://github.com/sindresorhus/awesome) ⭐ 534,799 | 🐛 103 | 📅 2026-09-02 list thing.*
 
 If you want to add anything to this list, please [open an issue](https://opensource.guide/how-to-contribute/#opening-an-issue) or a [pull request](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
 
@@ -28,7 +28,7 @@ List of clients you can use to connect to different MUDs, grouped by operating s
 
 ### Multiplatform
 
-* [Blightmud](https://github.com/LiquidityC/Blightmud) ⭐ 279 | 🐛 10 | 🌐 Rust | 📅 2026-11-09 \[Linux, MacOS], \[`TLS`, `GMCP`, `MSDP`, `MCCP2`]
+* [Blightmud](https://github.com/LiquidityC/Blightmud) ⭐ 279 | 🐛 10 | 🌐 Rust | 📅 2026-11-10 \[Linux, MacOS], \[`TLS`, `GMCP`, `MSDP`, `MCCP2`]
 * [TinyFugue Rebirth](https://github.com/ingwarsw/tinyfugue) ⭐ 92 | 🐛 20 | 🌐 C | 📅 2026-10-11 \[Linux, MacOS, Windows], \[`GMCP`, `ATCP`]
 * [Tortilla MUD client](https://github.com/tmud/tortilla) ⭐ 26 | 🐛 2 | 🌐 C++ | 📅 2022-04-16 (completely in russian) \[Windows XP and above, Linux and MacOS via Wine], \[`MCCP`, `MSDP`, `MTTS`]
 * [KBTin](https://github.com/kilobyte/kbtin) ⭐ 23 | 🐛 3 | 🌐 C++ | 📅 2026-08-05 (Tintin++ fork) \[Linux, MacOS, BSD], \[`MCCP`, `TLS`]
@@ -140,7 +140,7 @@ Written by Stephen White in 1990. Later that year, he released [MOO](#moo).
 
 Written by Stephen White in 1990, derived from TinyMUCK, with object oriented design. Pavel Curtis did substantial modifications to MOO code, creating LambdaMOO, which was hosted at Xerox PARC.
 
-* [ToastStunt](https://github.com/lisdude/toaststunt) ⭐ 95 | 🐛 21 | 🌐 C++ | 📅 2026-11-05, forked from stunt and being worked on.
+* [ToastStunt](https://github.com/lisdude/toaststunt) ⭐ 96 | 🐛 21 | 🌐 C++ | 📅 2026-11-05, forked from stunt and being worked on.
 * [LambdaMOO Programming](https://github.com/sevenecks/lambda-moo-programming) ⭐ 77 | 🐛 0 | 🌐 HTML | 📅 2026-09-18 repository, collects and updates numerous MOO guides in one place, from the original server to ToastStunt.
 * Documentation in the [moo-cows](http://www.moo-cows.com/) web.
 * List of MOO games in [moolist](http://www.moolist.com/).
@@ -244,7 +244,7 @@ Some of the most influential mudlibs:
 
 Inspired by [AberMUD](#AberMUD) and [LPMud](#LPMud), created in 1990/91 at DIKU (*Datalogisk Institut Københavns Universitet* —the department of computer science at the University of Copenhagen—) in Copenhagen, Denmark.
 
-* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 228 | 🐛 40 | 🌐 C++ | 📅 2026-11-09, using HTML, websockets and Discord integration, being worked on, LGPL license.
+* [DikuMUD III source code](https://github.com/Seifert69/DikuMUD3) ⭐ 228 | 🐛 42 | 🌐 C++ | 📅 2026-11-10, using HTML, websockets and Discord integration, being worked on, LGPL license.
 * [DikuMUD gamma source code](https://github.com/Seifert69/DikuMUD-Gamma) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (the original release), [DikuMUD alpha source code](https://github.com/Seifert69/DikuMUD) ⭐ 108 | 🐛 1 | 🌐 C | 📅 2020-12-07 (newer than gamma), and [DikuMUD2 source code](https://github.com/Seifert69/DikuMUD2) ⭐ 33 | 🐛 0 | 🌐 C | 📅 2025-07-29, all with LGPL license.
 * [Family tree](https://en.wikipedia.org/wiki/MUD_trees#DikuMUD_family_tree).
 * [DikuMUD.com](https://dikumud.com/).
@@ -291,13 +291,13 @@ Some information about some modern *drivers/game engines/codebases* created long
 
 Created by [Greg Taylor](https://gc-taylor.com/) in 2006, [Samuel "Griatch" Regandell](https://github.com/Griatch) took over the project in 2011. Modern library for creating online multiplayer text games in pure Python. Coding is done using normal Python modules imported into the server at runtime. BSD license.
 
-* [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia) ⭐ 2,119 | 🐛 129 | 🌐 Python | 📅 2026-11-05, [discussion forum](https://github.com/evennia/evennia/discussions) ⭐ 2,119 | 🐛 129 | 🌐 Python | 📅 2026-11-05, [Discord server](https://discord.com/invite/AJJpcRUhtF).
+* [Web](https://www.evennia.com/), [Github project](https://github.com/evennia/evennia) ⭐ 2,120 | 🐛 129 | 🌐 Python | 📅 2026-11-05, [discussion forum](https://github.com/evennia/evennia/discussions) ⭐ 2,120 | 🐛 129 | 🌐 Python | 📅 2026-11-05, [Discord server](https://discord.com/invite/AJJpcRUhtF).
 
 #### CoffeeMud
 
 Created by [Bo Zimmerman](http://www.zimmers.net/) in 2000, created 100% in Java. Supports any JDBC/ODBC database, includes built-in web server. Apache License.
 
-* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-09.
+* [Web](http://www.coffeemud.org/), [Github project](https://github.com/bozimmerman/CoffeeMud) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-10.
 
 ### Old games and drivers reconstructed with the help of AI
 
@@ -619,7 +619,7 @@ Most classic MUD codebases were released under custom, non-commercial licenses w
 
 ### Modern codebases with standard licenses
 
-Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,119 | 🐛 129 | 🌐 Python | 📅 2026-11-05 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-09 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 111 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 228 | 🐛 40 | 🌐 C++ | 📅 2026-11-09 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
+Several modern or rewritten codebases use recognized open source licenses: [Evennia](https://github.com/evennia/evennia/blob/main/LICENSE.txt) ⭐ 2,120 | 🐛 129 | 🌐 Python | 📅 2026-11-05 (BSD 3-Clause), [CoffeeMUD](https://github.com/bozimmerman/CoffeeMud/blob/master/LICENSE) ⭐ 236 | 🐛 3 | 🌐 Java | 📅 2026-11-10 (Apache 2.0), [DGD](https://github.com/dworkin/dgd/blob/master/LICENSE) ⭐ 111 | 🐛 3 | 🌐 C++ | 📅 2026-08-31 (AGPL v3 since 2010), [DikuMUD gamma/alpha/II](https://github.com/Seifert69/DikuMUD-Gamma/blob/master/LICENSE) ⭐ 15 | 🐛 0 | 🌐 C | 📅 2020-12-07 (LGPL since 2020), and [DikuMUD III](https://github.com/Seifert69/DikuMUD3/blob/master/LICENSE) ⭐ 228 | 🐛 42 | 🌐 C++ | 📅 2026-11-10 (LGPL). Dead Souls has a split licensing model: the full version ([DS 2.x/3.x](https://github.com/quixadhal/deadsouls/blob/master/License.txt) ⭐ 19 | 🐛 2 | 🌐 C | 📅 2018-10-18) is copyrighted by Cratylus (free to use and modify, but not to fork/redistribute); a separate [Dead Souls II](http://dead-souls.net/files/deadsouls/dsIIr10.zip) release strips the documentation and places the `lib/` code in the **public domain** for unrestricted forking — see the [DS II FAQ](http://dead-souls.net/ds-II-faq.html) for details.
 
 ## People
 
@@ -701,4 +701,4 @@ This section includes some of the people already mentioned in the previous secti
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-09._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-10._
